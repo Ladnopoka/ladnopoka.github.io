@@ -1,8 +1,8 @@
 ---
-title: Box of Issues
+title: Slayer
 layout: post
 background: https://cdna.artstation.com/p/assets/images/images/008/555/002/large/antoine-collignon-bigger.jpg
-subtitle: A long time coming.
+subtitle: Isometric Roguelike Action RPG.
 artist: artstation.com/antoinecollignon
 ---
 

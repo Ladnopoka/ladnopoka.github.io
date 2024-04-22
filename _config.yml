@@ -1,15 +1,13 @@
-title:             Square Zero
-email:             sssurajsuraj@gmail.com
-description:       Silent Observations
-author:            J
-#url:               "localhost:4000"
-url:               "http://squarezero.github.io/"
+title:             Ladno Portfolio
+email:             ladnopokaa@gmail.com
+description:       Ladno Developer Portfolio. Various projects including video games, chrome extensions, game engine extensions and more!
+author:            Jevgenij Ivanov
+url:               "https://ladnopoka.github.io/"
 baseurl:
 
 # Social Profiles
-#twitter_username:  SBootstrap
-#github_username:   BlackrockDigital
-#facebook_username: StartBootstrap
+twitter_username:  Ladnopokaa
+github_username:   Ladnopoka
 
 # Build settings
 markdown:          kramdown

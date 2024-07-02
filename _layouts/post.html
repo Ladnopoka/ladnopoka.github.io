@@ -20,9 +20,10 @@ layout: default
     tooltip.innerHTML = "Copy Link";
   }
 </script>
+
 <!-- Page Header -->
 {% if page.background %}
-<header class="masthead" style="background-image: url('/images/slayer-image.png')">
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl }}')">
 {% else %}
 <header class="masthead">
 {% endif %}

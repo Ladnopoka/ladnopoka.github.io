@@ -1,13 +1,13 @@
 ---
 title: Spotify Playlist Enhancer
 layout: post
-background: images/spotify1.jpeg
+background: images/spotify2.jpeg
 subtitle: Google Chrome Extension that allows users to authenticate their Spotify account, view their top 5 played tracks, get top 5 recommended tracks, and generate new playlists based on these tracks, all within the browser. Play these songs inside the extension right there and now.
 ---
 # Overview
-Google Chrome extension which allows you to connect to Spotify API fetch songs and playlist from your Spotify account.<br>
-This extension also allows you to retrieve your top 5 played tracks, and give you 5 recommendations based on these tracks, all with a couple of clicks through the extension UI.<br>
-Finally, you can generate a Spotify playlist with the songs that were recommended to you, and play these songs inside the extension right there and now.<br>
+Google Chrome extension which allows you to connect to Spotify API fetch songs and playlist from your Spotify account.
+This extension also allows you to retrieve your top 5 played tracks, and give you 5 recommendations based on these tracks, all with a couple of clicks through the extension UI.
+Finally, you can generate a Spotify playlist with the songs that were recommended to you, and play these songs inside the extension right there and now.
 When the playlists are generated, they are added to your Spotify account, however, in the extension UI, you can select to not keep the playlist if you don't like it after listening to the recommended songs.<br><br>
 
 The demonstration of the application can be viewed here: https://www.youtube.com/watch?v=NTn2MuQhe8Q
@@ -27,7 +27,7 @@ The demonstration of the application can be viewed here: https://www.youtube.com
 # Installation
 1. Go to ./spotify-playlist-enhancer directory
 2. Run command "npm install react-scripts"
-3. run command "npm install fireabase"
+3. Run command "npm install fireabase"
 4. Run command "npm run build" in your terminal/console from spotify-playlist-enhancer directory
 5. The spotify-playlist-enhancer directory now has a new folder "build"
 6. Open your Google Chrome browser and go to your extensions

@@ -1,7 +1,7 @@
 ---
 title: Spotify Playlist Enhancer
 layout: post
-background: images/spotify2.jpeg
+background: images/spotify-logo.jpeg
 subtitle: Google Chrome Extension that allows users to authenticate their Spotify account, view their top 5 played tracks, get top 5 recommended tracks, and generate new playlists based on these tracks, all within the browser. Play these songs inside the extension right there and now.
 ---
 # Overview

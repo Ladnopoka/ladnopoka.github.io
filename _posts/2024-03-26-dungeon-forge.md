@@ -1,7 +1,7 @@
 ---
 title: Dungeon Forge
 subtitle: Here we are again.
-background: images/dungeon-forge-1-short.jpeg
+background: images/dungeon-forge-1-short.jpg
 layout: post
 ---
 # Overview

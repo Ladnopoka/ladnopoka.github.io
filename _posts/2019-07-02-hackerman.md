@@ -1,42 +1,48 @@
 ---
-title: Hackerman
+title: Spotify Playlist Enhancer
 layout: post
-subtitle: Setting things right
-background: https://cdna.artstation.com/p/assets/images/images/017/302/038/large/john-nelson-banacia-render-recolor.jpg
+background: images/spotify1.jpeg
+subtitle: Google Chrome Extension that allows users to authenticate their Spotify account, view their top 5 played tracks, get top 5 recommended tracks, and generate new playlists based on these tracks, all within the browser. Play these songs inside the extension right there and now.
 ---
+# Overview
+Google Chrome extension which allows you to connect to Spotify API fetch songs and playlist from your Spotify account.<br>
+This extension also allows you to retrieve your top 5 played tracks, and give you 5 recommendations based on these tracks, all with a couple of clicks through the extension UI.<br>
+Finally, you can generate a Spotify playlist with the songs that were recommended to you, and play these songs inside the extension right there and now.<br>
+When the playlists are generated, they are added to your Spotify account, however, in the extension UI, you can select to not keep the playlist if you don't like it after listening to the recommended songs.<br><br>
 
-# Hacker
-Alright, pure motivation. No pointing fingers, yet.
-<br>Su, you can do it, you’re a tough guy.
-<br>This plan needs to be multi pronged.
-<br>One, you’re gonna bolster your basics. You’re gonna learn how and why everything happens, at the most basic level.
-<br>And, you’re gonna venture into new pastures and learn how they work. You’re gonna conquer kingdoms.
-<br>And, you’re gonna learn how to do what do you more efficiently, ad not lose focus midway.
-<br>You’re gonna remember what brought you down last time, and you’re not gonna repeat it.
-<br>You’re gonna decide what you wanna do, and you’re gonna decimate it. Ain’t no stopping you.
-<br>Just stand by these principles, and treat them like a holy tenet. That’s all you need to do, accompanied by mindfulness and agility, courage, and most importantly positivity.
+The demonstration of the application can be viewed here: https://www.youtube.com/watch?v=NTn2MuQhe8Q
 
-Now, let’s open the bag of grievances.
- 
-# Man
-Now, let's address the man in the room. What's going on here? It's a complete mess. What do I want? And how do I want what I want? Do I even want anything? Well, of course yes. I want everything. Just grab it all, gloat in all the success, happiness and the feeling of completeness. It's gonna happen soon. My plans will come to fruition, all in good time.
+# Features
+* **Authenticate Spotify Account**: Securely connect your Spotify account to the extension.<br>
+* **Top 5 Played Tracks**: View your top 5 most played tracks on Spotify.<br>
+* **Top 5 Recommended Tracks**: Get recommendations from Spotify based on your top played tracks.<br>
+* **Generate New Playlists**: Create new playlists with new songs based on your top tracks and recommendations.<br>
+* **Play Songs in Browser**: Listen to your playlists directly within Google Chrome.<br>
 
-So stupid, aren't I?
+# In Development
+* **Dynamic Playlist Manager**: Drag and drop songs to create the perfect playlist.<br>
+* **Customized Profile**: Personalize your extension profile.<br>
+* **Friend System**: Connect with friends and share your music preferences.<br>
 
-<br>My plans have always been preposterous. I want to be the king of the world, I want to be the master of all trades. I’m the quintessential monkey from Monkey see, monkey do. I want to be the most talented, creative, versatile, meticulous, go getter son of a gun that there ever was. What a fantastic plan, except that that's all it is. It’s not for nothing that everyone cannot be everything. The idealist in me always ends up muddling a clear focus on any singular thing, and I don’t end up working towards polishing one of them. It’s a half baked platter, always.
+# Installation
+1. Go to ./spotify-playlist-enhancer directory
+2. Run command "npm install react-scripts"
+3. run command "npm install fireabase"
+4. Run command "npm run build" in your terminal/console from spotify-playlist-enhancer directory
+5. The spotify-playlist-enhancer directory now has a new folder "build"
+6. Open your Google Chrome browser and go to your extensions
+7. In the top right corner of the extensions page, toggle developer mode
+8. A couple of new buttons appear, select "Load unpacked"
+9. Select the build folder that you created in step 2
+10. The extension now appears in your extensions, enable it and you will have the icon in extensions (top left corner)
 
-And hey, that's completely fine if it's the first time it's happened to you. Or if you're a kiddo, experiencing the bitterness of it for the first time, as your nascent fantasy bubble is burst by the pin of reality. But I'm fucking 24 years old, and this has happened one too many times, and the juvenile inside of me just doesn't let go!
-<br>All the headlong machinations just lead nowhere but frivolity, dissatisfaction and frustration.
+# Contact
+##### For any inquiries or feedback, feel free to reach out to:
 
-So this is what happens in my typical day:
-<br>I wake up at noon, still extremely sleepy and grumpy. 
-<br>I rush to office, spend about 20 mintues trying to complete some unfinished task from the day before. 
-<br>It's lunch time by then, and hey, a man needs to have lunch.
-<br>It’s 4 by the time I’m in the zone, and I work for a good couple of hours before it’s time to go.
-<br>I go home, and start the ol’ machine up, game until late night, and binge on Youtube till early morning.
-<br>Good riddance, my sanity.
-
-This has to change, if I want to retain some semblance of life. It’s all slipping away so fast, and so quiet.
-God save me.
-
-But acknowledgement is the first step to recovery, and we got that. There's no turning back from here.
+**Jevgenij Ivanov** <br>
+**Email**: ladnopokaa@gmail.com <br><br>
+**GitHub**: https://github.com/Ladnopoka <br>
+**itch.io**: https://ladnogames.itch.io/ <br>
+**YouTube**: https://www.youtube.com/@LadnoDev <br>
+**X**: https://x.com/Ladnopokaa <br>
+**Discord**: Ladno#3352

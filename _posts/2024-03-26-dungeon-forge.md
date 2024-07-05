@@ -1,6 +1,6 @@
 ---
 title: Dungeon Forge
-subtitle: Here we are again.
+subtitle: Godot 4 extension plugin that allows users to generate dungeon-like layouts in their scenes with a click of a button.
 background: images/dungeon-forge-1-short.jpg
 layout: post
 ---

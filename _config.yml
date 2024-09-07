@@ -3,6 +3,7 @@ email:             ladnopokaa@gmail.com
 description:       Games and Software
 author:            Jevgenij Ivanov
 url:               "https://ladnopoka.github.io/"
+baseurl: ""
 
 # Social Profiles
 twitter_username:  Ladnopokaa

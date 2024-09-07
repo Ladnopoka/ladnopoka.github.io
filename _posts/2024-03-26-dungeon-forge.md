@@ -9,7 +9,7 @@ Dungeon Forge is a Godot 4 extension plugin that allows users to generate dungeo
 
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
     <iframe width="660" height="415" src="https://www.youtube.com/embed/dw3r8JJGyQ4?si=kLD1VK-v1A9r4Cv3" 
-        title="YouTube video player" 
+        title="Dungeon Forge Demo" 
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerpolicy="strict-origin-when-cross-origin" 

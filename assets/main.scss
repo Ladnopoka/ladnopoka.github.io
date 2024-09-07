@@ -11,9 +11,9 @@
     background-color: #0056b3; /* Change this color to match your theme */
     color: white; /* Ensure text remains readable */
     border-color: #004494; /* Adjust border color if necessary */
-  }
+}
   
-  .btn-group .btn:focus,
-  .btn-group .btn:active {
+.btn-group .btn:focus,
+.btn-group .btn:active {
     box-shadow: none; /* Remove default Bootstrap button shadow */
-  }
+}

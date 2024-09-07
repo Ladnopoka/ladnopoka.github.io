@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<!-- This script is for having copy link icon to be displayed on the pages
 <script>
   function copyToClipboard(){
     //console.log(`Copied ${window.location.href}`);
@@ -20,6 +21,7 @@ layout: default
     tooltip.innerHTML = "Copy Link";
   }
 </script>
+-->
 <!-- Page Header -->
 {% if page.background %}
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | prepend: '/' }}')">
@@ -47,6 +49,7 @@ layout: default
     <div class="col-lg-10 col-md-10 mx-auto post-body">
 
       {{ content }}
+      <!-- Code for icon that copies the page link
       <div class="tooltipcontainer">
         <img
           onclick="copyToClipboard()"
@@ -57,6 +60,7 @@ layout: default
         >
         <span id="tooltiptext" class="tooltiptext">Copy Link</span>
       </div>
+    -->
       <hr>
       <div class="clearfix">
 

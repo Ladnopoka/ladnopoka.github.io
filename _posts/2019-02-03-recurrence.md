@@ -4,7 +4,7 @@ background: https://cdnb.artstation.com/p/assets/images/images/007/095/957/large
 layout: post
 subtitle: A minion breaks the code
 artist: artstation.com/equinoz
-category: other
+category: android
 ---
 
 They work all day, they work all night.

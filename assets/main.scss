@@ -6,26 +6,23 @@
 
 @import url('https://fonts.googleapis.com/css?family=Abel|Dosis|Source+Code+Pro|Roboto+Slab:100|Source+Code+Pro|Source+Sans+Pro:200|Unica+One|Josefin+Sans:300|Nothing+You+Could+Do');
 
-/* Add custom styles for tab buttons */
+/* Add custom styles for tab buttons with higher specificity */
 .btn-group .btn {
-    background-color: transparent; /* Default background for inactive tabs */
-    color: white; /* Text color for inactive tabs */
-    border-color: #004494; /* Border color */
-  }
-  
-  .btn-group .btn.active {
-    background-color: #004494; /* Active tab background */
-    color: white; /* Text color for active tab */
-    border-color: #004494; /* Match border to background */
-  }
-  
-  .btn-group .btn:hover {
-    background-color: #0056b3; /* Hover color for buttons */
-    color: white; /* Hover text color */
-    border-color: #004494; /* Border color on hover */
-  }
-  
-  .btn-group .btn:focus,
-  .btn-group .btn:active {
-    box-shadow: none; /* Remove default Bootstrap button shadow */
-  }
+  background-color: transparent !important; /* Default background for inactive tabs */
+  color: white !important; /* Text color for inactive tabs */
+  border-color: #004494 !important; /* Border color */
+}
+
+.btn-group .btn.active,
+.btn-group .btn:active {
+  background-color: #004494 !important; /* Active tab background */
+  color: white !important; /* Text color for active tab */
+  border-color: #004494 !important; /* Match border to background */
+}
+
+.btn-group .btn:hover,
+.btn-group .btn:focus {
+  background-color: #0056b3 !important; /* Hover color for buttons */
+  color: white !important; /* Hover text color */
+  border-color: #004494 !important; /* Border color on hover */
+}

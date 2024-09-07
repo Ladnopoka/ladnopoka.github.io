@@ -30,12 +30,29 @@ layout: default
 
       <!-- Tab Navigation -->
       <div class="btn-group d-flex justify-content-center mb-4" role="group" aria-label="Project Categories">
-        <button class="btn btn-primary active" onclick="filterProjects('all')">All</button>
-        <button class="btn btn-primary" onclick="filterProjects('games')">Games</button>
-        <button class="btn btn-primary" onclick="filterProjects('software')">Software</button>
-        <button class="btn btn-primary" onclick="filterProjects('android')">Android</button>
-        <button class="btn btn-primary" onclick="filterProjects('other')">Other</button>
-      </div>
+        {% assign games_count = 0 %}
+        {% assign software_count = 0 %}
+        {% assign android_count = 0 %}
+        {% assign other_count = 0 %}
+    
+        {% for post in site.posts %}
+            {% if post.category == "games" %}
+                {% assign games_count = games_count | plus: 1 %}
+            {% elsif post.category == "software" %}
+                {% assign software_count = software_count | plus: 1 %}
+            {% elsif post.category == "android" %}
+                {% assign android_count = android_count | plus: 1 %}
+            {% else %}
+                {% assign other_count = other_count | plus: 1 %}
+            {% endif %}
+        {% endfor %}
+
+    <button class="btn btn-primary active" onclick="filterPosts('all')">All ({{ site.posts.size }})</button>
+    <button class="btn btn-primary" onclick="filterPosts('software')">Software ({{ software_count }})</button>
+    <button class="btn btn-primary" onclick="filterPosts('games')">Games ({{ games_count }})</button>
+    <button class="btn btn-primary" onclick="filterPosts('android')">Android ({{ android_count }})</button>
+    <button class="btn btn-primary" onclick="filterPosts('other')">Other ({{ other_count }})</button>
+</div>
 
       <!-- Home Post List -->
       <div id="projects-list">

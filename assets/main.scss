@@ -26,3 +26,9 @@
   color: black !important; /* Hover text color */
   border-color: #a92e2e !important; /* Border color on hover */
 }
+
+/* Custom Navbar Font Size */
+.navbar-nav .nav-link {
+    font-size: 38px; /* Adjust the size as needed */
+    font-weight: bold; /* Optional: Make the text bold */
+  }

@@ -4,34 +4,41 @@ title: Posts
 background: '/img/bg-post.jpg'
 ---
 
-{% for post in paginator.posts %}
+<!-- Tab Navigation -->
+<div class="tabs">
+  <button class="tab-button active" onclick="filterProjects('all')">All</button>
+  <button class="tab-button" onclick="filterProjects('games')">Games</button>
+  <button class="tab-button" onclick="filterProjects('software')">Software</button>
+  <button class="tab-button" onclick="filterProjects('android')">Android</button>
+  <button class="tab-button" onclick="filterProjects('other')">Other</button>
+</div>
 
-<article class="post-preview">
-  <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-    <div class="post-container">
-      <div class="post-img-container">
-        <img class="post-img" src="{{ post.background }}">
-      </div>
-      <div class="post-text">
-        <div class="post-text-header">
-          <h2 class="post-title">{{ post.title }}</h2>
-          <p class="post-meta">
-            {{ post.date | date: '%B %d, %Y' }}
-          </p>
+<!-- Project Posts -->
+<div id="projects-list">
+  {% for post in paginator.posts %}
+  <article class="post-preview" data-category="{{ post.category }}">
+    <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+      <div class="post-container">
+        <div class="post-img-container">
+          <img class="post-img" src="{{ post.background }}">
+        </div>
+        <div class="post-text">
+          <div class="post-text-header">
+            <h2 class="post-title">{{ post.title }}</h2>
+            <p class="post-meta">{{ post.date | date: '%B %d, %Y' }}</p>
           </div>
-        {% if post.subtitle %}
+          {% if post.subtitle %}
           <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-        {% else %}
+          {% else %}
           <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 20 }}</h3>
-        {% endif %}
+          {% endif %}
+        </div>
       </div>
-    </div>
-  </a>
-</article>
-
+    </a>
+  </article>
   <hr>
-
-{% endfor %}
+  {% endfor %}
+</div>
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
@@ -49,3 +56,53 @@ background: '/img/bg-post.jpg'
   </div>
 
 {% endif %}
+
+<!-- JavaScript for Tabs -->
+<script>
+  function filterProjects(category) {
+    var posts = document.querySelectorAll('#projects-list .post-preview');
+    var buttons = document.querySelectorAll('.tab-button');
+
+    // Toggle active class on buttons
+    buttons.forEach(function(btn) {
+      btn.classList.remove('active');
+    });
+
+    // Add active class to the current button
+    event.currentTarget.classList.add('active');
+
+    // Show/Hide posts based on category
+    posts.forEach(function(post) {
+      if (category === 'all' || post.getAttribute('data-category') === category) {
+        post.style.display = 'block';
+      } else {
+        post.style.display = 'none';
+      }
+    });
+  }
+</script>
+
+<!-- CSS for Tabs -->
+<style>
+  .tabs {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .tab-button {
+    background-color: #f4f4f4;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+
+  .tab-button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .post-preview {
+    display: block;
+  }
+</style>

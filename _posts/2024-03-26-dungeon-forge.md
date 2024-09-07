@@ -16,6 +16,8 @@ Dungeon Forge is a Godot 4 extension plugin that allows users to generate dungeo
     allowfullscreen>
     </iframe>
 </div>
+</br>
+
 # Features
 * **Biome Selection**: Choose from three biomes: dungeons, wooden cabins, and frozen caves.<br>
 * **Gridmap Generator**: Customize parameters and generate dungeon layouts and meshes.<br>

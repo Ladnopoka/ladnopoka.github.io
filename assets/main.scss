@@ -10,19 +10,19 @@
 .btn-group .btn {
   background-color: transparent !important; /* Default background for inactive tabs */
   color: white !important; /* Text color for inactive tabs */
-  border-color: #004494 !important; /* Border color */
+  border-color: #940000 !important; /* Border color */
 }
 
 .btn-group .btn.active,
 .btn-group .btn:active {
-  background-color: #004494 !important; /* Active tab background */
+  background-color: #940000 !important; /* Active tab background */
   color: white !important; /* Text color for active tab */
-  border-color: #004494 !important; /* Match border to background */
+  border-color: #940000!important; /* Match border to background */
 }
 
 .btn-group .btn:hover,
 .btn-group .btn:focus {
-  background-color: #0056b3 !important; /* Hover color for buttons */
-  color: white !important; /* Hover text color */
-  border-color: #004494 !important; /* Border color on hover */
+  background-color: #940000 !important; /* Hover color for buttons */
+  color: black !important; /* Hover text color */
+  border-color: #940000 !important; /* Border color on hover */
 }

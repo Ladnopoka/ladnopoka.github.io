@@ -9,14 +9,14 @@
 /* Add custom styles for tab buttons with higher specificity */
 .btn-group .btn {
   background-color: transparent !important; /* Default background for inactive tabs */
-  color: white !important; /* Text color for inactive tabs */
+  color: black !important; /* Text color for inactive tabs */
   border-color: #940000 !important; /* Border color */
 }
 
 .btn-group .btn.active,
 .btn-group .btn:active {
   background-color: #940000 !important; /* Active tab background */
-  color: white !important; /* Text color for active tab */
+  color: black !important; /* Text color for active tab */
   border-color: #940000!important; /* Match border to background */
 }
 

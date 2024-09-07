@@ -10,7 +10,7 @@ background: '/img/bg-post.jpg'
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
     <div class="post-container">
       <div class="post-img-container">
-        <img class="post-img" src={{post.background}}>
+        <img class="post-img" src="{{ post.background }}">
       </div>
       <div class="post-text">
         <div class="post-text-header">

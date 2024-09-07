@@ -5,3 +5,15 @@
 @import "styles";
 
 @import url('https://fonts.googleapis.com/css?family=Abel|Dosis|Source+Code+Pro|Roboto+Slab:100|Source+Code+Pro|Source+Sans+Pro:200|Unica+One|Josefin+Sans:300|Nothing+You+Could+Do');
+
+/* Add custom styles for tab buttons */
+.btn-group .btn.active {
+    background-color: #0056b3; /* Change this color to match your theme */
+    color: white; /* Ensure text remains readable */
+    border-color: #004494; /* Adjust border color if necessary */
+  }
+  
+  .btn-group .btn:focus,
+  .btn-group .btn:active {
+    box-shadow: none; /* Remove default Bootstrap button shadow */
+  }

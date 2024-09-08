@@ -6,6 +6,14 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.6.0"
 gem 'jekyll-admin', group: :jekyll_plugins
 
+gem "logger"
+gem "base64"
+gem "bigdecimal"
+gem "ostruct"
+gem "rexml"
+
+gem "kramdown", "~> 2.3"
+
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-paginate", "~> 1.1.0"

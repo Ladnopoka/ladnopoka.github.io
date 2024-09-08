@@ -32,3 +32,64 @@
     font-size: 20px !important;; /* Adjust the size as needed */
     font-weight: bold !important;; /* Optional: Make the text bold */
   }
+
+.social-icons a {
+  display: inline-block; /* Ensure the icons are inline-block for consistent spacing */
+  margin: 0 15px; /* Uniform margin */
+  text-decoration: none; /* Remove any text decoration on hover */
+}
+
+.fa-stack {
+  vertical-align: middle; /* Align icons vertically in the middle */
+}
+
+.icon-github .fa-circle {
+  color: #322d2d; /* GitHub color */
+  opacity: 0.5; /* Lighter default color */
+  transition: color 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+.icon-github:hover .fa-circle {
+  opacity: 1; /* Darker color on hover */
+}
+
+.icon-linkedin .fa-circle {
+  color: #0077b5; /* LinkedIn blue */
+  opacity: 0.5; /* Lighter default color */
+  transition: color 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+.icon-linkedin:hover .fa-circle {
+  opacity: 1; /* Darker color on hover */
+}
+
+.icon-youtube .fa-circle {
+  color: #ff0000; /* YouTube red */
+  opacity: 0.5; /* Lighter default color */
+  transition: color 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+.icon-youtube:hover .fa-circle {
+  opacity: 1; /* Darker color on hover */
+}
+
+.icon-twitter .fa-circle {
+  color: #4c4c4c; /* Twitter/X color */
+  opacity: 0.5; /* Lighter default color */
+  transition: color 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+.icon-twitter:hover .fa-circle {
+  opacity: 1; /* Darker color on hover */
+}
+
+.icon-discord .fa-circle {
+  color: #5865f2; /* Discord blue */
+  opacity: 0.5; /* Lighter default color */
+  transition: color 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+
+.icon-discord:hover .fa-circle {
+  opacity: 1; /* Darker color on hover */
+}
+

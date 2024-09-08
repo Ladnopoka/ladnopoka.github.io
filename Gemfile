@@ -13,7 +13,10 @@ gem "ostruct"
 gem "rexml"
 gem "csv"
 gem "webrick", "~> 1.7"
-gem "rack"
+
+gem "rack", "~> 2.2"
+gem 'rack', require: false
+gem 'rack-protection', require: false
 
 gem "kramdown", "~> 2.3"
 

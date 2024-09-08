@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self' https:; 
+    script-src 'self' 'unsafe-inline'; 
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; 
+    style-src-elem 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com; 
+    font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; 
+    img-src 'self' data: https://cdnb.artstation.com https://cdna.artstation.com http://localhost:4000 http://127.0.0.1:4000/;
+    connect-src 'self' https: data: blob;">
+
+  <!-- Content Security Policy (CSP) Meta Tag 
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; style-src-elem 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://cdnb.artstation.com https://cdna.artstation.com;">
+-->
+  <title>
+    Ladno Developer Portfolio
+  </title>
+
+  <meta name="description" content="Software and Games">
+
+  <!-- Stylesheets -->
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Abel|Dosis|Source+Code+Pro|Roboto+Slab:100|Source+Code+Pro|Source+Sans+Pro:200|Unica+One|Josefin+Sans:300|Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="alternate" type="application/rss+xml" title="Ladno Developer Portfolio" href="/feed.xml">
+</head>
+
+
+  <body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <!-- <a class="navbar-brand" href="/">Start Bootstrap</a> -->
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="/posts">Posts</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/connect">Connect</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- Page Header -->
+
+  <header title="Header images by artstation.com/dtmayer" class="masthead" style="background-image: url('/img/bg-index.jpg')">
+
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="page-heading">
+          <h1>JEVGENIJ IVANOV<br/>DEVELOPER PORTFOLIO</h1>
+          
+            <span class="subheading">Software and Games</span>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 col-md-10 mx-auto">
+      
+      <div class="btn-group d-flex justify-content-center mb-4" role="group" aria-label="Project Categories">
+        
+        
+        
+        
+      
+        
+      
+        <button class="btn btn-primary active" onclick="filterProjects(event, 'all')">All (10)</button>
+        <button class="btn btn-primary" onclick="filterProjects(event, 'software')">Software (2)</button>
+        <button class="btn btn-primary" onclick="filterProjects(event, 'games')">Games (1)</button>
+        <button class="btn btn-primary" onclick="filterProjects(event, 'android')">Android (1)</button>
+        <button class="btn btn-primary" onclick="filterProjects(event, 'other')">Other (6)</button>
+      </div>
+</div>
+
+      <!-- Home Post List -->
+      <div id="projects-list">
+        
+        <article class="post-preview" data-category="software">
+          <a href="/software/2024/03/26/dungeon-forge.html">
+            <div class="post-container">
+              <div class="post-img-container" title="Image by ">
+                <img class="post-img" src="images/dungeon_background.png">
+              </div>
+              <div class="post-text">
+                <div class="post-text-header">
+                  <h2 class="post-title">Dungeon Forge</h2>
+                  <p class="post-meta">
+                    March 26, 2024
+                  </p>
+                </div>
+                
+                <h3 class="post-subtitle">Godot 4 extension plugin that allows users to generate dungeon-like layouts in their scenes with a click of a button.</h3>
+                
+              </div>
+            </div>
+          </a>
+        </article>
+        <hr>
+        
+        <article class="post-preview" data-category="software">
+          <a href="/software/2024/01/12/spotify-playlist-enhancer.html">
+            <div class="post-container">
+              <div class="post-img-container" title="Image by ">
+                <img class="post-img" src="images/spotify-logo.png">
+              </div>
+              <div class="post-text">
+                <div class="post-text-header">
+                  <h2 class="post-title">Spotify Playlist Enhancer</h2>
+                  <p class="post-meta">
+                    January 12, 2024
+                  </p>
+                </div>
+                
+                <h3 class="post-subtitle">Google Chrome Extension that allows users to authenticate their Spotify account, view their top 5 played tracks, get top 5 recommended tracks, and generate new playlists based on these tracks, all within the browser. Play these songs inside the extension right there and now.</h3>
+                
+              </div>
+            </div>
+          </a>
+        </article>
+        <hr>
+        
+        <article class="post-preview" data-category="games">
+          <a href="/games/2023/10/02/slayer.html">
+            <div class="post-container">
+              <div class="post-img-container" title="Image by ">
+                <img class="post-img" src="images/slayer-image.png">
+              </div>
+              <div class="post-text">
+                <div class="post-text-header">
+                  <h2 class="post-title">Slayer</h2>
+                  <p class="post-meta">
+                    October 02, 2023
+                  </p>
+                </div>
+                
+                <h3 class="post-subtitle">Slayer is an exciting top-down isometric roguelike game that immerses players in a world of strategic combat and character progression. Choose from three distinct classes—Mage, Barbarian, and Rogue—and embark on thrilling adventures, battling fierce enemies and mastering powerful abilities.</h3>
+                
+              </div>
+            </div>
+          </a>
+        </article>
+        <hr>
+        
+        <article class="post-preview" data-category="android">
+          <a href="/android/2019/02/03/recurrence.html">
+            <div class="post-container">
+              <div class="post-img-container" title="Image by artstation.com/equinoz">
+                <img class="post-img" src="https://cdnb.artstation.com/p/assets/images/images/007/095/957/large/mark-chang-lab3.jpg">
+              </div>
+              <div class="post-text">
+                <div class="post-text-header">
+                  <h2 class="post-title">Recurrence</h2>
+                  <p class="post-meta">
+                    February 03, 2019
+                  </p>
+                </div>
+                
+                <h3 class="post-subtitle">A minion breaks the code</h3>
+                
+              </div>
+            </div>
+          </a>
+        </article>
+        <hr>
+        
+        <article class="post-preview" data-category="other">
+          <a href="/other/2018/01/28/enlightenment.html">
+            <div class="post-container">
+              <div class="post-img-container" title="Image by artstation.com/aenamiart">
+                <img class="post-img" src="https://cdnb.artstation.com/p/assets/images/images/006/170/271/large/alena-aenami-lights1k1.jpg?1496536109">
+              </div>
+              <div class="post-text">
+                <div class="post-text-header">
+                  <h2 class="post-title">Enlightenment</h2>
+                  <p class="post-meta">
+                    January 28, 2018
+                  </p>
+                </div>
+                
+                <h3 class="post-subtitle">Perspectives and Inspirations</h3>
+                
+              </div>
+            </div>
+          </a>
+        </article>
+        <hr>
+        
+        <article class="post-preview" data-category="other">
+          <a href="/other/2018/01/12/outbreak.html">
+            <div class="post-container">
+              <div class="post-img-container" title="Image by artstation.com/ricky_ho">
+                <img class="post-img" src="https://cdnb.artstation.com/p/assets/images/images/004/040/769/large/ricky-ho-zombie-alley.jpg?1479754248">
+              </div>
+              <div class="post-text">
+                <div class="post-text-header">
+                  <h2 class="post-title">Outbreak</h2>
+                  <p class="post-meta">
+                    January 12, 2018
+                  </p>
+                </div>
+                
+                <h3 class="post-subtitle">Something's wrong in the dorm.</h3>
+                
+              </div>
+            </div>
+          </a>
+        </article>
+        <hr>
+        
+        <article class="post-preview" data-category="other">
+          <a href="/other/2018/01/11/duty.html">
+            <div class="post-container">
+              <div class="post-img-container" title="Image by artstation.com/ett">
+                <img class="post-img" src="https://cdnb.artstation.com/p/assets/images/images/001/062/435/large/etienne-lamoureux-snowpartrol.jpg?1439231484">
+              </div>
+              <div class="post-text">
+                <div class="post-text-header">
+                  <h2 class="post-title">DUTY</h2>
+                  <p class="post-meta">
+                    January 11, 2018
+                  </p>
+                </div>
+                
+                <h3 class="post-subtitle">K sees the big picture</h3>
+                
+              </div>
+            </div>
+          </a>
+        </article>
+        <hr>
+        
+        <article class="post-preview" data-category="other">
+          <a href="/other/2016/07/23/lightning.html">
+            <div class="post-container">
+              <div class="post-img-container" title="Image by ">
+                <img class="post-img" src="https://cdnb.artstation.com/p/assets/images/images/005/238/073/large/nick-menez-high-01.jpg">
+              </div>
+              <div class="post-text">
+                <div class="post-text-header">
+                  <h2 class="post-title">Lightning</h2>
+                  <p class="post-meta">
+                    July 23, 2016
+                  </p>
+                </div>
+                
+                <h3 class="post-subtitle">Something in the hills</h3>
+                
+              </div>
+            </div>
+          </a>
+        </article>
+        <hr>
+        
+        <article class="post-preview" data-category="other">
+          <a href="/other/2015/09/23/the-great-destroyer.html">
+            <div class="post-container">
+              <div class="post-img-container" title="Image by artstation.com/teunvanderzalm">
+                <img class="post-img" src="https://cdna.artstation.com/p/assets/images/images/002/187/704/large/teun-van-der-zalm-ncu001-13d.jpg">
+              </div>
+              <div class="post-text">
+                <div class="post-text-header">
+                  <h2 class="post-title">The Great Destroyer</h2>
+                  <p class="post-meta">
+                    September 23, 2015
+                  </p>
+                </div>
+                
+                <h3 class="post-subtitle">Time to meet the creator.</h3>
+                
+              </div>
+            </div>
+          </a>
+        </article>
+        <hr>
+        
+        <article class="post-preview" data-category="other">
+          <a href="/other/1995/01/01/squarezero.html">
+            <div class="post-container">
+              <div class="post-img-container" title="Image by artstation.com/dtmayer">
+                <img class="post-img" src="https://cdna.artstation.com/p/assets/images/images/004/560/916/large/dominik-mayer-redmoon.jpg">
+              </div>
+              <div class="post-text">
+                <div class="post-text-header">
+                  <h2 class="post-title">Square Zero</h2>
+                  <p class="post-meta">
+                    January 01, 1995
+                  </p>
+                </div>
+                
+                <h3 class="post-subtitle">What is this?</h3>
+                
+              </div>
+            </div>
+          </a>
+        </article>
+        <hr>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript for Tabs -->
+<script>
+  function filterProjects(event, category) {
+    var posts = document.querySelectorAll('#projects-list .post-preview');
+    var buttons = document.querySelectorAll('.btn-group .btn');
+
+    // Toggle active class on buttons
+    buttons.forEach(function(btn) {
+      btn.classList.remove('active');
+    });
+
+    // Add active class to the current button
+    event.currentTarget.classList.add('active');
+
+    // Show/Hide posts based on category
+    posts.forEach(function(post) {
+      if (category === 'all' || post.getAttribute('data-category') === category) {
+        post.style.display = 'block';
+      } else {
+        post.style.display = 'none';
+      }
+    });
+  }
+</script>
+
+
+    <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="https://www.youtube.com/\@LadnoDev">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/Ladnopoka">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.twitter.com/Ladnopokaa">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Jevgenij Ivanov 2024</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  </body>
+
+</html>

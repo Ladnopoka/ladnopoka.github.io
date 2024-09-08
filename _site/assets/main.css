@@ -177,4 +177,6 @@ footer .copyright { font-size: 14px; margin-bottom: 0; text-align: center; }
 
 .icon-discord:hover .fa-circle { opacity: 1; /* Darker color on hover */ }
 
+.page-heading { transform: translateY(20px); /* Moves the text down by 40px */ }
+
 /*# sourceMappingURL=main.css.map */

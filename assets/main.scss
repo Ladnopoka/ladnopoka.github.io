@@ -51,4 +51,31 @@
     color: #007bff; /* Hover color for the circular background */
     transition: color 0.3s ease; /* Smooth transition for hover effect */
   }
+
+
+
+  .icon-github:hover .fa-circle {
+    color: #322d2d; /* GitHub color */
+    transition: color 0.3s ease;
+  }
+  
+  .icon-linkedin:hover .fa-circle {
+    color: #0077b5; /* LinkedIn blue */
+    transition: color 0.3s ease;
+  }
+  
+  .icon-youtube:hover .fa-circle {
+    color: #ff0000; /* YouTube red */
+    transition: color 0.3s ease;
+  }
+  
+  .icon-twitter:hover .fa-circle {
+    color: #4c4c4c; /* Twitter/X blue */
+    transition: color 0.3s ease;
+  }
+  
+  .icon-discord:hover .fa-circle {
+    color: #5865f2; /* Discord blue */
+    transition: color 0.3s ease;
+  }
   

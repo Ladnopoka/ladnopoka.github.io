@@ -22,10 +22,9 @@ layout: default
   }
 </script>
 -->
-<!-- Page Header -->
+
 {% if page.background %}
-<!--<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '/', '/' }}')">-->
-<header class="masthead" style="background-image: url('{{ page.background | relative_url | absolute_url }}')">
+<header title="Header images by artstation.com/dtmayer" class="masthead" style="background-image: url('{{ page.background | relative_url | absolute_url }}')">
 {% else %}
 <header class="masthead">
 {% endif %}
@@ -33,10 +32,15 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="post-heading">
-          <h1>{{ page.title }}</h1>
-          {% if page.subtitle %}
-          <h2 class="subheading">{{ page.subtitle }}</h2>
+        <div class="page-heading">
+          <!-- Set specific title and subheading for "Connect" section -->
+          {% if page.title %}
+            <h1>{{ page.title }}</h1>
+          {% else %}
+            <h1>JEVGENIJ IVANOV<br/>DEVELOPER PORTFOLIO</h1>
+          {% endif %}
+          {% if site.description %}
+            <span class="subheading">{{ page.description }}</span>
           {% endif %}
           <span class="meta">{{ page.date | date: '%B %d, %Y' }}</span>
         </div>

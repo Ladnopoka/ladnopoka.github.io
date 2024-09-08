@@ -94,9 +94,9 @@
 }
 
 .page-heading h1 {
-  font-weight: bold !important; /* Make the title bold */
+  font-weight: 600 !important; /* Make subheading semi-bold */
   font-size: 3em !important; /* Increase font size */
-  text-shadow: 8px 8px 13px rgba(0, 0, 0, 0.7) !important; /* More visible shadow */
+  text-shadow: 10px 10px 14px rgba(0, 0, 0, 0.7) !important; /* More visible shadow */
   color: #ffffff; /* Ensure the text color is white */
   margin-bottom: 20px; /* Add some spacing below the title */
 }
@@ -104,7 +104,7 @@
 .page-heading .subheading {
   font-weight: 600 !important; /* Make subheading semi-bold */
   font-size: 1.2em !important; /* Increase subheading size */
-  text-shadow: 6px 8px 10px rgba(0, 0, 0, 0.6) !important; /* More visible shadow for subheading */
+  text-shadow: 10px 10px 14px rgba(0, 0, 0, 0.6) !important; /* More visible shadow for subheading */
   color: #ffffff; /* Ensure the text color is white */
   margin-bottom: 13px; /* Add some spacing below the subheading */
   display: block; /* Ensure it takes up full width */
@@ -113,7 +113,7 @@
 .page-heading .meta {
   font-weight: 400 !important; /* Keep meta text normal weight */
   font-size: 1.2em !important; /* Slightly increase font size for meta */
-  text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.5) !important; /* More visible shadow for meta */
+  text-shadow: 10px 10px 14px rgba(0, 0, 0, 0.5) !important; /* More visible shadow for meta */
   color: #ffffff; /* Ensure the text color is white */
   margin-top: 23px; /* Add spacing above the meta text */
   display: block; /* Ensure it takes up full width */
@@ -126,7 +126,7 @@
 .navbar .nav-link {
   font-weight: bold !important; /* Make the nav links bold */
   font-size: 1.2em !important; /* Adjust font size */
-  text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.7) !important; /* More visible shadow */
+  text-shadow: 10px 10px 16px rgba(0, 0, 0, 0.7) !important; /* More visible shadow */
   color: #ffffff !important; /* Ensure the text color is white */
   margin: 0 15px; /* Add some spacing between nav items */
   text-transform: uppercase; /* Optional: make text uppercase for a cleaner look */

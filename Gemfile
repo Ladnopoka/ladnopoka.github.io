@@ -11,8 +11,14 @@ gem "base64"
 gem "bigdecimal"
 gem "ostruct"
 gem "rexml"
+gem "csv"
+gem "webrick", "~> 1.7"
+gem "rack"
 
 gem "kramdown", "~> 2.3"
+
+# This gem for efficient file watching on Windows
+gem 'wdm', '>= 0.1.0', :platforms => [:mswin, :mingw]
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"

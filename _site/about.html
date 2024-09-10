@@ -123,57 +123,94 @@
 
       <!-- Tab Navigation -->
 <div class="btn-group d-flex justify-content-center mb-4" role="group" aria-label="About Categories">
-  <button class="btn btn-primary active" onclick="filterContent(event, 'about_me')">About Me</button>
+  <button class="btn btn-primary active" onclick="filterContent(event, 'about_me')">About</button>
   <button class="btn btn-primary" onclick="filterContent(event, 'skills')">Skills</button>
   <button class="btn btn-primary" onclick="filterContent(event, 'education')">Education</button>
   <button class="btn btn-primary" onclick="filterContent(event, 'experience')">Experience</button>
+  <button class="btn btn-primary" onclick="filterContent(event, 'curriculum_vitae')">Curriculum Vitae</button>
 </div>
 
 <!-- Tab Content -->
 <div id="about-content">
   <!-- About Me Section -->
   <div class="content-section" data-category="about_me">
-    <h2>About Me</h2>
-    <div style="margin-bottom: 100px;">
-      <h1>My name is Jevgenij Ivanov.</h1>
-      <h3>
-        I am a Computer Science Graduate and an aspiring Software Engineer.
-        </br>Proficient in programming languages such as Python, C#, JavaScript, and more.
-      </h3>
-      <h3>
-      </br>Actively looking for Software Development work opportunities.
-      </h3>
-      <h3>Please see my qualifications below.</h3>
+    <div class="about-me-container" style="display: flex; align-items: center; margin-bottom: 20px;">
+    
+      <!-- Left Side: Text Content -->
+      <div class="about-me-text" style="flex: 1; padding-right: 20px;">
+        <h1>My name is Jevgenij Ivanov</h1>
+        <h3>
+          I am a Computer Science graduate and aspiring Software Engineer with 
+          experience in Software Development, DevOps, AWS, Edge Technologies, 
+          Version Control Systems, and Agile Methodologies.<br> <br>
+          
+          During my 4-year university course, I developed skills in building Websites, 
+          RESTful applications, Data Structures and Algorithms, Computer Games and 3D Models/Animations, UI/UX, App Extensions, and much more.
+        </h3>
+      </div>
+  
+      <!-- Right Side: Image -->
+      <div class="about-me-image" style="flex: 1; padding-left: 20px;">
+        <img src="/images/profile_pic.jpg" alt="Jevgenij Ivanov" style="max-width: 100%; height: auto; border-radius: 8px;">
+      </div>
+    </div>
+
+    <div class="about-me-container" style="display: flex; align-items: center; margin-bottom: 0px;">
+      <!-- left Side: Image -->
+      <div class="about-me-image" style="flex: 1; padding-right: 20px;">
+        <img src="/images/about_me_1_medium.jpg" alt="Jevgenij Ivanov" style="max-width: 100%; height: auto; border-radius: 8px;">
+      </div>
+
+      <!-- right Side: Text Content -->
+      <div class="about-me-text" style="flex: 1; padding-left: 20px;">
+        <h1>Interests and Hobbies</h1>
+        <h3>
+          I have a strong passion for the latest technology trends 
+          and enjoy exploring new software development tools and engines. 
+          I am also an avid video game enthusiast and developer, 
+          with projects like 
+          <a href="/games/2023/10/02/slayer.html" target="_blank" class="glow-link" style="color: rgb(216, 47, 47); font-weight: bold; text-decoration: underline; font-size: 1.1em;">Slayer</a> 
+          and 
+          <a href="/software/2024/03/26/dungeon-forge.html" target="_blank" class="glow-link" style="color: rgb(216, 47, 47); font-weight: bold; text-decoration: underline; font-size: 1.1em;">Dungeon Forge</a> 
+          showcasing 
+          my game and engine development skills. Outside of technology, 
+          I enjoy staying active through hiking, martial arts, table tennis, 
+          and badminton. Occasionally, you will catch me playing a game of Chess.
+        </h3>
+      </div>
     </div>
   </div>
 
   <!-- Skills Section -->
   <div class="content-section" data-category="skills" style="display: none;">
-    <h2>Skills</h2>
-    <p>Proficient in Python, C#, JavaScript, Java, SQL, and more. Experienced with web development frameworks such as React and Django.</p>
+    <h1>Skills</h1>
+    <h3>Proficient in Python, C#, JavaScript, Java, SQL, and more. Experienced with web development frameworks such as React and Django.</h3>
   </div>
 
   <!-- Education Section -->
   <div class="content-section" data-category="education" style="display: none;">
-    <h2>Education</h2>
-    <p>Bachelor's Degree in Computer Science from XYZ University. Specialized in Software Engineering, AI, and Machine Learning.</p>
+    <h1>Education</h1>
+    <h3>Bachelor's Degree in Computer Science from Maynooth University, Ireland. Specialized in Software Engineering, Software Design, UI/UX, Web Development, Databases and Data Strucures, AI, Computer Graphics and more.</h3>
   </div>
 
   <!-- Experience Section -->
   <div class="content-section" data-category="experience" style="display: none;">
-    <h2>Experience</h2>
-    <p>Worked on various projects involving software development, game development, and data analysis. Actively seeking new opportunities.</p>
+    <h1>Experience</h1>
+    <h3>Worked on various projects involving software development, game development, and data analysis. Actively seeking new opportunities.</h3>
   </div>
-</div>
 
-<div class="container text-center my-4">
-  <a href="/documents/Jevgenij_Ivanov_CV.pdf" class="btn btn-primary" download="Jevgenij_Ivanov_CV.pdf">
-    Download Curriculum Vitae
-  </a>
-</div>
+  <!-- CV Section -->
+  <div class="content-section" data-category="curriculum_vitae" style="display: none;">
+    <div class="container text-center my-4">
+      <a href="/documents/Jevgenij_Ivanov_CV.pdf" class="btn btn-primary" download="Jevgenij_Ivanov_CV.pdf">
+        Download Curriculum Vitae
+      </a>
+    </div>
 
-<div class="container text-center my-4">
-  <embed src="/documents/Jevgenij_Ivanov_CV.pdf" type="application/pdf" width="100%" height="867px" />
+    <div class="container text-center my-4">
+      <embed src="/documents/Jevgenij_Ivanov_CV.pdf" type="application/pdf" width="100%" height="867px" />
+    </div>
+  </div>
 </div>
 
 <!-- JavaScript for Tabs -->

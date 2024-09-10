@@ -189,4 +189,9 @@ footer .copyright { font-size: 14px; margin-bottom: 0; text-align: center; }
 
 .navbar .nav-link:hover { color: #f0f0f0 !important; /* Slightly lighter color on hover */ text-decoration: none; /* Remove underline on hover */ }
 
+/* Hover Effect for Links */
+.glow-link { transition: text-shadow 0.3s ease; /* Smooth transition for the glow effect */ }
+
+.glow-link:hover { text-shadow: 0 0 8px #fff, 0 0 10px #fff, 0 0 12px #fff; /* White glow effect */ }
+
 /*# sourceMappingURL=main.css.map */

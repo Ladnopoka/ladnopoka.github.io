@@ -11,6 +11,7 @@ background: "img/bg-contact.jpg"
   <button class="btn btn-primary" onclick="filterContent(event, 'skills')">Skills</button>
   <button class="btn btn-primary" onclick="filterContent(event, 'education')">Education</button>
   <button class="btn btn-primary" onclick="filterContent(event, 'experience')">Experience</button>
+  <button class="btn btn-primary" onclick="filterContent(event, 'curriculum_vitae')">Curriculum Vitae</button>
 </div>
 
 <!-- Tab Content -->
@@ -40,7 +41,7 @@ background: "img/bg-contact.jpg"
   <!-- Education Section -->
   <div class="content-section" data-category="education" style="display: none;">
     <h2>Education</h2>
-    <p>Bachelor's Degree in Computer Science from XYZ University. Specialized in Software Engineering, AI, and Machine Learning.</p>
+    <p>Bachelor's Degree in Computer Science from Maynooth University, Ireland. Specialized in Software Engineering, Software Design, UI/UX, Web Development, Databases and Data Strucures, AI, Computer Graphics and more.</p>
   </div>
 
   <!-- Experience Section -->
@@ -48,16 +49,19 @@ background: "img/bg-contact.jpg"
     <h2>Experience</h2>
     <p>Worked on various projects involving software development, game development, and data analysis. Actively seeking new opportunities.</p>
   </div>
-</div>
 
-<div class="container text-center my-4">
-  <a href="{{ '/documents/Jevgenij_Ivanov_CV.pdf' | relative_url }}" class="btn btn-primary" download="Jevgenij_Ivanov_CV.pdf">
-    Download Curriculum Vitae
-  </a>
-</div>
+  <!-- CV Section -->
+  <div class="content-section" data-category="curriculum_vitae" style="display: none;">
+    <div class="container text-center my-4">
+      <a href="{{ '/documents/Jevgenij_Ivanov_CV.pdf' | relative_url }}" class="btn btn-primary" download="Jevgenij_Ivanov_CV.pdf">
+        Download Curriculum Vitae
+      </a>
+    </div>
 
-<div class="container text-center my-4">
-  <embed src="{{ '/documents/Jevgenij_Ivanov_CV.pdf' | relative_url }}" type="application/pdf" width="100%" height="867px" />
+    <div class="container text-center my-4">
+      <embed src="{{ '/documents/Jevgenij_Ivanov_CV.pdf' | relative_url }}" type="application/pdf" width="100%" height="867px" />
+    </div>
+  </div>
 </div>
 
 <!-- JavaScript for Tabs -->

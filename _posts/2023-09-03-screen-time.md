@@ -11,6 +11,10 @@ languages:
     slug: android
 ---
 
+<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/ScreenTime_LockScreen" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+</div>
+
 # ScreenTime LockScreen
 ScreenTime LockScreen is an Android application that provides a custom lock screen experience and displays your total screen time on your applicatoins. This project uses Jetpack Compose for the UI and includes a full-screen activity that overlays the default lock screen.
 

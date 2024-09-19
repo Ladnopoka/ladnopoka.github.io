@@ -212,4 +212,33 @@ footer .copyright { font-size: 14px; margin-bottom: 0; text-align: center; }
 
 .language { display: inline-block; background-color: #000; /* Change this to any desired background color */ border: 1px solid #fff; /* Border to match the style of the post title */ padding: 2px 6px; margin-right: 10px; font-size: 0.9em; font-weight: bold; text-transform: uppercase; color: #fff; /* Make the text color white */ border-radius: 3px; /* Optional: add rounded corners */ text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Optional: give it a shadow effect */ }
 
+/* Individual Language/Engine Styles */
+.language-html { background-color: orange; border: 1px solid orange; }
+
+.language-javascript { background-color: yellow; color: black; /* Dark text for visibility */ border: 1px solid yellow; }
+
+.language-css { background-color: purple; border: 1px solid purple; }
+
+.language-processing { background-color: lightblue; border: 1px solid lightblue; }
+
+.language-ruby { background-color: red; border: 1px solid red; }
+
+.language-blender { background-color: orange; border: 1px solid orange; }
+
+.language-godot { background-color: blue; border: 1px solid blue; }
+
+.language-gdscript { background-color: gray; border: 1px solid gray; }
+
+.language-kotlin { background-color: purple; border: 1px solid purple; }
+
+.language-csharp { background-color: green; border: 1px solid green; }
+
+.language-python { background: linear-gradient(to right, blue, yellow); border: 1px solid blue; }
+
+.language-unity { background: linear-gradient(to right, black, gray); border: 1px solid black; }
+
+.language-reactjs { background-color: lightblue; border: 1px solid lightblue; }
+
+.language-java { background-color: brown; border: 1px solid brown; }
+
 /*# sourceMappingURL=main.css.map */

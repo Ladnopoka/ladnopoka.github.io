@@ -71,7 +71,8 @@ layout: default
             {% if post.languages %}
             <div class="languages">
               {% for language in post.languages %}
-              <span class="language">{{ language.name }}</span>
+              <!-- Match the language to its specific class for styling -->
+              <span class="language language-{{ language.slug | downcase }}">{{ language.name }}</span>
               {% endfor %}
             </div>
             {% endif %}

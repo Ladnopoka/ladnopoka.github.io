@@ -184,16 +184,21 @@
 
 .language {
   display: inline-block;
-  background-color: #000; /* Change this to any desired background color */
-  border: 1px solid #fff; /* Border to match the style of the post title */
+  background-color: #000; /* Adjust as necessary */
+  border: 1px solid #fff;
   padding: 2px 6px;
-  margin-right: 10px;
+  margin-right: 5px;
   font-size: 0.9em;
   font-weight: bold;
   text-transform: uppercase;
-  color: #fff; /* Make the text color white */
-  border-radius: 3px; /* Optional: add rounded corners */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); /* Optional: give it a shadow effect */
+  color: #fff;
+  border-radius: 3px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.languages-right {
+  margin-left: 20px;
+  display: inline-block;
 }
 
 /* Individual Language/Engine Styles */

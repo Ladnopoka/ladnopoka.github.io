@@ -67,18 +67,14 @@ layout: default
             <h2 class="post-title">
               {{ post.title }}
             </h2>
-            <!-- Display Languages/Technologies -->
+            <!-- Removed post date, and added languages -->
             {% if post.languages %}
-            <div class="languages">
+            <div class="languages-right">
               {% for language in post.languages %}
-              <!-- Match the language to its specific class for styling -->
               <span class="language language-{{ language.slug | downcase }}">{{ language.name }}</span>
               {% endfor %}
             </div>
             {% endif %}
-            <p class="post-meta">
-              {{ post.date | date: '%B %d, %Y' }}
-            </p>
           </div>
           {% if post.subtitle %}
           <h3 class="post-subtitle">{{ post.subtitle }}</h3>
@@ -92,7 +88,6 @@ layout: default
   <hr>
   {% endfor %}
 </div>
-
 
 <!-- JavaScript for Tabs -->
 <script>

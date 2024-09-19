@@ -290,3 +290,22 @@
   background-color: brown;
   border: 1px solid brown;
 }
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background-color: transparent; /* Example background color */
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+footer .container {
+  max-width: 100%;
+  text-align: center;
+}

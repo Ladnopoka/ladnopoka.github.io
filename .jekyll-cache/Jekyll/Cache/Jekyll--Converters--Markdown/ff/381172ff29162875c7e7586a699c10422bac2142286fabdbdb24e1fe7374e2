@@ -1,0 +1,26 @@
+I"<div style="text-align: center; margin-top: 0px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/ScreenTime_LockScreen" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+</div>
+
+<p>https://github.com/Ladnopoka/ScreenTime_LockScreen</p>
+
+<h1 id="screentime-lockscreen">ScreenTime LockScreen</h1>
+<p>ScreenTime LockScreen is an Android application that provides a custom lock screen experience and displays your total screen time on your applicatoins. This project uses Jetpack Compose for the UI and includes a full-screen activity that overlays the default lock screen.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>Displays one of three random background images when the screen turns on.</li>
+  <li>Custom text displayed over the background image.</li>
+  <li>Full-screen activity that mimics a lock screen.</li>
+  <li>Customizable UI with Jetpack Compose.</li>
+  <li>Handles screen-on events to show the custom lock screen.</li>
+</ul>
+
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+  <li>Android Studio (latest version recommended)</li>
+  <li>Kotlin programming language knowledge</li>
+  <li>Basic understanding of Jetpack Compose</li>
+  <li>A device or emulator running Android 5.0 (Lollipop, API 21) or higher</li>
+</ul>
+:ET

@@ -6,6 +6,13 @@ background: https://cdnb.artstation.com/p/assets/images/images/006/170/271/large
 subtitle: Perspectives and Inspirations
 artist: artstation.com/aenamiart
 category: other
+languages: 
+  - name: Processing
+    slug: processing
+  - name: Ruby
+    slug: ruby
+  - name: Java
+    slug: java
 ---
 
 # A bad start, A good start.

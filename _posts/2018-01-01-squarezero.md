@@ -9,6 +9,13 @@ tags:
 subtitle: What is this?
 artist: artstation.com/dtmayer
 category: other
+languages: 
+  - name: Kotlin
+    slug: kotlin
+  - name: CSharp
+    slug: csharp
+  - name: Python
+    slug: python
 ---
 
 # Looks like I'm doing this.

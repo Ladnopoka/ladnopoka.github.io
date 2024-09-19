@@ -4,6 +4,13 @@ layout: post
 background: games/combat_clicker/public/Other_Images/battle.jpg  
 subtitle: Combat Clicker is a browser-based, turn-based game where you face off against a cunning rat warrior. Outthink and outmaneuver the rat to claim victory!
 category: games
+languages: 
+  - name: JavaScript
+    slug: javascript
+  - name: HTML
+    slug: html
+  - name: CSS
+    slug: css
 ---
 
 <div style="text-align: center; margin-top: -20px; margin-bottom: 25px; scale: 1.4">

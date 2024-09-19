@@ -94,6 +94,7 @@ layout: default
   function filterProjects(event, category) {
     var posts = document.querySelectorAll('#projects-list .post-preview');
     var buttons = document.querySelectorAll('.btn-group .btn');
+    var hrElements = document.querySelectorAll('#projects-list hr');
 
     // Toggle active class on buttons
     buttons.forEach(function(btn) {
@@ -103,13 +104,24 @@ layout: default
     // Add active class to the current button
     event.currentTarget.classList.add('active');
 
+    // Track the number of visible posts
+    var visibleCount = 0;
+
     // Show/Hide posts based on category
-    posts.forEach(function(post) {
+    posts.forEach(function(post, index) {
       if (category === 'all' || post.getAttribute('data-category') === category) {
         post.style.display = 'block';
+        hrElements[index].style.display = 'block'; // Show <hr> for visible posts
+        visibleCount++;
       } else {
         post.style.display = 'none';
+        hrElements[index].style.display = 'none'; // Hide <hr> for hidden posts
       }
     });
+
+    // Hide the last <hr> tag
+    if (visibleCount > 0) {
+      hrElements[visibleCount - 1].style.display = 'none';
+    }
   }
 </script>

@@ -104,10 +104,10 @@
         
       
         <button class="btn btn-primary active" onclick="filterProjects(event, 'all')">All (10)</button>
-        <button class="btn btn-primary" onclick="filterProjects(event, 'software')">Software (2)</button>
+        <button class="btn btn-primary" onclick="filterProjects(event, 'software')">Software (4)</button>
         <button class="btn btn-primary" onclick="filterProjects(event, 'games')">Games (2)</button>
         <button class="btn btn-primary" onclick="filterProjects(event, 'android')">Android (1)</button>
-        <button class="btn btn-primary" onclick="filterProjects(event, 'other')">Other (5)</button>
+        <button class="btn btn-primary" onclick="filterProjects(event, 'other')">Other (3)</button>
       </div>
 </div>
 
@@ -172,7 +172,7 @@
             
           </div>
           
-          <h3 class="post-subtitle">Google Chrome Extension that allows users to authenticate their Spotify account, view their top 5 played tracks, get top 5 recommended tracks, and generate new playlists based on these tracks, all within the browser. Play these songs inside the extension right there and now.</h3>
+          <h3 class="post-subtitle">Google Chrome Extension that allows users to authenticate their Spotify account, view their top 5 played tracks, get top 5 recommended tracks, and generate new playlists based on these tracks.</h3>
           
         </div>
       </div>
@@ -277,32 +277,28 @@
   </article>
   <hr>
   
-  <article class="post-preview" data-category="other">
-    <a href="/other/2018/01/12/outbreak.html">
+  <article class="post-preview" data-category="software">
+    <a href="/software/2023/09/01/soviet-joke-generator.html">
       <div class="post-container">
-        <div class="post-img-container" title="Image by artstation.com/ricky_ho">
-          <img class="post-img" src="https://cdnb.artstation.com/p/assets/images/images/004/040/769/large/ricky-ho-zombie-alley.jpg?1479754248">
+        <div class="post-img-container" title="Image by ">
+          <img class="post-img" src="images/Soviet_Russia_Joke_Generator_Background.png">
         </div>
         <div class="post-text">
           <div class="post-text-header">
             <h2 class="post-title">
-              Outbreak
+              Soviet Russia Joke Generator
             </h2>
             <!-- Removed post date, and added languages -->
             
             <div class="languages-right">
               
-              <span class="language language-kotlin">Kotlin</span>
-              
-              <span class="language language-csharp">CSharp</span>
-              
-              <span class="language language-python">Python</span>
+              <span class="language language-java">Java</span>
               
             </div>
             
           </div>
           
-          <h3 class="post-subtitle">Something's wrong in the dorm.</h3>
+          <h3 class="post-subtitle">A Java program that generates random "In Soviet Russia" jokes and compares their SHA-256 hash codes.</h3>
           
         </div>
       </div>
@@ -310,8 +306,8 @@
   </article>
   <hr>
   
-  <article class="post-preview" data-category="other">
-    <a href="/other/2018/01/11/duty.html">
+  <article class="post-preview" data-category="software">
+    <a href="/software/2018/01/11/duty.html">
       <div class="post-container">
         <div class="post-img-container" title="Image by artstation.com/ett">
           <img class="post-img" src="https://cdnb.artstation.com/p/assets/images/images/001/062/435/large/etienne-lamoureux-snowpartrol.jpg?1439231484">
@@ -449,6 +445,7 @@
   function filterProjects(event, category) {
     var posts = document.querySelectorAll('#projects-list .post-preview');
     var buttons = document.querySelectorAll('.btn-group .btn');
+    var hrElements = document.querySelectorAll('#projects-list hr');
 
     // Toggle active class on buttons
     buttons.forEach(function(btn) {
@@ -458,14 +455,25 @@
     // Add active class to the current button
     event.currentTarget.classList.add('active');
 
+    // Track the number of visible posts
+    var visibleCount = 0;
+
     // Show/Hide posts based on category
-    posts.forEach(function(post) {
+    posts.forEach(function(post, index) {
       if (category === 'all' || post.getAttribute('data-category') === category) {
         post.style.display = 'block';
+        hrElements[index].style.display = 'block'; // Show <hr> for visible posts
+        visibleCount++;
       } else {
         post.style.display = 'none';
+        hrElements[index].style.display = 'none'; // Hide <hr> for hidden posts
       }
     });
+
+    // Hide the last <hr> tag
+    if (visibleCount > 0) {
+      hrElements[visibleCount - 1].style.display = 'none';
+    }
   }
 </script>
 

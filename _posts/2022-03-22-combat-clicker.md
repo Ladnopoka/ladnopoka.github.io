@@ -14,7 +14,11 @@ languages:
 ---
 
 <div style="text-align: center; margin-top: -20px; margin-bottom: 25px; scale: 1.4">
-  <a href="/games/combat_clicker/views/index.html" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">Play CombatClicker.io</a>
+  <a href="/games/combat_clicker/views/index.html" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">Play Combat Clicker</a>
+</div>
+
+<div style="text-align: center; margin-top: 0px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/combat_clicker_game" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
 # Overview

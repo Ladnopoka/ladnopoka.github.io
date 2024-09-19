@@ -89,7 +89,6 @@ layout: default
   {% endfor %}
 </div>
 
-<!-- JavaScript for Tabs -->
 <script>
   function filterProjects(event, category) {
     var posts = document.querySelectorAll('#projects-list .post-preview');
@@ -104,24 +103,27 @@ layout: default
     // Add active class to the current button
     event.currentTarget.classList.add('active');
 
-    // Track the number of visible posts
-    var visibleCount = 0;
+    // Track the visible posts and their corresponding <hr> elements
+    var visiblePosts = [];
 
     // Show/Hide posts based on category
     posts.forEach(function(post, index) {
       if (category === 'all' || post.getAttribute('data-category') === category) {
         post.style.display = 'block';
-        hrElements[index].style.display = 'block'; // Show <hr> for visible posts
-        visibleCount++;
+        visiblePosts.push(index); // Keep track of visible posts' index
       } else {
         post.style.display = 'none';
-        hrElements[index].style.display = 'none'; // Hide <hr> for hidden posts
+        hrElements[index].style.display = 'none'; // Hide the <hr> for hidden posts
       }
     });
 
-    // Hide the last <hr> tag
-    if (visibleCount > 0) {
-      hrElements[visibleCount - 1].style.display = 'none';
-    }
+    // Display <hr> only between visible posts
+    visiblePosts.forEach(function(index, i) {
+      if (i < visiblePosts.length - 1) {
+        hrElements[index].style.display = 'block'; // Show <hr> between posts
+      } else {
+        hrElements[index].style.display = 'none'; // Hide <hr> after the last visible post
+      }
+    });
   }
 </script>

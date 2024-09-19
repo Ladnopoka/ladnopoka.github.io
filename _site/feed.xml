@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-10T19:57:53+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ladno Developer Portfolio</title><subtitle>Software and Games</subtitle><author><name>Jevgenij Ivanov</name></author><entry><title type="html">Dungeon Forge</title><link href="http://localhost:4000/software/2024/03/26/dungeon-forge.html" rel="alternate" type="text/html" title="Dungeon Forge" /><published>2024-03-26T00:00:00+00:00</published><updated>2024-03-26T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/03/26/dungeon-forge</id><content type="html" xml:base="http://localhost:4000/software/2024/03/26/dungeon-forge.html"><![CDATA[<h1 id="overview">Overview</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-19T16:21:24+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ladno Developer Portfolio</title><subtitle>Software and Games</subtitle><author><name>Jevgenij Ivanov</name></author><entry><title type="html">Dungeon Forge</title><link href="http://localhost:4000/software/2024/03/26/dungeon-forge.html" rel="alternate" type="text/html" title="Dungeon Forge" /><published>2024-03-26T00:00:00+00:00</published><updated>2024-03-26T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/03/26/dungeon-forge</id><content type="html" xml:base="http://localhost:4000/software/2024/03/26/dungeon-forge.html"><![CDATA[<h1 id="overview">Overview</h1>
 <p>Dungeon Forge is a Godot 4 extension plugin that allows users to generate dungeon-like layouts in their scenes with a click of a button. This plugin opens a new window in the Godot 4 editor in the bottom right corner where users can select from three different biomes: dungeons, wooden cabins, and frozen caves. Upon selecting the gridmap generator in the menu, a new pop-up menu on the right allows users to set parameters for the dungeon layouts and then generate the layouts and meshes. Additional features include a first-person controller that allows users to explore generated dungeons, saving generated layouts, and reusing dungeons.</p>
 
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
@@ -143,21 +143,71 @@ When the playlists are generated, they are added to your Spotify account, howeve
 <strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
 <strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
 <strong>X</strong>: https://x.com/Ladnopokaa <br />
-<strong>Discord</strong>: Ladno#3352</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[Overview Slayer is an exciting top-down isometric roguelike game that immerses players in a world of strategic combat and character progression. Choose from three distinct classes—Mage, Barbarian, and Rogue—and embark on thrilling adventures, battling fierce enemies and mastering powerful abilities.]]></summary></entry><entry><title type="html">Recurrence</title><link href="http://localhost:4000/android/2019/02/03/recurrence.html" rel="alternate" type="text/html" title="Recurrence" /><published>2019-02-03T00:00:00+00:00</published><updated>2019-02-03T00:00:00+00:00</updated><id>http://localhost:4000/android/2019/02/03/recurrence</id><content type="html" xml:base="http://localhost:4000/android/2019/02/03/recurrence.html"><![CDATA[<p>They work all day, they work all night.
-<br />They look at you, they send you thoughts.
-<br />They just want to see you think.
-<br />They want to know what goes on in that little brain of yours when the spark happens.</p>
+<strong>Discord</strong>: Ladno#3352</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[Overview Slayer is an exciting top-down isometric roguelike game that immerses players in a world of strategic combat and character progression. Choose from three distinct classes—Mage, Barbarian, and Rogue—and embark on thrilling adventures, battling fierce enemies and mastering powerful abilities.]]></summary></entry><entry><title type="html">Combat Clicker</title><link href="http://localhost:4000/games/2022/03/22/combat-clicker.html" rel="alternate" type="text/html" title="Combat Clicker" /><published>2022-03-22T00:00:00+00:00</published><updated>2022-03-22T00:00:00+00:00</updated><id>http://localhost:4000/games/2022/03/22/combat-clicker</id><content type="html" xml:base="http://localhost:4000/games/2022/03/22/combat-clicker.html"><![CDATA[<div style="text-align: center; margin-top: -20px; margin-bottom: 25px; scale: 1.4">
+  <a href="/games/combat_clicker/views/index.html" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">Play CombatClicker.io</a>
+</div>
 
-<p>Why, we don’t know; but we do know that it’s important for them.
-<br />They work all the time relentlessly, not a mistake made because it’s simply not in their design.</p>
+<h1 id="overview">Overview</h1>
+<p><strong>Combat Clicker</strong> is a browser-based, turn-based game where you face off against a cunning rat warrior. Your goal is simple: get lucky and guess the right option to defeat the rat! The game features a mix of attack and defense options, requiring players to choose where to strike and where to defend.</p>
 
-<p>But every now and then, when the chief turns out of phase, an impish minion picks a memory from a run that already happened and feeds it back to you.
-<br />That crazy bugger just likes to watch you freak out.
-<br />He looks at your brain with awe, the way the alarms go haywire inside.</p>
+<h1 id="game-presentation">Game Presentation</h1>
+<p>Project presentation video where I showcase the game and my teammate covers the work on the game menus, click on the image to see:</p>
 
-<p>What has he done!
-<br />He just likes to tip us off, and watch us remain helpless.
-<br />That little devil likes that fleeting anguish the barrage of cross firing neurons cause.</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="android" /><summary type="html"><![CDATA[They work all day, they work all night. They look at you, they send you thoughts. They just want to see you think. They want to know what goes on in that little brain of yours when the spark happens.]]></summary></entry><entry><title type="html">Enlightenment</title><link href="http://localhost:4000/other/2018/01/28/enlightenment.html" rel="alternate" type="text/html" title="Enlightenment" /><published>2018-01-28T22:43:01+00:00</published><updated>2018-01-28T22:43:01+00:00</updated><id>http://localhost:4000/other/2018/01/28/enlightenment</id><content type="html" xml:base="http://localhost:4000/other/2018/01/28/enlightenment.html"><![CDATA[<h1 id="a-bad-start-a-good-start">A bad start, A good start.</h1>
+<div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
+    <iframe width="660" height="415" src="https://www.youtube.com/embed/Mptg1MEHPik?si=Go7BpwS23VTs78SS" title="Combat Clicker" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+    </iframe>
+</div>
+
+<h1 id="how-to-play">How to Play</h1>
+<ol>
+  <li>Select the positions where to attack the Rat Warrior.</li>
+  <li>Defend two positions from attacks of the Rat Warrior.</li>
+  <li>Observe the Combat Log and try to win!</li>
+</ol>
+
+<h3 id="choose-your-attack">Choose Your Attack:</h3>
+<ul>
+  <li>Pick <strong>2 out of 5 possible attack positions</strong>:
+    <ul>
+      <li>Head</li>
+      <li>Body</li>
+      <li>Legs</li>
+      <li>Arms</li>
+      <li>Waist</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="defend-against-the-rat-warrior">Defend Against the Rat Warrior:</h3>
+<ul>
+  <li>The rat will retaliate! You must guess where it will strike and choose <strong>2 out of 5 positions</strong> to defend:
+    <ul>
+      <li>Head</li>
+      <li>Body</li>
+      <li>Legs</li>
+      <li>Arms</li>
+      <li>Waist</li>
+    </ul>
+  </li>
+  <li>If you guess correctly, you block the damage; if not, you’ll take a hit.</li>
+</ul>
+
+<h3 id="combat-log">Combat Log:</h3>
+<ul>
+  <li>The game features a <strong>combat log</strong> that keeps track of all the damage dealt and received during the fight.</li>
+  <li>It’s a great way to see how well you’re doing.</li>
+</ul>
+
+<h1 id="contact">Contact</h1>
+<h5 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h5>
+
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: Ladno#3352</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[Play CombatClicker.io]]></summary></entry><entry><title type="html">Enlightenment</title><link href="http://localhost:4000/other/2018/01/28/enlightenment.html" rel="alternate" type="text/html" title="Enlightenment" /><published>2018-01-28T22:43:01+00:00</published><updated>2018-01-28T22:43:01+00:00</updated><id>http://localhost:4000/other/2018/01/28/enlightenment</id><content type="html" xml:base="http://localhost:4000/other/2018/01/28/enlightenment.html"><![CDATA[<h1 id="a-bad-start-a-good-start">A bad start, A good start.</h1>
 <p>It all started with the American elections of 2016 December. I remember waking up one day, astounded. I had gone to bed the previous night thinking how bonkers it would be if Trump won the elections.
 <br />How could this seemingly insane person win the freakin’ elections? This sparked my interest in American politics. Everyone in my circle had been bashing and ridiculing this guy for months.
 <br />I started out the traditional way, watching videos of ignorant Trump followers. It was fun while it lasted; witnessing horribly ignorant people making a fool of themselves on the internet. These people lacked common sense, and a general understanding of the world.

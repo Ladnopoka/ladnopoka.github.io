@@ -145,3 +145,33 @@
 .glow-link:hover {
   text-shadow: 0 0 8px #fff, 0 0 10px #fff, 0 0 12px #fff; /* White glow effect */
 }
+
+/* Customize the scrollbar for the video reel container */
+.video-reel-container {
+  scrollbar-width: thick; /* For Firefox */
+  scrollbar-color: #a92e2e black; /* Scrollbar thumb and track colors for Firefox */
+}
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+.video-reel-container::-webkit-scrollbar {
+  width: 20px; /* Set the width of the scrollbar */
+  height: 20px; /* Set the height of the scrollbar (for horizontal scrolling) */
+}
+
+.video-reel-container::-webkit-scrollbar-thumb {
+  background-color: #a92e2e; /* The color of the draggable part */
+  border-radius: 10px; /* Make the scrollbar thumb rounded */
+  border: 3px solid black; /* Adds a border to make it stand out */
+}
+
+.video-reel-container::-webkit-scrollbar-track {
+  background: black; /* The background of the scrollbar track */
+}
+
+.video-reel-container::-webkit-scrollbar-thumb:hover {
+  background-color: #d34848; /* Lighter red on hover for the thumb */
+}
+
+.video-reel-container::-webkit-scrollbar-thumb:active {
+  background-color: #8f2020; /* Darker red when clicked */
+}

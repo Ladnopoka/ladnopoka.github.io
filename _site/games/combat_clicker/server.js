@@ -22,35 +22,6 @@ app.set('view engine', 'ejs')
 app.use(express.static('public'))
 
 //routes
-// disabling this for now because its painful
-//app.get('/',(req,res)=>{
-  //  console.log("Log-In page")
-    //res.render('LoginPage')
-//})
-/*app.get('/', (req, res) => {
-    console.log("Game-page")
-    res.render('index')  // Directly render the game page
-})
-app.get('/signUp',(req,res)=>{
-    console.log("Sign-Up page")
-    res.render('SignupPage')
-})
-
-app.get('/home',(req,res)=>{
-    console.log("Home-page")
-    res.render('Homepage')
-})
-
-app.get('/game',(req,res)=>{
-    console.log("Game-page")
-    res.render('index')
-})
-
-app.get('/settings',(req,res)=>{
-    console.log("Settings-page")
-    res.render('settings')
-})*/
-
 app.get('/', (req, res) => {
     console.log("Game-page")
     res.render('index')  // Directly render the game page
@@ -58,3 +29,6 @@ app.get('/', (req, res) => {
 
 //localhost port
 app.listen(3000)
+
+
+

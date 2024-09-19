@@ -40,7 +40,7 @@ var ttm2 = null;
 
 document.getElementById('attack').onclick = () =>
 {
-    var audioAttack = new Audio("./attackSound.mp3");
+    var audioAttack = new Audio("../public/attackSound.mp3");
     audioAttack.play();
 
     if(checks.headCheck == true)

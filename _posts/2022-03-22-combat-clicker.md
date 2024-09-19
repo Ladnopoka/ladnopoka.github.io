@@ -6,8 +6,8 @@ subtitle: Combat Clicker is a browser-based, turn-based game where you face off 
 category: games
 ---
 
-<div style="text-align: center; margin-top: -20px;">
-  <a href="games/combat_clicker/views/index.ejs" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">Play CombatClicker.io</a>
+<div style="text-align: center; margin-top: -20px; margin-bottom: 25px; scale: 1.4">
+  <a href="/games/combat_clicker/views/index.html" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">Play CombatClicker.io</a>
 </div>
 
 # Overview

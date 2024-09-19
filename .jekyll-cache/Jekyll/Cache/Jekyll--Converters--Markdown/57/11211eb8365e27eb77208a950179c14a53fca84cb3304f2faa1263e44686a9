@@ -1,0 +1,66 @@
+I"Y<div style="text-align: center; margin-top: -20px; ">
+  <a href="/games/combat_clicker/views/index.html" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">Play CombatClicker.io</a>
+</div>
+
+<h1 id="overview">Overview</h1>
+<p><strong>Combat Clicker</strong> is a browser-based, turn-based game where you face off against a cunning rat warrior. Your goal is simple: get lucky and guess the right option to defeat the rat! The game features a mix of attack and defense options, requiring players to choose where to strike and where to defend.</p>
+
+<h1 id="game-presentation">Game Presentation</h1>
+<p>Project presentation video where I showcase the game and my teammate covers the work on the game menus, click on the image to see:</p>
+
+<div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
+    <iframe width="660" height="415" src="https://www.youtube.com/embed/Mptg1MEHPik?si=Go7BpwS23VTs78SS" title="Combat Clicker" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+    </iframe>
+</div>
+
+<h1 id="how-to-play">How to Play</h1>
+<ol>
+  <li>Select the positions where to attack the Rat Warrior.</li>
+  <li>Defend two positions from attacks of the Rat Warrior.</li>
+  <li>Observe the Combat Log and try to win!</li>
+</ol>
+
+<h3 id="choose-your-attack">Choose Your Attack:</h3>
+<ul>
+  <li>Pick <strong>2 out of 5 possible attack positions</strong>:
+    <ul>
+      <li>Head</li>
+      <li>Body</li>
+      <li>Legs</li>
+      <li>Arms</li>
+      <li>Waist</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="defend-against-the-rat-warrior">Defend Against the Rat Warrior:</h3>
+<ul>
+  <li>The rat will retaliate! You must guess where it will strike and choose <strong>2 out of 5 positions</strong> to defend:
+    <ul>
+      <li>Head</li>
+      <li>Body</li>
+      <li>Legs</li>
+      <li>Arms</li>
+      <li>Waist</li>
+    </ul>
+  </li>
+  <li>If you guess correctly, you block the damage; if not, you’ll take a hit.</li>
+</ul>
+
+<h3 id="combat-log">Combat Log:</h3>
+<ul>
+  <li>The game features a <strong>combat log</strong> that keeps track of all the damage dealt and received during the fight.</li>
+  <li>It’s a great way to see how well you’re doing.</li>
+</ul>
+
+<h1 id="contact">Contact</h1>
+<h5 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h5>
+
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: Ladno#3352</p>
+:ET

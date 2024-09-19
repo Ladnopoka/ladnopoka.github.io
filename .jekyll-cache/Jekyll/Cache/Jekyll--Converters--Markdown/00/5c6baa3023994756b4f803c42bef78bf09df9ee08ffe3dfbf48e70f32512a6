@@ -1,0 +1,23 @@
+I"<h1 id="screentime-lockscreen">ScreenTime LockScreen</h1>
+<p>ScreenTime LockScreen is an Android application that provides a custom lock screen experience and displays your total screen time on your applicatoins. This project uses Jetpack Compose for the UI and includes a full-screen activity that overlays the default lock screen.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>Displays one of three random background images when the screen turns on.</li>
+  <li>Custom text displayed over the background image.</li>
+  <li>Full-screen activity that mimics a lock screen.</li>
+  <li>Customizable UI with Jetpack Compose.</li>
+  <li>Handles screen-on events to show the custom lock screen.</li>
+</ul>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<ul>
+  <li>Android Studio (latest version recommended)</li>
+  <li>Kotlin programming language knowledge</li>
+  <li>Basic understanding of Jetpack Compose</li>
+  <li>A device or emulator running Android 5.0 (Lollipop, API 21) or higher</li>
+</ul>
+:ET

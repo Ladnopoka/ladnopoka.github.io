@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-19T21:44:23+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ladno Developer Portfolio</title><subtitle>Software and Games</subtitle><author><name>Jevgenij Ivanov</name></author><entry><title type="html">Dungeon Forge</title><link href="http://localhost:4000/software/2024/03/26/dungeon-forge.html" rel="alternate" type="text/html" title="Dungeon Forge" /><published>2024-03-26T00:00:00+00:00</published><updated>2024-03-26T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/03/26/dungeon-forge</id><content type="html" xml:base="http://localhost:4000/software/2024/03/26/dungeon-forge.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-19T23:51:27+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ladno Developer Portfolio</title><subtitle>Software and Games</subtitle><author><name>Jevgenij Ivanov</name></author><entry><title type="html">Dungeon Forge</title><link href="http://localhost:4000/software/2024/03/26/dungeon-forge.html" rel="alternate" type="text/html" title="Dungeon Forge" /><published>2024-03-26T00:00:00+00:00</published><updated>2024-03-26T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/03/26/dungeon-forge</id><content type="html" xml:base="http://localhost:4000/software/2024/03/26/dungeon-forge.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/Godot-room-generator-plugin" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
@@ -250,127 +250,70 @@ When the playlists are generated, they are added to your Spotify account, howeve
   <li>Kotlin programming language knowledge</li>
   <li>Basic understanding of Jetpack Compose</li>
   <li>A device or emulator running Android 5.0 (Lollipop, API 21) or higher</li>
-</ul>]]></content><author><name>Jevgenij Ivanov</name></author><category term="android" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Outbreak</title><link href="http://localhost:4000/other/2018/01/12/outbreak.html" rel="alternate" type="text/html" title="Outbreak" /><published>2018-01-12T15:35:35+00:00</published><updated>2018-01-12T15:35:35+00:00</updated><id>http://localhost:4000/other/2018/01/12/outbreak</id><content type="html" xml:base="http://localhost:4000/other/2018/01/12/outbreak.html"><![CDATA[<h1 id="what-gets-em-high">What gets ‘em high?</h1>
-<p>“We’re trying to shoot them down?” Su asked.
-<br />“That does nothing” the General scoffed.
-He continued, “We need to blow ‘em up. That’s our only shot.”<br />
-“And how do we do that” Su was thinking out loud.
-<br />“Bait and switch. We fill up the bunkers with their “fix”.”
-<br />“Coke? The F2 variant?” Su knew the plan.
-<br />“What else? Anyway, they go in, we close the doors, we blow ‘em up. Easy. Watch.”
-<br />Hordes of the infected charge into the bunker, grinning and howling. Not long before the entire bunker blows up.
-<br />“Alright, I’ve gotta do the same at camp Zero. Remember the training.” the General got on his chopper and it took off.
-<br />The pilot smirked at Su in a weird way before he got on the chopper.
-<br />“WAIT! THE PILOT’S INFECTED! HE’S GONNA KILL THE GENERAL!” Su shouted at the top of his voice, picked up an Rpg and shot the chopper down.
-<br />The General magically appeared beside him, and said “You stupid son of a”
-<br />“Nap time’s over. Wake up buddy” Bar said.
-<br />Su had been dreaming again. Dreaming of his training. Yet another dream horribly gone wrong ever since he aced the training.
-<br />“Hey. Wake up. We’re almost there.” Chan was waking up Nith.<br /><br /></p>
-<h1 id="the-mission">The mission</h1>
-<p>Su, Bar, Chan and Nith were on a weapons salvage mission. The simplest one, albeit a tricky one, since they were embarking when
-daylight was almost over. They were at their old dorm, to pick up a crate containing explosives. They didn’t have time during the
-‘evacuation’, fighting off their friends who had just gotten infected. The whole dorm was a mess when they left, body parts flailing and blood squirting out of the bites their beloved friends left. They had no choice but to leave the weapons and all other supplies behind. Just send another crew on an errand mission to get it for them, right? Ironically, the command chose them to clean up their own mess.
-<br />“Quick getaway, alright? No messing around. Just waltz in there, collect the crate, sprint your ass back here. We’ll be out of here in a minute.” Bar was the driver, and in charge of the mission.
-<br />“Yea, mission detail was very clear. Pick up the crate, shake hands with our pals waiting for us, deliver their ‘present’ to you” Nith retorted. “I don’t like this place one bit.”
-<br />“Neither do we. Just make it quick.” Chan was the peace keeper of the crew.
-<br />Su and Nith reached the room that contained the explosives and began sifting through the mess to find usable ammunition. And there he was, Sam, sitting on his couch, right in front of Su, smoking one of the last cigars, grinning.<br />
-<br />“Whoa, whoa, who do we have here? Hey Sam, how’s it going?” Su remarked in surprise.
-<br />Sam, whose only last shred of consciousness was aiming at Su’s neck charged towards him in
-excitement.
-<br />“Whoa, hold your horses boy. Down. Down.” Su quietly said.</p>
+</ul>]]></content><author><name>Jevgenij Ivanov</name></author><category term="android" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Soviet Russia Joke Generator</title><link href="http://localhost:4000/software/2023/09/01/soviet-joke-generator.html" rel="alternate" type="text/html" title="Soviet Russia Joke Generator" /><published>2023-09-01T00:00:00+01:00</published><updated>2023-09-01T00:00:00+01:00</updated><id>http://localhost:4000/software/2023/09/01/soviet-joke-generator</id><content type="html" xml:base="http://localhost:4000/software/2023/09/01/soviet-joke-generator.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/Java_Joke_Generator" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+</div>
 
-<h1 id="the-infected">The Infected</h1>
-<p>So this is the deal with the infected. They have a brain, and that’s pretty much it. It craves
-for more of that sweet mix of heaven left in the world. When you’re being attacked by one, you can damage its body, but that does nothing; for their tenacity is plain stupid. They don’t care if they’re left limbless, or decapitated; the holy grail is holy enough to forgo any other physical pleasures.<br />
-Now, in combat situations, DO NOT SHOOT THEM. JUST DON’T. They’ll shout so loud your ears will bleed and their pals rush knowing there’s fresh blood. You gotta understand that they don’t want you.
-They’re not vampires. They’re more idiotic than that. They just kill you to prove a point. To turn you
-into one of them, so you can join their army in this fight for ‘justice’.<br />
-The best way to survive is to take those buggers down in a fist fight. The good ol’ way. Remember that they’re extremely weak until they’re provoked too much.</p>
+<h1 id="soviet-joke-generator">Soviet Joke Generator</h1>
+<p>Soviet Joke Generator is a Java program that randomly generates “In Soviet Russia” jokes and compares the SHA-256 hash codes of two jokes to find the highest match. The jokes are constructed using random combinations of nouns and verbs, producing amusing sentences like “In Soviet Russia, Bitcoin mine you.”</p>
 
-<p><br />Su punched Sam right in the face, then jabbed him with a stick. Sam grabbed the stick, and Su kicked him at the calf, knocking him down.
-“Pfffff” he yelled as he ran down the hallway.
-Nith knocked down 3 of the infected, leaving them extremely confused as to how easily they lost the fight.
-They got back in the car and sped off into the highway.</p>
+<h2 id="features">Features</h2>
+<ul>
+  <li>Generates random “In Soviet Russia” jokes by combining a fixed phrase with random nouns and verbs.</li>
+  <li>Uses SHA-256 hashing to compare jokes and find the highest matching characters in their hash codes.</li>
+  <li>Writes over 1.7 million jokes to a file for analysis.</li>
+  <li>Efficiently reads, writes, and processes large text files using <code class="language-plaintext highlighter-rouge">BufferedReader</code> and <code class="language-plaintext highlighter-rouge">BufferedWriter</code>.</li>
+  <li>SHA-256 comparison implemented through Java’s <code class="language-plaintext highlighter-rouge">MessageDigest</code> class.</li>
+</ul>
 
-<h1 id="better-is-worse">Better is worse</h1>
-<p><br />It was already night when the group got close to the new dorm. There was a campfire beside one of the watch towers on the path. The man guarding it waved for them to stop.<br />
-Bar rolled down the window “What’s the matter? Emergency?”
-<br />“Umm..Yeah Kinda. Listen up, a convoy just passed me, almost everyone drunk.”
-<br />“Drunk? What are you saying?” Chan questioned.
-<br />“I know. So this is the news. Politician Rob’s son has passed away. This just broke out. You people look well educated, you know he was the main proponent of the experiment that went horribly wrong and caused this mess.”
-<br />“So they were out celebrating. Umm what’s the concern?” Nith asked.
-<br />“You guys know what happened the last time people were out ‘celebrating’.” the man replied.
-<br />“Aight. We got the message. Thanks. And stay safe.” Bar knew what was going to happen.
-<br />Su banged his head against the dashboard, and gasped. “I don’t wanna change dorms again.”
-<br />Bar calmed him down, and pointed to the front. They had reached the dorm’s gate. <br />But it was barely recognizable, sprawling with cheerful people crowding the road, screaming and laughing. Some were going out, some were going in, but all of them had booze in their hands, and were clearly drunk.
-<br />“Aight, I think we all need to worry now. A replay of last year.” Bar mumbled.
-<br />“Jesus. Fuck! We need to evacuate. Get your things and let’s rendezvous in 10 minutes. Go go go!” Chan said.
-<br />
-Su reached his floor, and it was in complete chaos and disarray.<br />
-“Hey, Rob’s son has died!”<br />
-“That son of a bitch is deaaad!”<br />
-“Oh yeahhh!”<br />
-“Time for drinks!”<br />
-“Hey Su, come on, where are you going? Join us, let’s get drunk and play cards, huh?”
-<br />Su ignored everyone and rushed to his room. Mags was in there, and he seemed to be in a rush as well.
-<br />“Yo, heard the news?” Su asked.
-<br />“Yeah, Rob’s son is dead, right? Hahahaha. The infected got him. But hey, look man, I think I need to get some of the stuff, man.” Mags seemed anxious.
-<br />“Cocaaaiinaa?”Su asked, knowing the answer.
-<br />“Yeah, man. The F2 variant. I know you’ve stashed it somewhere here. Please man, I wanna relax.” Mags groaned.
-<br />“But why the F2? Dude, that’s a protected resource. I can’t give that. Besides, I donno where I’ve stashed it.” Su was uncomfortable.
-<br />Mash got up and started searching the room without Su’s consent.
-<br />“Dude! Where is it? Aaaahh! Where is it, where is it, where is it?” Mags was getting cranky.
-<br />Su knew something was wrong. He saw outside his room that Mags’ shoes were dirty. He had been outside. God knew what happened. Su was almost done packing his stuff.<br />
-Outside the dorm, somwhere Downtown, some people saw the death as an opportunity to start a riot. They took to the streets, breaking the windows of stores, plundering and hooting and getting drunk.<br />
-Maybe, just maybe they were making too much of a sound. Maybe, one of them had some ‘Cocaaiina’ in their backpack. Maybe that gave off a scent a tad too strong, a tad too long.<br />Maybe it looked like an invitation for the infected. Maybe these people weren’t prepared for an attack.</p>
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+  <li>Java Development Kit (JDK) installed.</li>
+  <li>Basic understanding of file handling in Java (<code class="language-plaintext highlighter-rouge">BufferedReader</code>, <code class="language-plaintext highlighter-rouge">BufferedWriter</code>).</li>
+  <li>Familiarity with SHA-256 hashing in Java.</li>
+</ul>
 
-<p>Back at the dorm, Su was now done packing, and he set out to the door, and asked Mags to tag along.
-<br />Mags was now acting hysterical, and denied to come with him, and demanded that Su give him some of that goodness.
-<br />Su noticed a scar on Mags’ neck when he turned around.
-Su, now scared, said “Hey, you’re my brother. But if you don’t wanna come with me, it’s fine.<br /> I’m going, bye.”<br />
-Mags now growled like a dog; his face had gotten slightly disfigured; he quietly bolted the door and advanced towards Su.</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="other" /><category term="Fiction" /><summary type="html"><![CDATA[What gets ‘em high? “We’re trying to shoot them down?” Su asked. “That does nothing” the General scoffed. He continued, “We need to blow ‘em up. That’s our only shot.” “And how do we do that” Su was thinking out loud. “Bait and switch. We fill up the bunkers with their “fix”.” “Coke? The F2 variant?” Su knew the plan. “What else? Anyway, they go in, we close the doors, we blow ‘em up. Easy. Watch.” Hordes of the infected charge into the bunker, grinning and howling. Not long before the entire bunker blows up. “Alright, I’ve gotta do the same at camp Zero. Remember the training.” the General got on his chopper and it took off. The pilot smirked at Su in a weird way before he got on the chopper. “WAIT! THE PILOT’S INFECTED! HE’S GONNA KILL THE GENERAL!” Su shouted at the top of his voice, picked up an Rpg and shot the chopper down. The General magically appeared beside him, and said “You stupid son of a” “Nap time’s over. Wake up buddy” Bar said. Su had been dreaming again. Dreaming of his training. Yet another dream horribly gone wrong ever since he aced the training. “Hey. Wake up. We’re almost there.” Chan was waking up Nith. The mission Su, Bar, Chan and Nith were on a weapons salvage mission. The simplest one, albeit a tricky one, since they were embarking when daylight was almost over. They were at their old dorm, to pick up a crate containing explosives. They didn’t have time during the ‘evacuation’, fighting off their friends who had just gotten infected. The whole dorm was a mess when they left, body parts flailing and blood squirting out of the bites their beloved friends left. They had no choice but to leave the weapons and all other supplies behind. Just send another crew on an errand mission to get it for them, right? Ironically, the command chose them to clean up their own mess. “Quick getaway, alright? No messing around. Just waltz in there, collect the crate, sprint your ass back here. We’ll be out of here in a minute.” Bar was the driver, and in charge of the mission. “Yea, mission detail was very clear. Pick up the crate, shake hands with our pals waiting for us, deliver their ‘present’ to you” Nith retorted. “I don’t like this place one bit.” “Neither do we. Just make it quick.” Chan was the peace keeper of the crew. Su and Nith reached the room that contained the explosives and began sifting through the mess to find usable ammunition. And there he was, Sam, sitting on his couch, right in front of Su, smoking one of the last cigars, grinning. “Whoa, whoa, who do we have here? Hey Sam, how’s it going?” Su remarked in surprise. Sam, whose only last shred of consciousness was aiming at Su’s neck charged towards him in excitement. “Whoa, hold your horses boy. Down. Down.” Su quietly said.]]></summary></entry><entry><title type="html">DUTY</title><link href="http://localhost:4000/other/2018/01/11/duty.html" rel="alternate" type="text/html" title="DUTY" /><published>2018-01-11T06:34:49+00:00</published><updated>2018-01-11T06:34:49+00:00</updated><id>http://localhost:4000/other/2018/01/11/duty</id><content type="html" xml:base="http://localhost:4000/other/2018/01/11/duty.html"><![CDATA[<h1 id="somewhere-in-a-snowy-part-of-the-world">Somewhere in a snowy part of the world</h1>
-<p>K was listless. All his pals were fatigued. <br />The squad was still wading through
-the snow on foot with their commander aboard the ATV, and the rest of the patrol followed suit.
-Sun was just about to rise, so that was a relief. The chilly blizzard was eventually going to subside.<br />
-“Ten more minutes to civilization!” one of the soldiers yelled.<br />
-“Aight let’s stay frosty” replied K.<br />
-“Pun?” asked his pal.<br />
-“That’s all I got now.” K retorted with disdain.<br />
-This was a simple infiltration mission, no hostiles expected on their way; the only enemy was the blizzard and the snow.<br />
-The squad still had to remain stealthy, orders from the commander. Their vision was extremely limited, thanks to the weather.
-<br />“I see houses” K shouted.
-<br />“Dang it, we couldn’t see shit till we’re 20 feet away?” said J.
-<br />“Good lord, where is everyone? There’s no people and all the doors are unlocked!” exclaimed P.
-<br />“Bingo! Let’s use the houses to move, get in, get out through the back doors. We’ll have cover, and we’ll have heat.” K directed.
-<br />“No, brother. We need to get there ASAP. No time to dally. Bear the cold for a few more minutes, would ya? We’re almost there” ordered his commander.
-<br />“Makes sense” said K. “Aight people, straight ahead. Let’s keep going.”
-As they made their way into the town for about 20 minutes, the blizzard got worse. Echo Squad was left blind as bats.
-<br />U saw something. “Wait a minute, Halt! Take cover! Y and F are dead! They’ve been shot. Looks like a sniper! Watch out.”
-The squad quickly took cover, and as they proceeded to move with caution, 3 others were shot in the head.
-<br />“Holy cow! What’s happening?” P was scared.
-<br /> 2 more of them got shot  right infront of them.
-<br />“We’ve got to keep going as fast as possible. Run, so we don’t give them the time to aim. Run!” the Commander shouted at the top of his voice.
-<br />K knew something was sketchy about this.
-<br />“They’re using a drone to spot us. Heat signatures.” K whispered to P.
-<br />“Doesn’t make sense. It’s our airspace.” P answered.
-<br />“I know. Listen, follow me.” K insisted as he cut through to the side with P. They made their way around, running as quietly as possible. They eventually entered an abandoned robot manufacturing plant, and continued to run to the other side.
-<br />“Holy molly, get down NOW! 12 O’ clock!” P said in a frantic tone.
-<br />They spotted 2 enemy snipers camping on the first floor.
-<br />“There’s definitely more of them. I hear radio chatter. They’re spread out all over the area.” P whispered.
-<br />“There’s no way our patrol can make it through. We’ve gotta take them all out.” K infered.
-<br />P continued, “Affirmative. These 2 first. On my mark. 3…2… “
-Before they took the shot, the snipers got their heads blown out from the side. All P and K could hear were more suppressed rifles going off further to their right.
-<br />“Not our squad. What the fuck is going on?” K exclaimed.
-<br />One of the snipers got lucky, and retaliated. The gunshots were now loud and clear. K and P took cover and just listened with panic. There was a big shoot out for a while, and then the sounds stopped.
-<br />As K and P got up the ladder to take a look, detonators set off simulatenously, making a huge noise, and mangling the bodies.
-<br />“Our guests wanted to make sure everyone’s dead. I believe they’ve left.”
-<br />K and P took snipers from a corpse and looked for them. They could see an ATV speed away at a distance.<br />
-It then stopped briefly, and their commander got into it, and then it vanished into the snow.
-<br />After a few minutes of deliberation, K realized what was happening.
-<br />“They’re making it seem like a war has been started.”
-<br />“What do you mean? We’re already in war” P was confused.
-<br />“It has just aggravated. Now this will be a whole different war. <b>We’ve started a bigger one.</b>
-<br />And someone’s gonna use this to keep all the eyes away from something else, something much bigger than this.”</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="other" /><category term="SpyGame" /><category term="Fiction" /><summary type="html"><![CDATA[Somewhere in a snowy part of the world K was listless. All his pals were fatigued. The squad was still wading through the snow on foot with their commander aboard the ATV, and the rest of the patrol followed suit. Sun was just about to rise, so that was a relief. The chilly blizzard was eventually going to subside. “Ten more minutes to civilization!” one of the soldiers yelled. “Aight let’s stay frosty” replied K. “Pun?” asked his pal. “That’s all I got now.” K retorted with disdain. This was a simple infiltration mission, no hostiles expected on their way; the only enemy was the blizzard and the snow. The squad still had to remain stealthy, orders from the commander. Their vision was extremely limited, thanks to the weather. “I see houses” K shouted. “Dang it, we couldn’t see shit till we’re 20 feet away?” said J. “Good lord, where is everyone? There’s no people and all the doors are unlocked!” exclaimed P. “Bingo! Let’s use the houses to move, get in, get out through the back doors. We’ll have cover, and we’ll have heat.” K directed. “No, brother. We need to get there ASAP. No time to dally. Bear the cold for a few more minutes, would ya? We’re almost there” ordered his commander. “Makes sense” said K. “Aight people, straight ahead. Let’s keep going.” As they made their way into the town for about 20 minutes, the blizzard got worse. Echo Squad was left blind as bats. U saw something. “Wait a minute, Halt! Take cover! Y and F are dead! They’ve been shot. Looks like a sniper! Watch out.” The squad quickly took cover, and as they proceeded to move with caution, 3 others were shot in the head. “Holy cow! What’s happening?” P was scared. 2 more of them got shot right infront of them. “We’ve got to keep going as fast as possible. Run, so we don’t give them the time to aim. Run!” the Commander shouted at the top of his voice. K knew something was sketchy about this. “They’re using a drone to spot us. Heat signatures.” K whispered to P. “Doesn’t make sense. It’s our airspace.” P answered. “I know. Listen, follow me.” K insisted as he cut through to the side with P. They made their way around, running as quietly as possible. They eventually entered an abandoned robot manufacturing plant, and continued to run to the other side. “Holy molly, get down NOW! 12 O’ clock!” P said in a frantic tone. They spotted 2 enemy snipers camping on the first floor. “There’s definitely more of them. I hear radio chatter. They’re spread out all over the area.” P whispered. “There’s no way our patrol can make it through. We’ve gotta take them all out.” K infered. P continued, “Affirmative. These 2 first. On my mark. 3…2… “ Before they took the shot, the snipers got their heads blown out from the side. All P and K could hear were more suppressed rifles going off further to their right. “Not our squad. What the fuck is going on?” K exclaimed. One of the snipers got lucky, and retaliated. The gunshots were now loud and clear. K and P took cover and just listened with panic. There was a big shoot out for a while, and then the sounds stopped. As K and P got up the ladder to take a look, detonators set off simulatenously, making a huge noise, and mangling the bodies. “Our guests wanted to make sure everyone’s dead. I believe they’ve left.” K and P took snipers from a corpse and looked for them. They could see an ATV speed away at a distance. It then stopped briefly, and their commander got into it, and then it vanished into the snow. After a few minutes of deliberation, K realized what was happening. “They’re making it seem like a war has been started.” “What do you mean? We’re already in war” P was confused. “It has just aggravated. Now this will be a whole different war. We’ve started a bigger one. And someone’s gonna use this to keep all the eyes away from something else, something much bigger than this.”]]></summary></entry><entry><title type="html">Lightning</title><link href="http://localhost:4000/other/2016/07/23/lightning.html" rel="alternate" type="text/html" title="Lightning" /><published>2016-07-23T00:00:00+01:00</published><updated>2016-07-23T00:00:00+01:00</updated><id>http://localhost:4000/other/2016/07/23/lightning</id><content type="html" xml:base="http://localhost:4000/other/2016/07/23/lightning.html"><![CDATA[<h1 id="game">Game</h1>
+<h3 id="how-to-run">How to Run</h3>
+<ol>
+  <li>Clone the repository.</li>
+  <li>Open the project in your preferred Java IDE.</li>
+  <li>Run the program, which generates jokes, writes them to a file, and compares their SHA-256 hash codes.</li>
+  <li>Observe the output of the two jokes with the highest match score.</li>
+</ol>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Space Shooter Game</title><link href="http://localhost:4000/games/2023/05/11/space-shooter.html" rel="alternate" type="text/html" title="Space Shooter Game" /><published>2023-05-11T00:00:00+01:00</published><updated>2023-05-11T00:00:00+01:00</updated><id>http://localhost:4000/games/2023/05/11/space-shooter</id><content type="html" xml:base="http://localhost:4000/games/2023/05/11/space-shooter.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/SpaceShooter" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+</div>
+
+<h1 id="space-shooter-game">Space Shooter Game</h1>
+<p>Space Shooter Game is a retro-style 2D shooter where the player controls a spaceship and shoots incoming meteors. This project was developed using Processing during the first year of my university studies.</p>
+
+<div style="text-align: center;">
+  <img src="/images/space_shooter_2.png" alt="Space Shooter Screenshot" />
+</div>
+<hr />
+
+<h2 id="features">Features</h2>
+<ul>
+  <li><strong>Spaceship Controls</strong>: Move the spaceship using the arrow keys (left, right, up, down) and shoot lasers with the space bar.</li>
+  <li><strong>Retro-style Sound</strong>: Background music and sound effects for shooting and collisions create an immersive experience.</li>
+  <li><strong>Score and Lives</strong>: Players start with 3 lives and earn points by destroying meteors. Game over occurs when all lives are lost.</li>
+  <li><strong>Random Meteor Generation</strong>: Meteors spawn randomly and increase the challenge over time.</li>
+</ul>
+
+<h2 id="game-mechanics">Game Mechanics</h2>
+<ul>
+  <li>Control the spaceship using the arrow keys to dodge meteors and press the space bar to shoot.</li>
+  <li>Earn points by shooting meteors. Each destroyed meteor gives 10 points.</li>
+  <li>The player has 3 lives. Collisions with meteors reduce lives, and when lives reach zero, the game is over.</li>
+</ul>
+
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+  <li>Processing IDE to run the code file</li>
+</ul>
+
+<div style="text-align: center;">
+  <img src="/images/space_shooter_1.png" alt="Space Shooter Screenshot" />
+</div>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Lightning</title><link href="http://localhost:4000/other/2016/07/23/lightning.html" rel="alternate" type="text/html" title="Lightning" /><published>2016-07-23T00:00:00+01:00</published><updated>2016-07-23T00:00:00+01:00</updated><id>http://localhost:4000/other/2016/07/23/lightning</id><content type="html" xml:base="http://localhost:4000/other/2016/07/23/lightning.html"><![CDATA[<h1 id="game">Game</h1>
 <p>As incessant rains lashed out on the village, the game reached the final round.
 Tensions soared, concentration peaked and minds were doing a zillion calculations every second.
 All the roads were over a feet deep in water, and one could find the reflections of the midnight moon in the waters.

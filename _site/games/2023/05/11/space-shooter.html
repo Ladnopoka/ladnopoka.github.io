@@ -19,7 +19,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; style-src-elem 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://cdnb.artstation.com https://cdna.artstation.com;">
 -->
   <title>
-    ScreenTime LockScreen - Ladno Developer Portfolio
+    Space Shooter Game - Ladno Developer Portfolio
     
   </title>
 
@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/android/2023/09/03/screen-time.html">
+  <link rel="canonical" href="http://localhost:4000/games/2023/05/11/space-shooter.html">
   <link rel="alternate" type="application/rss+xml" title="Ladno Developer Portfolio" href="/feed.xml">
 </head>
 
@@ -96,7 +96,7 @@
 -->
 
 
-<header title="Header images by artstation.com/dtmayer" class="masthead" style="background-image: url('http://localhost:4000/images/background2_shortened.jpg')">
+<header title="Header images by artstation.com/dtmayer" class="masthead" style="background-image: url('http://localhost:4000/images/space_shooter_1.png')">
 
   <div class="overlay"></div>
   <div class="container">
@@ -105,7 +105,7 @@
         <div class="page-heading">
           <!-- Set specific title and subheading for "Connect" section -->
           
-            <h1>ScreenTime LockScreen</h1>
+            <h1>Space Shooter Game</h1>
           
           
             <span class="subheading"></span>
@@ -113,9 +113,9 @@
           
             <div class="languages-right">
               
-                <span class="language language-kotlin">Kotlin</span>
+                <span class="language language-processing">Processing</span>
               
-                <span class="language language-android">Android</span>
+                <span class="language language-java">Java</span>
               
             </div>
           
@@ -130,28 +130,40 @@
     <div class="col-lg-10 col-md-10 mx-auto post-body">
 
       <div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
-  <a href="https://github.com/Ladnopoka/ScreenTime_LockScreen" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+  <a href="https://github.com/Ladnopoka/SpaceShooter" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
-<h1 id="screentime-lockscreen">ScreenTime LockScreen</h1>
-<p>ScreenTime LockScreen is an Android application that provides a custom lock screen experience and displays your total screen time on your applicatoins. This project uses Jetpack Compose for the UI and includes a full-screen activity that overlays the default lock screen.</p>
+<h1 id="space-shooter-game">Space Shooter Game</h1>
+<p>Space Shooter Game is a retro-style 2D shooter where the player controls a spaceship and shoots incoming meteors. This project was developed using Processing during the first year of my university studies.</p>
+
+<div style="text-align: center;">
+  <img src="/images/space_shooter_2.png" alt="Space Shooter Screenshot" />
+</div>
+<hr />
 
 <h2 id="features">Features</h2>
 <ul>
-  <li>Displays one of three random background images when the screen turns on.</li>
-  <li>Custom text displayed over the background image.</li>
-  <li>Full-screen activity that mimics a lock screen.</li>
-  <li>Customizable UI with Jetpack Compose.</li>
-  <li>Handles screen-on events to show the custom lock screen.</li>
+  <li><strong>Spaceship Controls</strong>: Move the spaceship using the arrow keys (left, right, up, down) and shoot lasers with the space bar.</li>
+  <li><strong>Retro-style Sound</strong>: Background music and sound effects for shooting and collisions create an immersive experience.</li>
+  <li><strong>Score and Lives</strong>: Players start with 3 lives and earn points by destroying meteors. Game over occurs when all lives are lost.</li>
+  <li><strong>Random Meteor Generation</strong>: Meteors spawn randomly and increase the challenge over time.</li>
 </ul>
 
-<h3 id="prerequisites">Prerequisites</h3>
+<h2 id="game-mechanics">Game Mechanics</h2>
 <ul>
-  <li>Android Studio (latest version recommended)</li>
-  <li>Kotlin programming language knowledge</li>
-  <li>Basic understanding of Jetpack Compose</li>
-  <li>A device or emulator running Android 5.0 (Lollipop, API 21) or higher</li>
+  <li>Control the spaceship using the arrow keys to dodge meteors and press the space bar to shoot.</li>
+  <li>Earn points by shooting meteors. Each destroyed meteor gives 10 points.</li>
+  <li>The player has 3 lives. Collisions with meteors reduce lives, and when lives reach zero, the game is over.</li>
 </ul>
+
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+  <li>Processing IDE to run the code file</li>
+</ul>
+
+<div style="text-align: center;">
+  <img src="/images/space_shooter_1.png" alt="Space Shooter Screenshot" />
+</div>
 
       <!-- Code for icon that copies the page link
       <div class="tooltipcontainer">
@@ -169,10 +181,10 @@
       <div class="clearfix">
 
         
-        <a class="btn btn-primary float-left" href="//software/2023/09/01/soviet-joke-generator.html" data-toggle="tooltip" data-placement="top" title="Soviet Russia Joke Generator">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
+        <a class="btn btn-primary float-left" href="//other/2016/07/23/lightning.html" data-toggle="tooltip" data-placement="top" title="Lightning">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
         
         
-        <a class="btn btn-primary float-right" href="//games/2023/10/01/combat-clicker.html" data-toggle="tooltip" data-placement="top" title="Combat Clicker">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+        <a class="btn btn-primary float-right" href="//software/2023/09/01/soviet-joke-generator.html" data-toggle="tooltip" data-placement="top" title="Soviet Russia Joke Generator">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
         
 
       </div>

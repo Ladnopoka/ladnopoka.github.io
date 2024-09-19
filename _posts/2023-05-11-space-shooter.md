@@ -18,6 +18,11 @@ languages:
 # Space Shooter Game
 Space Shooter Game is a retro-style 2D shooter where the player controls a spaceship and shoots incoming meteors. This project was developed using Processing during the first year of my university studies.
 
+<div style="text-align: center;">
+  <img src="/images/space_shooter_2.png" alt="Space Shooter Screenshot" />
+</div>
+<hr>
+
 ## Features
 - **Spaceship Controls**: Move the spaceship using the arrow keys (left, right, up, down) and shoot lasers with the space bar.
 - **Retro-style Sound**: Background music and sound effects for shooting and collisions create an immersive experience.
@@ -28,9 +33,10 @@ Space Shooter Game is a retro-style 2D shooter where the player controls a space
 - Control the spaceship using the arrow keys to dodge meteors and press the space bar to shoot.
 - Earn points by shooting meteors. Each destroyed meteor gives 10 points.
 - The player has 3 lives. Collisions with meteors reduce lives, and when lives reach zero, the game is over.
-- The game features background music and sound effects to enhance the experience.
 
 ## Prerequisites
-- Processing IDE (latest version recommended)
-- Basic understanding of Processing and Java
-- Familiarity with 2D game mechanics
+- Processing IDE to run the code file
+
+<div style="text-align: center;">
+  <img src="/images/space_shooter_1.png" alt="Space Shooter Screenshot" />
+</div>

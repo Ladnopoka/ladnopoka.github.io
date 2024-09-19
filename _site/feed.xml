@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-19T23:18:46+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ladno Developer Portfolio</title><subtitle>Software and Games</subtitle><author><name>Jevgenij Ivanov</name></author><entry><title type="html">Dungeon Forge</title><link href="http://localhost:4000/software/2024/03/26/dungeon-forge.html" rel="alternate" type="text/html" title="Dungeon Forge" /><published>2024-03-26T00:00:00+00:00</published><updated>2024-03-26T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/03/26/dungeon-forge</id><content type="html" xml:base="http://localhost:4000/software/2024/03/26/dungeon-forge.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-19T23:51:27+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ladno Developer Portfolio</title><subtitle>Software and Games</subtitle><author><name>Jevgenij Ivanov</name></author><entry><title type="html">Dungeon Forge</title><link href="http://localhost:4000/software/2024/03/26/dungeon-forge.html" rel="alternate" type="text/html" title="Dungeon Forge" /><published>2024-03-26T00:00:00+00:00</published><updated>2024-03-26T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/03/26/dungeon-forge</id><content type="html" xml:base="http://localhost:4000/software/2024/03/26/dungeon-forge.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/Godot-room-generator-plugin" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
@@ -279,12 +279,17 @@ When the playlists are generated, they are added to your Spotify account, howeve
   <li>Open the project in your preferred Java IDE.</li>
   <li>Run the program, which generates jokes, writes them to a file, and compares their SHA-256 hash codes.</li>
   <li>Observe the output of the two jokes with the highest match score.</li>
-</ol>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Space Shooter Game</title><link href="http://localhost:4000/games/2018/01/11/duty.html" rel="alternate" type="text/html" title="Space Shooter Game" /><published>2018-01-11T00:00:00+00:00</published><updated>2018-01-11T00:00:00+00:00</updated><id>http://localhost:4000/games/2018/01/11/duty</id><content type="html" xml:base="http://localhost:4000/games/2018/01/11/duty.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+</ol>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Space Shooter Game</title><link href="http://localhost:4000/games/2023/05/11/space-shooter.html" rel="alternate" type="text/html" title="Space Shooter Game" /><published>2023-05-11T00:00:00+01:00</published><updated>2023-05-11T00:00:00+01:00</updated><id>http://localhost:4000/games/2023/05/11/space-shooter</id><content type="html" xml:base="http://localhost:4000/games/2023/05/11/space-shooter.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/SpaceShooter" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
 <h1 id="space-shooter-game">Space Shooter Game</h1>
 <p>Space Shooter Game is a retro-style 2D shooter where the player controls a spaceship and shoots incoming meteors. This project was developed using Processing during the first year of my university studies.</p>
+
+<div style="text-align: center;">
+  <img src="/images/space_shooter_2.png" alt="Space Shooter Screenshot" />
+</div>
+<hr />
 
 <h2 id="features">Features</h2>
 <ul>
@@ -299,15 +304,16 @@ When the playlists are generated, they are added to your Spotify account, howeve
   <li>Control the spaceship using the arrow keys to dodge meteors and press the space bar to shoot.</li>
   <li>Earn points by shooting meteors. Each destroyed meteor gives 10 points.</li>
   <li>The player has 3 lives. Collisions with meteors reduce lives, and when lives reach zero, the game is over.</li>
-  <li>The game features background music and sound effects to enhance the experience.</li>
 </ul>
 
 <h2 id="prerequisites">Prerequisites</h2>
 <ul>
-  <li>Processing IDE (latest version recommended)</li>
-  <li>Basic understanding of Processing and Java</li>
-  <li>Familiarity with 2D game mechanics</li>
-</ul>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Lightning</title><link href="http://localhost:4000/other/2016/07/23/lightning.html" rel="alternate" type="text/html" title="Lightning" /><published>2016-07-23T00:00:00+01:00</published><updated>2016-07-23T00:00:00+01:00</updated><id>http://localhost:4000/other/2016/07/23/lightning</id><content type="html" xml:base="http://localhost:4000/other/2016/07/23/lightning.html"><![CDATA[<h1 id="game">Game</h1>
+  <li>Processing IDE to run the code file</li>
+</ul>
+
+<div style="text-align: center;">
+  <img src="/images/space_shooter_1.png" alt="Space Shooter Screenshot" />
+</div>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Lightning</title><link href="http://localhost:4000/other/2016/07/23/lightning.html" rel="alternate" type="text/html" title="Lightning" /><published>2016-07-23T00:00:00+01:00</published><updated>2016-07-23T00:00:00+01:00</updated><id>http://localhost:4000/other/2016/07/23/lightning</id><content type="html" xml:base="http://localhost:4000/other/2016/07/23/lightning.html"><![CDATA[<h1 id="game">Game</h1>
 <p>As incessant rains lashed out on the village, the game reached the final round.
 Tensions soared, concentration peaked and minds were doing a zillion calculations every second.
 All the roads were over a feet deep in water, and one could find the reflections of the midnight moon in the waters.

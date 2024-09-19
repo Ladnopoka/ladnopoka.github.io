@@ -1,0 +1,93 @@
+I"�<hr />
+<p>title: Combat Clicker
+layout: post
+background: images/combat-clicker-background.png
+subtitle: Combat Clicker is a browser-based, turn-based game where you face off against a cunning rat warrior. Outthink and outmaneuver the rat to claim victory!
+category: games
+—</p>
+
+<h1 id="overview">Overview</h1>
+<p><strong>Combat Clicker</strong> is a browser-based, turn-based game where you face off against a cunning rat warrior. Your goal is simple: get lucky and guess the right option to defeat the rat! The game features a mix of attack and defense options, requiring players to choose where to strike and where to defend.</p>
+
+<h1 id="game-presentation">Game Presentation</h1>
+<p>Project presentation video where I showcase the game and my teammate covers the work on the game menus, click on the image to see:
+<a href="https://www.youtube.com/watch?v=Mptg1MEHPik"><img src="https://img.youtube.com/vi/Mptg1MEHPik/maxresdefault.jpg" alt="Watch the video" /></a></p>
+
+<h1 id="how-to-play">How to Play</h1>
+<ol>
+  <li>Select the positions where to attack the Rat Warrior.</li>
+  <li>Defend two positions from attacks of the Rat Warrior.</li>
+  <li>Observe the Combat Log and try to win!</li>
+</ol>
+
+<h3 id="choose-your-attack">Choose Your Attack:</h3>
+<ul>
+  <li>Pick <strong>2 out of 5 possible attack positions</strong>:
+    <ul>
+      <li>Head</li>
+      <li>Body</li>
+      <li>Legs</li>
+      <li>Arms</li>
+      <li>Waist</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="defend-against-the-rat-warrior">Defend Against the Rat Warrior:</h3>
+<ul>
+  <li>The rat will retaliate! You must guess where it will strike and choose <strong>2 out of 5 positions</strong> to defend:
+    <ul>
+      <li>Head</li>
+      <li>Body</li>
+      <li>Legs</li>
+      <li>Arms</li>
+      <li>Waist</li>
+    </ul>
+  </li>
+  <li>If you guess correctly, you block the damage; if not, you’ll take a hit.</li>
+</ul>
+
+<h3 id="combat-log">Combat Log:</h3>
+<ul>
+  <li>The game features a <strong>combat log</strong> that keeps track of all the damage dealt and received during the fight.</li>
+  <li>It’s a great way to see how well you’re doing.</li>
+</ul>
+
+<h1 id="features">Features</h1>
+<ul>
+  <li><strong>Turn-based combat</strong>: Alternate between attacking and defending in each round.</li>
+  <li><strong>Strategic decision-making</strong>: Carefully choose your attack and defense points based on your predictions of the rat warrior’s moves.</li>
+  <li><strong>Combat log</strong>: Stay informed with a detailed log that records every hit, miss, and block.</li>
+</ul>
+
+<h1 id="in-development">In Development</h1>
+<ul>
+  <li>Improving AI mechanics for the rat warrior</li>
+  <li>Expanding attack/defense strategies</li>
+  <li>Creating different levels with unique enemies</li>
+  <li>Possible leaderboard integration</li>
+</ul>
+
+<h1 id="controls">Controls</h1>
+<ul>
+  <li><strong>Select Attack and Defense</strong>: Mouse clicks <br /></li>
+</ul>
+
+<h1 id="installation">Installation</h1>
+<ol>
+  <li>Open the game directly in your browser from the GitHub Pages or download it.</li>
+  <li>Extract the downloaded files (if applicable).</li>
+  <li>Run the game and start your battle against the rat warrior!</li>
+</ol>
+
+<h1 id="contact">Contact</h1>
+<h5 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h5>
+
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: Ladno#3352</p>
+:ET

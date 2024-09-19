@@ -106,237 +106,342 @@
         <button class="btn btn-primary active" onclick="filterProjects(event, 'all')">All (10)</button>
         <button class="btn btn-primary" onclick="filterProjects(event, 'software')">Software (2)</button>
         <button class="btn btn-primary" onclick="filterProjects(event, 'games')">Games (2)</button>
-        <button class="btn btn-primary" onclick="filterProjects(event, 'android')">Android (0)</button>
-        <button class="btn btn-primary" onclick="filterProjects(event, 'other')">Other (6)</button>
+        <button class="btn btn-primary" onclick="filterProjects(event, 'android')">Android (1)</button>
+        <button class="btn btn-primary" onclick="filterProjects(event, 'other')">Other (5)</button>
       </div>
 </div>
 
-      <!-- Home Post List -->
-      <div id="projects-list">
-        
-        <article class="post-preview" data-category="software">
-          <a href="/software/2024/03/26/dungeon-forge.html">
-            <div class="post-container">
-              <div class="post-img-container" title="Image by ">
-                <img class="post-img" src="images/dungeon_background.png">
-              </div>
-              <div class="post-text">
-                <div class="post-text-header">
-                  <h2 class="post-title">Dungeon Forge</h2>
-                  <p class="post-meta">
-                    March 26, 2024
-                  </p>
-                </div>
-                
-                <h3 class="post-subtitle">Godot 4 extension plugin that allows users to generate dungeon-like layouts in their scenes with a click of a button.</h3>
-                
-              </div>
+<!-- Home Post List -->
+<div id="projects-list">
+  
+  <article class="post-preview" data-category="software">
+    <a href="/software/2024/03/26/dungeon-forge.html">
+      <div class="post-container">
+        <div class="post-img-container" title="Image by ">
+          <img class="post-img" src="images/dungeon_background.png">
+        </div>
+        <div class="post-text">
+          <div class="post-text-header">
+            <h2 class="post-title">
+              Dungeon Forge
+            </h2>
+            <!-- Removed post date, and added languages -->
+            
+            <div class="languages-right">
+              
+              <span class="language language-gdscript">GDScript</span>
+              
+              <span class="language language-godot">Godot</span>
+              
+              <span class="language language-blender">Blender</span>
+              
             </div>
-          </a>
-        </article>
-        <hr>
-        
-        <article class="post-preview" data-category="software">
-          <a href="/software/2024/01/12/spotify-playlist-enhancer.html">
-            <div class="post-container">
-              <div class="post-img-container" title="Image by ">
-                <img class="post-img" src="images/spotify-logo.png">
-              </div>
-              <div class="post-text">
-                <div class="post-text-header">
-                  <h2 class="post-title">Spotify Playlist Enhancer</h2>
-                  <p class="post-meta">
-                    January 12, 2024
-                  </p>
-                </div>
-                
-                <h3 class="post-subtitle">Google Chrome Extension that allows users to authenticate their Spotify account, view their top 5 played tracks, get top 5 recommended tracks, and generate new playlists based on these tracks, all within the browser. Play these songs inside the extension right there and now.</h3>
-                
-              </div>
-            </div>
-          </a>
-        </article>
-        <hr>
-        
-        <article class="post-preview" data-category="games">
-          <a href="/games/2023/10/02/slayer.html">
-            <div class="post-container">
-              <div class="post-img-container" title="Image by ">
-                <img class="post-img" src="images/slayer-image.png">
-              </div>
-              <div class="post-text">
-                <div class="post-text-header">
-                  <h2 class="post-title">Slayer</h2>
-                  <p class="post-meta">
-                    October 02, 2023
-                  </p>
-                </div>
-                
-                <h3 class="post-subtitle">Slayer is an exciting top-down isometric roguelike game that immerses players in a world of strategic combat and character progression. Choose from three distinct classes—Mage, Barbarian, and Rogue—and embark on thrilling adventures, battling fierce enemies and mastering powerful abilities.</h3>
-                
-              </div>
-            </div>
-          </a>
-        </article>
-        <hr>
-        
-        <article class="post-preview" data-category="games">
-          <a href="/games/2022/03/22/combat-clicker.html">
-            <div class="post-container">
-              <div class="post-img-container" title="Image by ">
-                <img class="post-img" src="games/combat_clicker/public/Other_Images/battle.jpg">
-              </div>
-              <div class="post-text">
-                <div class="post-text-header">
-                  <h2 class="post-title">Combat Clicker</h2>
-                  <p class="post-meta">
-                    March 22, 2022
-                  </p>
-                </div>
-                
-                <h3 class="post-subtitle">Combat Clicker is a browser-based, turn-based game where you face off against a cunning rat warrior. Outthink and outmaneuver the rat to claim victory!</h3>
-                
-              </div>
-            </div>
-          </a>
-        </article>
-        <hr>
-        
-        <article class="post-preview" data-category="other">
-          <a href="/other/2018/01/28/enlightenment.html">
-            <div class="post-container">
-              <div class="post-img-container" title="Image by artstation.com/aenamiart">
-                <img class="post-img" src="https://cdnb.artstation.com/p/assets/images/images/006/170/271/large/alena-aenami-lights1k1.jpg?1496536109">
-              </div>
-              <div class="post-text">
-                <div class="post-text-header">
-                  <h2 class="post-title">Enlightenment</h2>
-                  <p class="post-meta">
-                    January 28, 2018
-                  </p>
-                </div>
-                
-                <h3 class="post-subtitle">Perspectives and Inspirations</h3>
-                
-              </div>
-            </div>
-          </a>
-        </article>
-        <hr>
-        
-        <article class="post-preview" data-category="other">
-          <a href="/other/2018/01/12/outbreak.html">
-            <div class="post-container">
-              <div class="post-img-container" title="Image by artstation.com/ricky_ho">
-                <img class="post-img" src="https://cdnb.artstation.com/p/assets/images/images/004/040/769/large/ricky-ho-zombie-alley.jpg?1479754248">
-              </div>
-              <div class="post-text">
-                <div class="post-text-header">
-                  <h2 class="post-title">Outbreak</h2>
-                  <p class="post-meta">
-                    January 12, 2018
-                  </p>
-                </div>
-                
-                <h3 class="post-subtitle">Something's wrong in the dorm.</h3>
-                
-              </div>
-            </div>
-          </a>
-        </article>
-        <hr>
-        
-        <article class="post-preview" data-category="other">
-          <a href="/other/2018/01/11/duty.html">
-            <div class="post-container">
-              <div class="post-img-container" title="Image by artstation.com/ett">
-                <img class="post-img" src="https://cdnb.artstation.com/p/assets/images/images/001/062/435/large/etienne-lamoureux-snowpartrol.jpg?1439231484">
-              </div>
-              <div class="post-text">
-                <div class="post-text-header">
-                  <h2 class="post-title">DUTY</h2>
-                  <p class="post-meta">
-                    January 11, 2018
-                  </p>
-                </div>
-                
-                <h3 class="post-subtitle">K sees the big picture</h3>
-                
-              </div>
-            </div>
-          </a>
-        </article>
-        <hr>
-        
-        <article class="post-preview" data-category="other">
-          <a href="/other/2016/07/23/lightning.html">
-            <div class="post-container">
-              <div class="post-img-container" title="Image by ">
-                <img class="post-img" src="https://cdnb.artstation.com/p/assets/images/images/005/238/073/large/nick-menez-high-01.jpg">
-              </div>
-              <div class="post-text">
-                <div class="post-text-header">
-                  <h2 class="post-title">Lightning</h2>
-                  <p class="post-meta">
-                    July 23, 2016
-                  </p>
-                </div>
-                
-                <h3 class="post-subtitle">Something in the hills</h3>
-                
-              </div>
-            </div>
-          </a>
-        </article>
-        <hr>
-        
-        <article class="post-preview" data-category="other">
-          <a href="/other/2015/09/23/the-great-destroyer.html">
-            <div class="post-container">
-              <div class="post-img-container" title="Image by artstation.com/teunvanderzalm">
-                <img class="post-img" src="https://cdna.artstation.com/p/assets/images/images/002/187/704/large/teun-van-der-zalm-ncu001-13d.jpg">
-              </div>
-              <div class="post-text">
-                <div class="post-text-header">
-                  <h2 class="post-title">The Great Destroyer</h2>
-                  <p class="post-meta">
-                    September 23, 2015
-                  </p>
-                </div>
-                
-                <h3 class="post-subtitle">Time to meet the creator.</h3>
-                
-              </div>
-            </div>
-          </a>
-        </article>
-        <hr>
-        
-        <article class="post-preview" data-category="other">
-          <a href="/other/1995/01/01/squarezero.html">
-            <div class="post-container">
-              <div class="post-img-container" title="Image by artstation.com/dtmayer">
-                <img class="post-img" src="https://cdna.artstation.com/p/assets/images/images/004/560/916/large/dominik-mayer-redmoon.jpg">
-              </div>
-              <div class="post-text">
-                <div class="post-text-header">
-                  <h2 class="post-title">Square Zero</h2>
-                  <p class="post-meta">
-                    January 01, 1995
-                  </p>
-                </div>
-                
-                <h3 class="post-subtitle">What is this?</h3>
-                
-              </div>
-            </div>
-          </a>
-        </article>
-        <hr>
-        
+            
+          </div>
+          
+          <h3 class="post-subtitle">Godot 4 extension plugin that allows users to generate dungeon-like layouts in their scenes with a click of a button.</h3>
+          
+        </div>
       </div>
-    </div>
-  </div>
+    </a>
+  </article>
+  <hr>
+  
+  <article class="post-preview" data-category="software">
+    <a href="/software/2024/01/12/spotify-playlist-enhancer.html">
+      <div class="post-container">
+        <div class="post-img-container" title="Image by ">
+          <img class="post-img" src="images/spotify-logo.png">
+        </div>
+        <div class="post-text">
+          <div class="post-text-header">
+            <h2 class="post-title">
+              Spotify Playlist Enhancer
+            </h2>
+            <!-- Removed post date, and added languages -->
+            
+            <div class="languages-right">
+              
+              <span class="language language-javascript">JavaScript</span>
+              
+              <span class="language language-html">HTML</span>
+              
+              <span class="language language-css">CSS</span>
+              
+            </div>
+            
+          </div>
+          
+          <h3 class="post-subtitle">Google Chrome Extension that allows users to authenticate their Spotify account, view their top 5 played tracks, get top 5 recommended tracks, and generate new playlists based on these tracks, all within the browser. Play these songs inside the extension right there and now.</h3>
+          
+        </div>
+      </div>
+    </a>
+  </article>
+  <hr>
+  
+  <article class="post-preview" data-category="games">
+    <a href="/games/2023/10/02/slayer.html">
+      <div class="post-container">
+        <div class="post-img-container" title="Image by ">
+          <img class="post-img" src="images/slayer-image.png">
+        </div>
+        <div class="post-text">
+          <div class="post-text-header">
+            <h2 class="post-title">
+              Slayer
+            </h2>
+            <!-- Removed post date, and added languages -->
+            
+            <div class="languages-right">
+              
+              <span class="language language-gdscript">GDScript</span>
+              
+              <span class="language language-godot">Godot</span>
+              
+              <span class="language language-blender">Blender</span>
+              
+            </div>
+            
+          </div>
+          
+          <h3 class="post-subtitle">Slayer is an exciting top-down isometric roguelike game that immerses players in a world of strategic combat and character progression. Choose from three distinct classes—Mage, Barbarian, and Rogue—and embark on thrilling adventures, battling fierce enemies and mastering powerful abilities.</h3>
+          
+        </div>
+      </div>
+    </a>
+  </article>
+  <hr>
+  
+  <article class="post-preview" data-category="games">
+    <a href="/games/2023/10/01/combat-clicker.html">
+      <div class="post-container">
+        <div class="post-img-container" title="Image by ">
+          <img class="post-img" src="games/combat_clicker/public/Other_Images/battle.jpg">
+        </div>
+        <div class="post-text">
+          <div class="post-text-header">
+            <h2 class="post-title">
+              Combat Clicker
+            </h2>
+            <!-- Removed post date, and added languages -->
+            
+            <div class="languages-right">
+              
+              <span class="language language-javascript">JavaScript</span>
+              
+              <span class="language language-html">HTML</span>
+              
+              <span class="language language-css">CSS</span>
+              
+            </div>
+            
+          </div>
+          
+          <h3 class="post-subtitle">Combat Clicker is a browser-based, turn-based game where you face off against a cunning rat warrior. Outthink and outmaneuver the rat to claim victory!</h3>
+          
+        </div>
+      </div>
+    </a>
+  </article>
+  <hr>
+  
+  <article class="post-preview" data-category="android">
+    <a href="/android/2023/09/03/screen-time.html">
+      <div class="post-container">
+        <div class="post-img-container" title="Image by ">
+          <img class="post-img" src="images/background2_shortened.jpg">
+        </div>
+        <div class="post-text">
+          <div class="post-text-header">
+            <h2 class="post-title">
+              ScreenTime LockScreen
+            </h2>
+            <!-- Removed post date, and added languages -->
+            
+            <div class="languages-right">
+              
+              <span class="language language-kotlin">Kotlin</span>
+              
+              <span class="language language-android">Android</span>
+              
+            </div>
+            
+          </div>
+          
+          <h3 class="post-subtitle">ScreenTime LockScreen is an Android application that provides a custom lock screen experience and displays your total screen time on your applicatoins.</h3>
+          
+        </div>
+      </div>
+    </a>
+  </article>
+  <hr>
+  
+  <article class="post-preview" data-category="other">
+    <a href="/other/2018/01/12/outbreak.html">
+      <div class="post-container">
+        <div class="post-img-container" title="Image by artstation.com/ricky_ho">
+          <img class="post-img" src="https://cdnb.artstation.com/p/assets/images/images/004/040/769/large/ricky-ho-zombie-alley.jpg?1479754248">
+        </div>
+        <div class="post-text">
+          <div class="post-text-header">
+            <h2 class="post-title">
+              Outbreak
+            </h2>
+            <!-- Removed post date, and added languages -->
+            
+            <div class="languages-right">
+              
+              <span class="language language-kotlin">Kotlin</span>
+              
+              <span class="language language-csharp">CSharp</span>
+              
+              <span class="language language-python">Python</span>
+              
+            </div>
+            
+          </div>
+          
+          <h3 class="post-subtitle">Something's wrong in the dorm.</h3>
+          
+        </div>
+      </div>
+    </a>
+  </article>
+  <hr>
+  
+  <article class="post-preview" data-category="other">
+    <a href="/other/2018/01/11/duty.html">
+      <div class="post-container">
+        <div class="post-img-container" title="Image by artstation.com/ett">
+          <img class="post-img" src="https://cdnb.artstation.com/p/assets/images/images/001/062/435/large/etienne-lamoureux-snowpartrol.jpg?1439231484">
+        </div>
+        <div class="post-text">
+          <div class="post-text-header">
+            <h2 class="post-title">
+              DUTY
+            </h2>
+            <!-- Removed post date, and added languages -->
+            
+            <div class="languages-right">
+              
+              <span class="language language-unity">Unity</span>
+              
+              <span class="language language-reactjs">Reactjs</span>
+              
+              <span class="language language-java">Java</span>
+              
+            </div>
+            
+          </div>
+          
+          <h3 class="post-subtitle">K sees the big picture</h3>
+          
+        </div>
+      </div>
+    </a>
+  </article>
+  <hr>
+  
+  <article class="post-preview" data-category="other">
+    <a href="/other/2016/07/23/lightning.html">
+      <div class="post-container">
+        <div class="post-img-container" title="Image by ">
+          <img class="post-img" src="https://cdnb.artstation.com/p/assets/images/images/005/238/073/large/nick-menez-high-01.jpg">
+        </div>
+        <div class="post-text">
+          <div class="post-text-header">
+            <h2 class="post-title">
+              Lightning
+            </h2>
+            <!-- Removed post date, and added languages -->
+            
+            <div class="languages-right">
+              
+              <span class="language language-processing">Processing</span>
+              
+              <span class="language language-ruby">Ruby</span>
+              
+              <span class="language language-java">Java</span>
+              
+            </div>
+            
+          </div>
+          
+          <h3 class="post-subtitle">Something in the hills</h3>
+          
+        </div>
+      </div>
+    </a>
+  </article>
+  <hr>
+  
+  <article class="post-preview" data-category="other">
+    <a href="/other/2015/09/23/the-great-destroyer.html">
+      <div class="post-container">
+        <div class="post-img-container" title="Image by artstation.com/teunvanderzalm">
+          <img class="post-img" src="https://cdna.artstation.com/p/assets/images/images/002/187/704/large/teun-van-der-zalm-ncu001-13d.jpg">
+        </div>
+        <div class="post-text">
+          <div class="post-text-header">
+            <h2 class="post-title">
+              The Great Destroyer
+            </h2>
+            <!-- Removed post date, and added languages -->
+            
+            <div class="languages-right">
+              
+              <span class="language language-gdscript">GDScript</span>
+              
+              <span class="language language-godot">Godot</span>
+              
+              <span class="language language-blender">Blender</span>
+              
+            </div>
+            
+          </div>
+          
+          <h3 class="post-subtitle">Time to meet the creator.</h3>
+          
+        </div>
+      </div>
+    </a>
+  </article>
+  <hr>
+  
+  <article class="post-preview" data-category="other">
+    <a href="/other/1995/01/01/squarezero.html">
+      <div class="post-container">
+        <div class="post-img-container" title="Image by artstation.com/dtmayer">
+          <img class="post-img" src="https://cdna.artstation.com/p/assets/images/images/004/560/916/large/dominik-mayer-redmoon.jpg">
+        </div>
+        <div class="post-text">
+          <div class="post-text-header">
+            <h2 class="post-title">
+              Square Zero
+            </h2>
+            <!-- Removed post date, and added languages -->
+            
+            <div class="languages-right">
+              
+              <span class="language language-kotlin">Kotlin</span>
+              
+              <span class="language language-csharp">CSharp</span>
+              
+              <span class="language language-python">Python</span>
+              
+            </div>
+            
+          </div>
+          
+          <h3 class="post-subtitle">What is this?</h3>
+          
+        </div>
+      </div>
+    </a>
+  </article>
+  <hr>
+  
 </div>
 
 <!-- JavaScript for Tabs -->

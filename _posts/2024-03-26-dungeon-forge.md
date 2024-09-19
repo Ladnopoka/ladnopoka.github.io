@@ -4,7 +4,19 @@ subtitle: Godot 4 extension plugin that allows users to generate dungeon-like la
 background: images/dungeon_background.png
 layout: post
 category: software
+languages: 
+  - name: GDScript
+    slug: gdscript
+  - name: Godot
+    slug: godot
+  - name: Blender
+    slug: blender
 ---
+
+<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/Godot-room-generator-plugin" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+</div>
+
 # Overview
 Dungeon Forge is a Godot 4 extension plugin that allows users to generate dungeon-like layouts in their scenes with a click of a button. This plugin opens a new window in the Godot 4 editor in the bottom right corner where users can select from three different biomes: dungeons, wooden cabins, and frozen caves. Upon selecting the gridmap generator in the menu, a new pop-up menu on the right allows users to set parameters for the dungeon layouts and then generate the layouts and meshes. Additional features include a first-person controller that allows users to explore generated dungeons, saving generated layouts, and reusing dungeons.
 

@@ -4,6 +4,13 @@ background: https://cdnb.artstation.com/p/assets/images/images/005/238/073/large
 layout: post
 subtitle: Something in the hills
 category: other
+languages: 
+  - name: Processing
+    slug: processing
+  - name: Ruby
+    slug: ruby
+  - name: Java
+    slug: java
 ---
 
 # Game

@@ -5,6 +5,13 @@ background: https://cdna.artstation.com/p/assets/images/images/002/187/704/large
 subtitle: Time to meet the creator.
 artist: artstation.com/teunvanderzalm
 category: other
+languages: 
+  - name: GDScript
+    slug: gdscript
+  - name: Godot
+    slug: godot
+  - name: Blender
+    slug: blender
 ---
 
 He was staring into absolute darkness.Nothing else, just plain void. There was no sound, no smell, no sight, no sense of  touch either. He felt weightless, spaceless. But behind him was something he didn't want to see. He knew he had finally reached his 'destiny'. And he was scared to see what the creator looked like.

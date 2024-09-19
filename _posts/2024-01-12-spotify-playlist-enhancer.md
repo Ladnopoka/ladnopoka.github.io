@@ -4,7 +4,19 @@ layout: post
 background: images/spotify-logo.png
 subtitle: Google Chrome Extension that allows users to authenticate their Spotify account, view their top 5 played tracks, get top 5 recommended tracks, and generate new playlists based on these tracks, all within the browser. Play these songs inside the extension right there and now.
 category: software
+languages: 
+  - name: JavaScript
+    slug: javascript
+  - name: HTML
+    slug: html
+  - name: CSS
+    slug: css
 ---
+
+<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/Spotify-Playlist-Enhancer" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+</div>
+
 # Overview
 Google Chrome extension which allows you to connect to Spotify API fetch songs and playlist from your Spotify account.
 This extension also allows you to retrieve your top 5 played tracks, and give you 5 recommendations based on these tracks, all with a couple of clicks through the extension UI.

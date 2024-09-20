@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-19T23:51:27+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ladno Developer Portfolio</title><subtitle>Software and Games</subtitle><author><name>Jevgenij Ivanov</name></author><entry><title type="html">Dungeon Forge</title><link href="http://localhost:4000/software/2024/03/26/dungeon-forge.html" rel="alternate" type="text/html" title="Dungeon Forge" /><published>2024-03-26T00:00:00+00:00</published><updated>2024-03-26T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/03/26/dungeon-forge</id><content type="html" xml:base="http://localhost:4000/software/2024/03/26/dungeon-forge.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-20T14:39:34+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ladno Developer Portfolio</title><subtitle>Software and Games</subtitle><author><name>Jevgenij Ivanov</name></author><entry><title type="html">Dungeon Forge</title><link href="http://localhost:4000/software/2024/03/26/dungeon-forge.html" rel="alternate" type="text/html" title="Dungeon Forge" /><published>2024-03-26T00:00:00+00:00</published><updated>2024-03-26T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/03/26/dungeon-forge</id><content type="html" xml:base="http://localhost:4000/software/2024/03/26/dungeon-forge.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/Godot-room-generator-plugin" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
 <h1 id="overview">Overview</h1>
 <p>Dungeon Forge is a Godot 4 extension plugin that allows users to generate dungeon-like layouts in their scenes with a click of a button. This plugin opens a new window in the Godot 4 editor in the bottom right corner where users can select from three different biomes: dungeons, wooden cabins, and frozen caves. Upon selecting the gridmap generator in the menu, a new pop-up menu on the right allows users to set parameters for the dungeon layouts and then generate the layouts and meshes. Additional features include a first-person controller that allows users to explore generated dungeons, saving generated layouts, and reusing dungeons.</p>
 
+<p>The demonstration of the application can be viewed below:</p>
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
     <iframe width="660" height="415" src="https://www.youtube.com/embed/dw3r8JJGyQ4?si=kLD1VK-v1A9r4Cv3" title="Dungeon Forge Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
     </iframe>
@@ -46,7 +47,7 @@
 <strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
 <strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
 <strong>X</strong>: https://x.com/Ladnopokaa <br />
-<strong>Discord</strong>: Ladno#3352</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Spotify Playlist Enhancer</title><link href="http://localhost:4000/software/2024/01/12/spotify-playlist-enhancer.html" rel="alternate" type="text/html" title="Spotify Playlist Enhancer" /><published>2024-01-12T00:00:00+00:00</published><updated>2024-01-12T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/01/12/spotify-playlist-enhancer</id><content type="html" xml:base="http://localhost:4000/software/2024/01/12/spotify-playlist-enhancer.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Spotify Playlist Enhancer</title><link href="http://localhost:4000/software/2024/01/12/spotify-playlist-enhancer.html" rel="alternate" type="text/html" title="Spotify Playlist Enhancer" /><published>2024-01-12T00:00:00+00:00</published><updated>2024-01-12T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/01/12/spotify-playlist-enhancer</id><content type="html" xml:base="http://localhost:4000/software/2024/01/12/spotify-playlist-enhancer.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/Spotify-Playlist-Enhancer" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
@@ -56,6 +57,7 @@ This extension also allows you to retrieve your top 5 played tracks, and give yo
 Finally, you can generate a Spotify playlist with the songs that were recommended to you, and play these songs inside the extension right there and now.
 When the playlists are generated, they are added to your Spotify account, however, in the extension UI, you can select to not keep the playlist if you don’t like it after listening to the recommended songs.<br /><br /></p>
 
+<p>The demonstration of the application can be viewed below:</p>
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
     <iframe width="660" height="415" src="https://www.youtube.com/embed/NTn2MuQhe8Q?si=fydHOFu14HMk2qo1" title="Spotify Playlist Enhancer Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
     </iframe>
@@ -101,13 +103,14 @@ When the playlists are generated, they are added to your Spotify account, howeve
 <strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
 <strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
 <strong>X</strong>: https://x.com/Ladnopokaa <br />
-<strong>Discord</strong>: Ladno#3352</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Slayer</title><link href="http://localhost:4000/games/2023/10/02/slayer.html" rel="alternate" type="text/html" title="Slayer" /><published>2023-10-02T00:00:00+01:00</published><updated>2023-10-02T00:00:00+01:00</updated><id>http://localhost:4000/games/2023/10/02/slayer</id><content type="html" xml:base="http://localhost:4000/games/2023/10/02/slayer.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
-  <a href="https://github.com/Ladnopoka/Godot-room-generator-plugin" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Slayer</title><link href="http://localhost:4000/games/2023/10/02/slayer.html" rel="alternate" type="text/html" title="Slayer" /><published>2023-10-02T00:00:00+01:00</published><updated>2023-10-02T00:00:00+01:00</updated><id>http://localhost:4000/games/2023/10/02/slayer</id><content type="html" xml:base="http://localhost:4000/games/2023/10/02/slayer.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/3D-Slayer" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
 <h1 id="overview">Overview</h1>
 <p>Slayer is an exciting top-down isometric roguelike game that immerses players in a world of strategic combat and character progression. Choose from three distinct classes—Mage, Barbarian, and Rogue—and embark on thrilling adventures, battling fierce enemies and mastering powerful abilities.</p>
 
+<p>Quick Devlog video where I showcase the first development phase of the game:</p>
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
     <iframe width="660" height="415" src="https://www.youtube.com/embed/NKe8HLG3dlM?si=mKYGMW_STigP3nRy" title="Slayer Game Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
     </iframe>
@@ -144,13 +147,6 @@ When the playlists are generated, they are added to your Spotify account, howeve
   <li><strong>Special Ability (Mage)</strong>: Q key <br /></li>
 </ul>
 
-<h1 id="installation">Installation</h1>
-<ol>
-  <li>Download the game from Slayer on itch.io.</li>
-  <li>Extract the downloaded files.</li>
-  <li>Run the executable file to start playing. <br /></li>
-</ol>
-
 <h1 id="contact">Contact</h1>
 <h5 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h5>
 
@@ -160,7 +156,7 @@ When the playlists are generated, they are added to your Spotify account, howeve
 <strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
 <strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
 <strong>X</strong>: https://x.com/Ladnopokaa <br />
-<strong>Discord</strong>: Ladno#3352</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Combat Clicker</title><link href="http://localhost:4000/games/2023/10/01/combat-clicker.html" rel="alternate" type="text/html" title="Combat Clicker" /><published>2023-10-01T00:00:00+01:00</published><updated>2023-10-01T00:00:00+01:00</updated><id>http://localhost:4000/games/2023/10/01/combat-clicker</id><content type="html" xml:base="http://localhost:4000/games/2023/10/01/combat-clicker.html"><![CDATA[<div style="text-align: center; margin-top: -20px; margin-bottom: 25px; scale: 1.4">
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Combat Clicker</title><link href="http://localhost:4000/games/2023/10/01/combat-clicker.html" rel="alternate" type="text/html" title="Combat Clicker" /><published>2023-10-01T00:00:00+01:00</published><updated>2023-10-01T00:00:00+01:00</updated><id>http://localhost:4000/games/2023/10/01/combat-clicker</id><content type="html" xml:base="http://localhost:4000/games/2023/10/01/combat-clicker.html"><![CDATA[<div style="text-align: center; margin-top: -20px; margin-bottom: 25px; scale: 1.4">
   <a href="/games/combat_clicker/views/index.html" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">Play Combat Clicker</a>
 </div>
 
@@ -173,7 +169,6 @@ When the playlists are generated, they are added to your Spotify account, howeve
 
 <h1 id="game-presentation">Game Presentation</h1>
 <p>Project presentation video where I showcase the game and my teammate covers the work on the game menus, click on the image to see:</p>
-
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
     <iframe width="660" height="415" src="https://www.youtube.com/embed/Mptg1MEHPik?si=Go7BpwS23VTs78SS" title="Combat Clicker" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
     </iframe>
@@ -228,7 +223,7 @@ When the playlists are generated, they are added to your Spotify account, howeve
 <strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
 <strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
 <strong>X</strong>: https://x.com/Ladnopokaa <br />
-<strong>Discord</strong>: Ladno#3352</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[Play Combat Clicker]]></summary></entry><entry><title type="html">ScreenTime LockScreen</title><link href="http://localhost:4000/android/2023/09/03/screen-time.html" rel="alternate" type="text/html" title="ScreenTime LockScreen" /><published>2023-09-03T00:00:00+01:00</published><updated>2023-09-03T00:00:00+01:00</updated><id>http://localhost:4000/android/2023/09/03/screen-time</id><content type="html" xml:base="http://localhost:4000/android/2023/09/03/screen-time.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[Play Combat Clicker]]></summary></entry><entry><title type="html">ScreenTime LockScreen</title><link href="http://localhost:4000/android/2023/09/03/screen-time.html" rel="alternate" type="text/html" title="ScreenTime LockScreen" /><published>2023-09-03T00:00:00+01:00</published><updated>2023-09-03T00:00:00+01:00</updated><id>http://localhost:4000/android/2023/09/03/screen-time</id><content type="html" xml:base="http://localhost:4000/android/2023/09/03/screen-time.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/ScreenTime_LockScreen" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
@@ -250,7 +245,18 @@ When the playlists are generated, they are added to your Spotify account, howeve
   <li>Kotlin programming language knowledge</li>
   <li>Basic understanding of Jetpack Compose</li>
   <li>A device or emulator running Android 5.0 (Lollipop, API 21) or higher</li>
-</ul>]]></content><author><name>Jevgenij Ivanov</name></author><category term="android" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Soviet Russia Joke Generator</title><link href="http://localhost:4000/software/2023/09/01/soviet-joke-generator.html" rel="alternate" type="text/html" title="Soviet Russia Joke Generator" /><published>2023-09-01T00:00:00+01:00</published><updated>2023-09-01T00:00:00+01:00</updated><id>http://localhost:4000/software/2023/09/01/soviet-joke-generator</id><content type="html" xml:base="http://localhost:4000/software/2023/09/01/soviet-joke-generator.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+</ul>
+
+<h1 id="contact">Contact</h1>
+<h5 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h5>
+
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="android" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Soviet Russia Joke Generator</title><link href="http://localhost:4000/software/2023/09/01/soviet-joke-generator.html" rel="alternate" type="text/html" title="Soviet Russia Joke Generator" /><published>2023-09-01T00:00:00+01:00</published><updated>2023-09-01T00:00:00+01:00</updated><id>http://localhost:4000/software/2023/09/01/soviet-joke-generator</id><content type="html" xml:base="http://localhost:4000/software/2023/09/01/soviet-joke-generator.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/Java_Joke_Generator" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
@@ -279,7 +285,18 @@ When the playlists are generated, they are added to your Spotify account, howeve
   <li>Open the project in your preferred Java IDE.</li>
   <li>Run the program, which generates jokes, writes them to a file, and compares their SHA-256 hash codes.</li>
   <li>Observe the output of the two jokes with the highest match score.</li>
-</ol>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Space Shooter Game</title><link href="http://localhost:4000/games/2023/05/11/space-shooter.html" rel="alternate" type="text/html" title="Space Shooter Game" /><published>2023-05-11T00:00:00+01:00</published><updated>2023-05-11T00:00:00+01:00</updated><id>http://localhost:4000/games/2023/05/11/space-shooter</id><content type="html" xml:base="http://localhost:4000/games/2023/05/11/space-shooter.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+</ol>
+
+<h1 id="contact">Contact</h1>
+<h5 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h5>
+
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Space Shooter Game</title><link href="http://localhost:4000/games/2023/05/11/space-shooter.html" rel="alternate" type="text/html" title="Space Shooter Game" /><published>2023-05-11T00:00:00+01:00</published><updated>2023-05-11T00:00:00+01:00</updated><id>http://localhost:4000/games/2023/05/11/space-shooter</id><content type="html" xml:base="http://localhost:4000/games/2023/05/11/space-shooter.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/SpaceShooter" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
@@ -313,7 +330,18 @@ When the playlists are generated, they are added to your Spotify account, howeve
 
 <div style="text-align: center;">
   <img src="/images/space_shooter_1.png" alt="Space Shooter Screenshot" />
-</div>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Lightning</title><link href="http://localhost:4000/other/2016/07/23/lightning.html" rel="alternate" type="text/html" title="Lightning" /><published>2016-07-23T00:00:00+01:00</published><updated>2016-07-23T00:00:00+01:00</updated><id>http://localhost:4000/other/2016/07/23/lightning</id><content type="html" xml:base="http://localhost:4000/other/2016/07/23/lightning.html"><![CDATA[<h1 id="game">Game</h1>
+</div>
+
+<h1 id="contact">Contact</h1>
+<h5 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h5>
+
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Lightning</title><link href="http://localhost:4000/other/2016/07/23/lightning.html" rel="alternate" type="text/html" title="Lightning" /><published>2016-07-23T00:00:00+01:00</published><updated>2016-07-23T00:00:00+01:00</updated><id>http://localhost:4000/other/2016/07/23/lightning</id><content type="html" xml:base="http://localhost:4000/other/2016/07/23/lightning.html"><![CDATA[<h1 id="game">Game</h1>
 <p>As incessant rains lashed out on the village, the game reached the final round.
 Tensions soared, concentration peaked and minds were doing a zillion calculations every second.
 All the roads were over a feet deep in water, and one could find the reflections of the midnight moon in the waters.

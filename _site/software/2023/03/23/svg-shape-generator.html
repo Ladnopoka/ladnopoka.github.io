@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self' https:; 
+    script-src 'self' 'unsafe-inline'; 
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; 
+    style-src-elem 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com; 
+    font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; 
+    img-src 'self' data: https://cdnb.artstation.com https://cdna.artstation.com http://localhost:4000 http://127.0.0.1:4000/;
+    connect-src 'self' https: data: blob;">
+
+  <!-- Content Security Policy (CSP) Meta Tag 
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; style-src-elem 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://cdnb.artstation.com https://cdna.artstation.com;">
+-->
+  <title>
+    SVG Shape Generator - Ladno Developer Portfolio
+    
+  </title>
+
+  <meta name="description" content="GitHub Repository">
+
+  <!-- Stylesheets -->
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Abel|Dosis|Source+Code+Pro|Roboto+Slab:100|Source+Code+Pro|Source+Sans+Pro:200|Unica+One|Josefin+Sans:300|Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/software/2023/03/23/svg-shape-generator.html">
+  <link rel="alternate" type="application/rss+xml" title="Ladno Developer Portfolio" href="/feed.xml">
+</head>
+
+
+  <body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <!-- <a class="navbar-brand" href="/">Start Bootstrap</a> -->
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Portfolio</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="/posts">Posts</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/connect">Connect</a>
+        </li>
+        <!--<li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>-->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <!-- This script is for having copy link icon to be displayed on the pages
+<script>
+  function copyToClipboard(){
+    //console.log(`Copied ${window.location.href}`);
+    var textArea = document.createElement("textarea");
+    textArea.value = window.location.href;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("Copy");
+    textArea.remove();
+
+    var tooltip = document.getElementById("tooltiptext");
+    tooltip.innerHTML = "Link copied";
+  }
+
+  function outFunc() {
+    var tooltip = document.getElementById("tooltiptext");
+    tooltip.innerHTML = "Copy Link";
+  }
+</script>
+-->
+
+
+<header title="Header images by artstation.com/dtmayer" class="masthead" style="background-image: url('http://localhost:4000/images/svg-generator.png')">
+
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="page-heading">
+          <!-- Set specific title and subheading for "Connect" section -->
+          
+            <h1>SVG Shape Generator</h1>
+          
+          
+            <span class="subheading"></span>
+          
+          
+            <div class="languages-right">
+              
+                <span class="language language-csharp">C#</span>
+              
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-10 col-md-10 mx-auto post-body">
+
+      <div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/SVG_Shape_Generator" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+</div>
+
+<h1 id="svg-shape-generator">SVG Shape Generator</h1>
+<p>The SVG Shape Generator is a C# project designed to create and manipulate SVG shapes such as circles, rectangles, ellipses, polygons, lines, and more. This tool allows users to generate random shapes, group them, modify their properties, and export them to an SVG canvas. Developed and tested on Windows 10 using Visual Studio Code.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li><strong>Shape Creation</strong>: Create a variety of SVG shapes such as circles, rectangles, polygons, and lines.</li>
+  <li><strong>Shape Management</strong>: Read, update, and delete shapes. Modify shape parameters like position, size, stroke, and fill.</li>
+  <li><strong>Group and Style</strong>: Group shapes and apply styles like colors, stroke-width, and transformations (rotate, scale, skew).</li>
+  <li><strong>Export to SVG</strong>: Export all shapes to an SVG file with customizable z-index for layering shapes.</li>
+  <li><strong>Random Shape Generation</strong>: Generate shapes with random parameters and colors.</li>
+  <li><strong>Text Addition</strong>: Add random or default text with various styles and fonts to the SVG canvas.</li>
+</ul>
+
+<h2 id="supported-shapes">Supported Shapes</h2>
+<ul>
+  <li><strong>Circle</strong>: Generates circles with customizable position, radius, stroke, and fill.</li>
+  <li><strong>Rectangle</strong>: Creates rectangles with customizable width, height, and colors.</li>
+  <li><strong>Ellipse</strong>: Allows for the creation of ellipses with adjustable radii.</li>
+  <li><strong>Line</strong>: Draws lines between two points with customizable stroke.</li>
+  <li><strong>Polyline</strong>: Generates complex shapes by connecting multiple points.</li>
+  <li><strong>Polygon</strong>: Creates polygons by connecting multiple points with edges.</li>
+  <li><strong>Path</strong>: Allows for drawing custom paths with complex commands.</li>
+</ul>
+
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+  <li>Visual Studio Code or any C# compatible IDE.</li>
+  <li>.NET runtime installed on your machine.</li>
+</ul>
+
+<h2 id="how-to-use">How to Use</h2>
+<p>Run the application through the command line. You will be prompted to choose an operation to perform:
+bash
+dotnet run</p>
+
+<ol>
+  <li>Create a Shape</li>
+  <li>Display a Shape</li>
+  <li>Update a Shape</li>
+  <li>Delete a Shape</li>
+  <li>Create a Default Shape</li>
+  <li>Group Shapes</li>
+  <li>Ungroup Shapes</li>
+  <li>Add Style to Group</li>
+  <li>Add Text</li>
+  <li>Export to SVG and finish</li>
+</ol>
+
+<h1 id="contact">Contact</h1>
+<h2 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h2>
+
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>
+
+      <!-- Code for icon that copies the page link
+      <div class="tooltipcontainer">
+        <img
+          onclick="copyToClipboard()"
+          onmouseout="outFunc()"
+          class="share-icon"
+          src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzIiIGhlaWdodD0iMzIiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmMDUwNSI+PGcgaWQ9InN1cmZhY2UxIj48cGF0aCBkPSJNMTM0LjM3NSwxMC43NWMtMTQuNzgxMjUsMCAtMjYuODc1LDEyLjA5Mzc1IC0yNi44NzUsMjYuODc1YzAsMS44NDc2NiAwLjIwOTk2LDMuNjExMzMgMC41NDU5LDUuMzc1bC00OC43MTA5NCwyMS45MTk5M2MtNC45MTMwOCwtNi43MTg3NSAtMTIuODA3NjEsLTExLjE2OTkzIC0yMS43MDk5NiwtMTEuMTY5OTNjLTE0Ljc4MTI1LDAgLTI2Ljg3NSwxMi4wOTM3NSAtMjYuODc1LDI2Ljg3NWMwLDE0Ljc4MTI1IDEyLjA5Mzc1LDI2Ljg3NSAyNi44NzUsMjYuODc1YzguOTQ0MzMsMCAxNi45MjI4NSwtNC40OTMxNyAyMS43OTM5NSwtMTEuMjk1OWw0OC43NTI5MywyMS42Njc5N2MtMC40MTk5MiwxLjg0NzY2IC0wLjY3MTg3LDMuNzc5MjkgLTAuNjcxODcsNS43NTI5M2MwLDE0Ljc4MTI1IDEyLjA5Mzc1LDI2Ljg3NSAyNi44NzUsMjYuODc1YzE0Ljc4MTI1LDAgMjYuODc1LC0xMi4wOTM3NSAyNi44NzUsLTI2Ljg3NWMwLC0xNC43ODEyNSAtMTIuMDkzNzUsLTI2Ljg3NSAtMjYuODc1LC0yNi44NzVjLTguOTQ0MzMsMCAtMTYuOTIyODUsNC40OTMxNyAtMjEuNzkzOTUsMTEuMjk1OWwtNDguNzUyOTMsLTIxLjYyNTk3YzAuNDE5OTMsLTEuODg5NjYgMC42NzE4OCwtMy44MjEyOSAwLjY3MTg4LC01Ljc5NDkzYzAsLTIuMDE1NjIgLTAuMjUxOTUsLTMuOTg5MjYgLTAuNjcxODcsLTUuODc4OTFsNDguNDU4OTksLTIxLjkxOTkyYzQuODcxMDksNy4wNTQ2OSAxMi45NzU1OCwxMS42NzM4MiAyMi4wODc4OSwxMS42NzM4MmMxNC43ODEyNSwwIDI2Ljg3NSwtMTIuMDkzNzUgMjYuODc1LC0yNi44NzVjMCwtMTQuNzgxMjUgLTEyLjA5Mzc1LC0yNi44NzUgLTI2Ljg3NSwtMjYuODc1ek0xMzQuMzc1LDIxLjVjOC45ODYzMywwIDE2LjEyNSw3LjEzODY4IDE2LjEyNSwxNi4xMjVjMCw4Ljk4NjMzIC03LjEzODY3LDE2LjEyNSAtMTYuMTI1LDE2LjEyNWMtOC45ODYzMiwwIC0xNi4xMjUsLTcuMTM4NjcgLTE2LjEyNSwtMTYuMTI1YzAsLTguOTg2MzIgNy4xMzg2OCwtMTYuMTI1IDE2LjEyNSwtMTYuMTI1ek0zNy42MjUsNjQuNWM4Ljk4NjMzLDAgMTYuMTI1LDcuMTM4NjggMTYuMTI1LDE2LjEyNWMwLDguOTg2MzMgLTcuMTM4NjcsMTYuMTI1IC0xNi4xMjUsMTYuMTI1Yy04Ljk4NjMyLDAgLTE2LjEyNSwtNy4xMzg2NyAtMTYuMTI1LC0xNi4xMjVjMCwtOC45ODYzMiA3LjEzODY4LC0xNi4xMjUgMTYuMTI1LC0xNi4xMjV6TTEzNC4zNzUsMTA3LjVjOC45ODYzMywwIDE2LjEyNSw3LjEzODY4IDE2LjEyNSwxNi4xMjVjMCw4Ljk4NjMzIC03LjEzODY3LDE2LjEyNSAtMTYuMTI1LDE2LjEyNWMtOC45ODYzMiwwIC0xNi4xMjUsLTcuMTM4NjcgLTE2LjEyNSwtMTYuMTI1YzAsLTguOTg2MzIgNy4xMzg2OCwtMTYuMTI1IDE2LjEyNSwtMTYuMTI1eiI+PC9wYXRoPjwvZz48L2c+PC9nPjwvc3ZnPg=="
+          alt="Share Icon"
+        >
+        <span id="tooltiptext" class="tooltiptext">Copy Link</span>
+      </div>
+    
+      <hr>
+      <div class="clearfix">
+
+        
+        <a class="btn btn-primary float-left" href="//games/2023/03/12/wordle-game.html" data-toggle="tooltip" data-placement="top" title="Java Wordle Game">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
+        
+        
+        <a class="btn btn-primary float-right" href="//software/2023/04/01/file-converter.html" data-toggle="tooltip" data-placement="top" title="File Converter">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+        
+
+      </div>
+        -->
+    </div>
+  </div>
+</div>
+
+
+    <!-- Footer -->
+<div class="footer-wrapper" style="display: flex; justify-content: center; align-items: center; clear: both;">
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="copyright text-muted">
+            Copyright &copy; Jevgenij Ivanov 2024
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+    <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  </body>
+
+</html>

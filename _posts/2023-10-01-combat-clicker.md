@@ -26,7 +26,6 @@ languages:
 
 # Game Presentation
 Project presentation video where I showcase the game and my teammate covers the work on the game menus, click on the image to see:
-
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
     <iframe width="660" height="415" src="https://www.youtube.com/embed/Mptg1MEHPik?si=Go7BpwS23VTs78SS" 
         title="Combat Clicker" 

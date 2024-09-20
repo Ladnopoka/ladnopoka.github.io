@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-19T23:51:27+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ladno Developer Portfolio</title><subtitle>Software and Games</subtitle><author><name>Jevgenij Ivanov</name></author><entry><title type="html">Dungeon Forge</title><link href="http://localhost:4000/software/2024/03/26/dungeon-forge.html" rel="alternate" type="text/html" title="Dungeon Forge" /><published>2024-03-26T00:00:00+00:00</published><updated>2024-03-26T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/03/26/dungeon-forge</id><content type="html" xml:base="http://localhost:4000/software/2024/03/26/dungeon-forge.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-21T00:28:52+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ladno Developer Portfolio</title><subtitle>Software and Games</subtitle><author><name>Jevgenij Ivanov</name></author><entry><title type="html">Dungeon Forge</title><link href="http://localhost:4000/software/2024/03/26/dungeon-forge.html" rel="alternate" type="text/html" title="Dungeon Forge" /><published>2024-03-26T00:00:00+00:00</published><updated>2024-03-26T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/03/26/dungeon-forge</id><content type="html" xml:base="http://localhost:4000/software/2024/03/26/dungeon-forge.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/Godot-room-generator-plugin" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
 <h1 id="overview">Overview</h1>
 <p>Dungeon Forge is a Godot 4 extension plugin that allows users to generate dungeon-like layouts in their scenes with a click of a button. This plugin opens a new window in the Godot 4 editor in the bottom right corner where users can select from three different biomes: dungeons, wooden cabins, and frozen caves. Upon selecting the gridmap generator in the menu, a new pop-up menu on the right allows users to set parameters for the dungeon layouts and then generate the layouts and meshes. Additional features include a first-person controller that allows users to explore generated dungeons, saving generated layouts, and reusing dungeons.</p>
 
+<p>The demonstration of the application can be viewed below:</p>
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
     <iframe width="660" height="415" src="https://www.youtube.com/embed/dw3r8JJGyQ4?si=kLD1VK-v1A9r4Cv3" title="Dungeon Forge Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
     </iframe>
@@ -46,7 +47,7 @@
 <strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
 <strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
 <strong>X</strong>: https://x.com/Ladnopokaa <br />
-<strong>Discord</strong>: Ladno#3352</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Spotify Playlist Enhancer</title><link href="http://localhost:4000/software/2024/01/12/spotify-playlist-enhancer.html" rel="alternate" type="text/html" title="Spotify Playlist Enhancer" /><published>2024-01-12T00:00:00+00:00</published><updated>2024-01-12T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/01/12/spotify-playlist-enhancer</id><content type="html" xml:base="http://localhost:4000/software/2024/01/12/spotify-playlist-enhancer.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Spotify Playlist Enhancer</title><link href="http://localhost:4000/software/2024/01/12/spotify-playlist-enhancer.html" rel="alternate" type="text/html" title="Spotify Playlist Enhancer" /><published>2024-01-12T00:00:00+00:00</published><updated>2024-01-12T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/01/12/spotify-playlist-enhancer</id><content type="html" xml:base="http://localhost:4000/software/2024/01/12/spotify-playlist-enhancer.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/Spotify-Playlist-Enhancer" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
@@ -56,6 +57,7 @@ This extension also allows you to retrieve your top 5 played tracks, and give yo
 Finally, you can generate a Spotify playlist with the songs that were recommended to you, and play these songs inside the extension right there and now.
 When the playlists are generated, they are added to your Spotify account, however, in the extension UI, you can select to not keep the playlist if you don’t like it after listening to the recommended songs.<br /><br /></p>
 
+<p>The demonstration of the application can be viewed below:</p>
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
     <iframe width="660" height="415" src="https://www.youtube.com/embed/NTn2MuQhe8Q?si=fydHOFu14HMk2qo1" title="Spotify Playlist Enhancer Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
     </iframe>
@@ -101,13 +103,14 @@ When the playlists are generated, they are added to your Spotify account, howeve
 <strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
 <strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
 <strong>X</strong>: https://x.com/Ladnopokaa <br />
-<strong>Discord</strong>: Ladno#3352</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Slayer</title><link href="http://localhost:4000/games/2023/10/02/slayer.html" rel="alternate" type="text/html" title="Slayer" /><published>2023-10-02T00:00:00+01:00</published><updated>2023-10-02T00:00:00+01:00</updated><id>http://localhost:4000/games/2023/10/02/slayer</id><content type="html" xml:base="http://localhost:4000/games/2023/10/02/slayer.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
-  <a href="https://github.com/Ladnopoka/Godot-room-generator-plugin" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Slayer</title><link href="http://localhost:4000/games/2023/10/02/slayer.html" rel="alternate" type="text/html" title="Slayer" /><published>2023-10-02T00:00:00+01:00</published><updated>2023-10-02T00:00:00+01:00</updated><id>http://localhost:4000/games/2023/10/02/slayer</id><content type="html" xml:base="http://localhost:4000/games/2023/10/02/slayer.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/3D-Slayer" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
 <h1 id="overview">Overview</h1>
 <p>Slayer is an exciting top-down isometric roguelike game that immerses players in a world of strategic combat and character progression. Choose from three distinct classes—Mage, Barbarian, and Rogue—and embark on thrilling adventures, battling fierce enemies and mastering powerful abilities.</p>
 
+<p>Quick Devlog video where I showcase the first development phase of the game:</p>
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
     <iframe width="660" height="415" src="https://www.youtube.com/embed/NKe8HLG3dlM?si=mKYGMW_STigP3nRy" title="Slayer Game Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
     </iframe>
@@ -144,13 +147,6 @@ When the playlists are generated, they are added to your Spotify account, howeve
   <li><strong>Special Ability (Mage)</strong>: Q key <br /></li>
 </ul>
 
-<h1 id="installation">Installation</h1>
-<ol>
-  <li>Download the game from Slayer on itch.io.</li>
-  <li>Extract the downloaded files.</li>
-  <li>Run the executable file to start playing. <br /></li>
-</ol>
-
 <h1 id="contact">Contact</h1>
 <h5 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h5>
 
@@ -160,7 +156,7 @@ When the playlists are generated, they are added to your Spotify account, howeve
 <strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
 <strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
 <strong>X</strong>: https://x.com/Ladnopokaa <br />
-<strong>Discord</strong>: Ladno#3352</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Combat Clicker</title><link href="http://localhost:4000/games/2023/10/01/combat-clicker.html" rel="alternate" type="text/html" title="Combat Clicker" /><published>2023-10-01T00:00:00+01:00</published><updated>2023-10-01T00:00:00+01:00</updated><id>http://localhost:4000/games/2023/10/01/combat-clicker</id><content type="html" xml:base="http://localhost:4000/games/2023/10/01/combat-clicker.html"><![CDATA[<div style="text-align: center; margin-top: -20px; margin-bottom: 25px; scale: 1.4">
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Combat Clicker</title><link href="http://localhost:4000/games/2023/10/01/combat-clicker.html" rel="alternate" type="text/html" title="Combat Clicker" /><published>2023-10-01T00:00:00+01:00</published><updated>2023-10-01T00:00:00+01:00</updated><id>http://localhost:4000/games/2023/10/01/combat-clicker</id><content type="html" xml:base="http://localhost:4000/games/2023/10/01/combat-clicker.html"><![CDATA[<div style="text-align: center; margin-top: -20px; margin-bottom: 25px; scale: 1.4">
   <a href="/games/combat_clicker/views/index.html" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">Play Combat Clicker</a>
 </div>
 
@@ -173,7 +169,6 @@ When the playlists are generated, they are added to your Spotify account, howeve
 
 <h1 id="game-presentation">Game Presentation</h1>
 <p>Project presentation video where I showcase the game and my teammate covers the work on the game menus, click on the image to see:</p>
-
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
     <iframe width="660" height="415" src="https://www.youtube.com/embed/Mptg1MEHPik?si=Go7BpwS23VTs78SS" title="Combat Clicker" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
     </iframe>
@@ -228,7 +223,7 @@ When the playlists are generated, they are added to your Spotify account, howeve
 <strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
 <strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
 <strong>X</strong>: https://x.com/Ladnopokaa <br />
-<strong>Discord</strong>: Ladno#3352</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[Play Combat Clicker]]></summary></entry><entry><title type="html">ScreenTime LockScreen</title><link href="http://localhost:4000/android/2023/09/03/screen-time.html" rel="alternate" type="text/html" title="ScreenTime LockScreen" /><published>2023-09-03T00:00:00+01:00</published><updated>2023-09-03T00:00:00+01:00</updated><id>http://localhost:4000/android/2023/09/03/screen-time</id><content type="html" xml:base="http://localhost:4000/android/2023/09/03/screen-time.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[Play Combat Clicker]]></summary></entry><entry><title type="html">ScreenTime LockScreen</title><link href="http://localhost:4000/android/2023/09/03/screen-time.html" rel="alternate" type="text/html" title="ScreenTime LockScreen" /><published>2023-09-03T00:00:00+01:00</published><updated>2023-09-03T00:00:00+01:00</updated><id>http://localhost:4000/android/2023/09/03/screen-time</id><content type="html" xml:base="http://localhost:4000/android/2023/09/03/screen-time.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/ScreenTime_LockScreen" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
@@ -250,7 +245,18 @@ When the playlists are generated, they are added to your Spotify account, howeve
   <li>Kotlin programming language knowledge</li>
   <li>Basic understanding of Jetpack Compose</li>
   <li>A device or emulator running Android 5.0 (Lollipop, API 21) or higher</li>
-</ul>]]></content><author><name>Jevgenij Ivanov</name></author><category term="android" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Soviet Russia Joke Generator</title><link href="http://localhost:4000/software/2023/09/01/soviet-joke-generator.html" rel="alternate" type="text/html" title="Soviet Russia Joke Generator" /><published>2023-09-01T00:00:00+01:00</published><updated>2023-09-01T00:00:00+01:00</updated><id>http://localhost:4000/software/2023/09/01/soviet-joke-generator</id><content type="html" xml:base="http://localhost:4000/software/2023/09/01/soviet-joke-generator.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+</ul>
+
+<h1 id="contact">Contact</h1>
+<h5 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h5>
+
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="android" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Soviet Russia Joke Generator</title><link href="http://localhost:4000/software/2023/09/01/soviet-joke-generator.html" rel="alternate" type="text/html" title="Soviet Russia Joke Generator" /><published>2023-09-01T00:00:00+01:00</published><updated>2023-09-01T00:00:00+01:00</updated><id>http://localhost:4000/software/2023/09/01/soviet-joke-generator</id><content type="html" xml:base="http://localhost:4000/software/2023/09/01/soviet-joke-generator.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/Java_Joke_Generator" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
@@ -279,7 +285,18 @@ When the playlists are generated, they are added to your Spotify account, howeve
   <li>Open the project in your preferred Java IDE.</li>
   <li>Run the program, which generates jokes, writes them to a file, and compares their SHA-256 hash codes.</li>
   <li>Observe the output of the two jokes with the highest match score.</li>
-</ol>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Space Shooter Game</title><link href="http://localhost:4000/games/2023/05/11/space-shooter.html" rel="alternate" type="text/html" title="Space Shooter Game" /><published>2023-05-11T00:00:00+01:00</published><updated>2023-05-11T00:00:00+01:00</updated><id>http://localhost:4000/games/2023/05/11/space-shooter</id><content type="html" xml:base="http://localhost:4000/games/2023/05/11/space-shooter.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+</ol>
+
+<h1 id="contact">Contact</h1>
+<h5 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h5>
+
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Space Shooter Game</title><link href="http://localhost:4000/games/2023/05/11/space-shooter.html" rel="alternate" type="text/html" title="Space Shooter Game" /><published>2023-05-11T00:00:00+01:00</published><updated>2023-05-11T00:00:00+01:00</updated><id>http://localhost:4000/games/2023/05/11/space-shooter</id><content type="html" xml:base="http://localhost:4000/games/2023/05/11/space-shooter.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/SpaceShooter" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
@@ -313,101 +330,187 @@ When the playlists are generated, they are added to your Spotify account, howeve
 
 <div style="text-align: center;">
   <img src="/images/space_shooter_1.png" alt="Space Shooter Screenshot" />
-</div>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Lightning</title><link href="http://localhost:4000/other/2016/07/23/lightning.html" rel="alternate" type="text/html" title="Lightning" /><published>2016-07-23T00:00:00+01:00</published><updated>2016-07-23T00:00:00+01:00</updated><id>http://localhost:4000/other/2016/07/23/lightning</id><content type="html" xml:base="http://localhost:4000/other/2016/07/23/lightning.html"><![CDATA[<h1 id="game">Game</h1>
-<p>As incessant rains lashed out on the village, the game reached the final round.
-Tensions soared, concentration peaked and minds were doing a zillion calculations every second.
-All the roads were over a feet deep in water, and one could find the reflections of the midnight moon in the waters.
-Neither the loud rains nor the abrupt thunders could tamper with their game. They were in the zone. Playing the game. Phase locked.
-And after what seemed to be a very short time,the game ended. Jay finally won.<br />
-<br />‘Woo Hoo !’
-<br />‘Not again.’ said Su.
-<br />‘Don’t do your neigh. Please.’ said Prady.
-<br />‘Yee Haa !’
-<br />‘There we go.’ said Goutham.
-<br />‘So you get your money back.’ said Su.
-<br />‘Yes, I do! ‘ exclaimed Jay.
-<br />‘Alright, let’s take a break.’
-<br />‘Yeah, let’s take some pictures of the view.’
-<br />‘Great. But don’t make a bokeh again. It sucks.’
-<br />‘I like ‘em. So buzz off.’
-<br />‘Bzzzzzzzzzzzzzzzzzz’.
-<br />‘Peace. Won’t argue with you.’
-<br />They made their way out of the room on the top floor of the mansion to the patio, Su started clicking pictures,
-and Jay and Prad started smoking.
-<br />Hills encompassed the village on all sides, and lightning struck them repeatedly. The sky was eerily dark, and the moon was now nowhere to be seen.
-<br />‘This is odd’ remarked Goutham.
-<br />The lightning wasn’t ordinary. There was too much of it, and the guys knew something wasn’t right.
-Through the rain, on the other side of the village, they spotted something.
-There was one little area on a hill where lightning struck almost periodically,
-and after four or five cycles, about ten adjacent places up there would get hit by a wide line of almost blinding light.
-Though they initially dismissed the idea, curiosity got the better of them, and they soon started making plans to get there.
-<br />‘Okay, how?’
-<br />‘The panther’ Prady said.
-<br />‘Really, bruh?’
-<br />‘We’ll get drenched to death.’
-<br />‘Oh come on. The panther will always be our official adventure vehicle we all agreed.’
-<br />The panther was an old topless 4x4 Jeep they had bought together. Rain couldn’t stop their insane quest for adventure.
-<br />‘Panther it is, then. Let’s roll!’
-<br />‘WE’RE GONNA DIE!’ Jay hollered.
-<br />‘HAHAHAHA’
-<br />They got in the panther, with their usual outfits: overcoats, hats, torchlights, backpacks and unrivalled bravado.
-The panther easily made its way through the water into the jungle. They had already gotten drenched, but that wasn’t the priority on their minds.
-It was the mysterious appearance of this supposed lightning.
-<br />As the panther waded through the huge rocks and the dense trees and the puddles of water, they realised that they were so alone in the darkness.
-Only the sounds of the vicious rain hitting the rocks could be heard, apart from the scary thuds from the thunders, and the continuous splashes of water off the panther’s tires.
-Slowly ascending the hill, they looked back at the village which lied at the chief depression of the hills. Apart from that, there wasn’t any light, and darkness dominated the world.
-<br />The strikes on the peak ahead got stronger and louder.
-The panther couldn’t take them any farther as the forest grew denser. But the relentless crew got down and made their way to the destination, staying close to each other.
-The wind grew stronger, and the rain drifted along its direction.
-<br />‘This would make a perfect setup for a movie.’ Su was excited.
-<br />‘Would it be tragic at the end too?’ Prad joked.
-<br />‘Stop it guys, you’re scaring me!’ said Goutham.</p>
-<h1 id="peak">Peak</h1>
-<p>Just as they reached the peak, the biggest group of strikes hit close to them, and the shock carried by the impact grounded them.
-As they gathered themselves up, what they saw baffled them. The lights in the village were gone. Hell, they couldn’t even make out if the village was still there.
-<br />The sky was now more like outerspace, completely dark,only seen when lightning appeared.
-<br />The rain had stopped, only god knew when. The ground beneath was already drying up, too freaking fast for them to believe.
-As they still recovered from the shock, the most unexpected thing happened.
-<br />Out of the blue, something lit up in the sky, and whooshed past the hills, making a shrill, unbearable sound.
-<br />The light wasn’t white. It was blue.
-They thought it was a comet, but this thing flew so freaking close to the hills. And what was that sound? Like an old lady’s whine.
-<br />What in the world just happened?
-<br />Whatever it was, and whatever just happened, they knew life wouldn’t be the same again. Their hearts began to race, and as shock receded, adrenaline took over.
-<br />They looked at each other in unison.</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="other" /><summary type="html"><![CDATA[Game As incessant rains lashed out on the village, the game reached the final round. Tensions soared, concentration peaked and minds were doing a zillion calculations every second. All the roads were over a feet deep in water, and one could find the reflections of the midnight moon in the waters. Neither the loud rains nor the abrupt thunders could tamper with their game. They were in the zone. Playing the game. Phase locked. And after what seemed to be a very short time,the game ended. Jay finally won. ‘Woo Hoo !’ ‘Not again.’ said Su. ‘Don’t do your neigh. Please.’ said Prady. ‘Yee Haa !’ ‘There we go.’ said Goutham. ‘So you get your money back.’ said Su. ‘Yes, I do! ‘ exclaimed Jay. ‘Alright, let’s take a break.’ ‘Yeah, let’s take some pictures of the view.’ ‘Great. But don’t make a bokeh again. It sucks.’ ‘I like ‘em. So buzz off.’ ‘Bzzzzzzzzzzzzzzzzzz’. ‘Peace. Won’t argue with you.’ They made their way out of the room on the top floor of the mansion to the patio, Su started clicking pictures, and Jay and Prad started smoking. Hills encompassed the village on all sides, and lightning struck them repeatedly. The sky was eerily dark, and the moon was now nowhere to be seen. ‘This is odd’ remarked Goutham. The lightning wasn’t ordinary. There was too much of it, and the guys knew something wasn’t right. Through the rain, on the other side of the village, they spotted something. There was one little area on a hill where lightning struck almost periodically, and after four or five cycles, about ten adjacent places up there would get hit by a wide line of almost blinding light. Though they initially dismissed the idea, curiosity got the better of them, and they soon started making plans to get there. ‘Okay, how?’ ‘The panther’ Prady said. ‘Really, bruh?’ ‘We’ll get drenched to death.’ ‘Oh come on. The panther will always be our official adventure vehicle we all agreed.’ The panther was an old topless 4x4 Jeep they had bought together. Rain couldn’t stop their insane quest for adventure. ‘Panther it is, then. Let’s roll!’ ‘WE’RE GONNA DIE!’ Jay hollered. ‘HAHAHAHA’ They got in the panther, with their usual outfits: overcoats, hats, torchlights, backpacks and unrivalled bravado. The panther easily made its way through the water into the jungle. They had already gotten drenched, but that wasn’t the priority on their minds. It was the mysterious appearance of this supposed lightning. As the panther waded through the huge rocks and the dense trees and the puddles of water, they realised that they were so alone in the darkness. Only the sounds of the vicious rain hitting the rocks could be heard, apart from the scary thuds from the thunders, and the continuous splashes of water off the panther’s tires. Slowly ascending the hill, they looked back at the village which lied at the chief depression of the hills. Apart from that, there wasn’t any light, and darkness dominated the world. The strikes on the peak ahead got stronger and louder. The panther couldn’t take them any farther as the forest grew denser. But the relentless crew got down and made their way to the destination, staying close to each other. The wind grew stronger, and the rain drifted along its direction. ‘This would make a perfect setup for a movie.’ Su was excited. ‘Would it be tragic at the end too?’ Prad joked. ‘Stop it guys, you’re scaring me!’ said Goutham. Peak Just as they reached the peak, the biggest group of strikes hit close to them, and the shock carried by the impact grounded them. As they gathered themselves up, what they saw baffled them. The lights in the village were gone. Hell, they couldn’t even make out if the village was still there. The sky was now more like outerspace, completely dark,only seen when lightning appeared. The rain had stopped, only god knew when. The ground beneath was already drying up, too freaking fast for them to believe. As they still recovered from the shock, the most unexpected thing happened. Out of the blue, something lit up in the sky, and whooshed past the hills, making a shrill, unbearable sound. The light wasn’t white. It was blue. They thought it was a comet, but this thing flew so freaking close to the hills. And what was that sound? Like an old lady’s whine. What in the world just happened? Whatever it was, and whatever just happened, they knew life wouldn’t be the same again. Their hearts began to race, and as shock receded, adrenaline took over. They looked at each other in unison.]]></summary></entry><entry><title type="html">The Great Destroyer</title><link href="http://localhost:4000/other/2015/09/23/the-great-destroyer.html" rel="alternate" type="text/html" title="The Great Destroyer" /><published>2015-09-23T00:00:00+01:00</published><updated>2015-09-23T00:00:00+01:00</updated><id>http://localhost:4000/other/2015/09/23/the-great-destroyer</id><content type="html" xml:base="http://localhost:4000/other/2015/09/23/the-great-destroyer.html"><![CDATA[<p>He was staring into absolute darkness.Nothing else, just plain void. There was no sound, no smell, no sight, no sense of  touch either. He felt weightless, spaceless. But behind him was something he didn’t want to see. He knew he had finally reached his ‘destiny’. And he was scared to see what the creator looked like.</p>
+</div>
 
-<p>He finally mustered the courage to turn. He turned.He turned, and experienced the ineffable. Before him was a figure, glowing in the dark.He realised this was outer space, and the figure stood on a one dimensional platform. Stood? No. It was moving violently, shaking all its parts. Now he could make out the shape. It resembled a human form. But gosh, it was atleast a million times bigger than him, and he could see the eyes too. The eyes were flaming red, lava pouring out from them. Its glow blinded him.Its hair flew all over the universe. And the whole universe started shaking with its moves, resonating with his steps. Was he dancing ? What was happening?</p>
+<h1 id="contact">Contact</h1>
+<h5 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h5>
 
-<p>Accompanying the dance was noise he couldn’t bear. The sounds were absolutely disjoint glitches of varying kinds, too loud and shrill that he started bleeding and screaming. But he caught the rhythm soon and suddenly, they all appeared to be in perfect sync. The sound was surreal, the perfect embodiment of art. It was music.It was music at its purest form. He couldn’t believe what was happening. Since he knew he was in his mind, was it a virus? That was what pathogens looked like?
-No. Was it a sub-atomic particle? Was it God ? Was it god? Was it god? It was god? That was god !</p>
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">File Converter</title><link href="http://localhost:4000/software/2023/04/01/file-converter.html" rel="alternate" type="text/html" title="File Converter" /><published>2023-04-01T00:00:00+01:00</published><updated>2023-04-01T00:00:00+01:00</updated><id>http://localhost:4000/software/2023/04/01/file-converter</id><content type="html" xml:base="http://localhost:4000/software/2023/04/01/file-converter.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/FileConverter" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+</div>
 
-<p>Suddenly he was transported with all kinds of emotions.He was scared and overwhelmed,he was laughing and crying,he was calm and angry and ecstatic; and joined the figure which continued to dance with fury, joy and vigor while the god music continued to blare. The music reached its crescendo now.He felt weightless, he felt invincible dancing and jumping like that.Tears stormed down from his eyes. He knew what he wanted to do. He wanted to ‘surrender’ himself to god. He wanted to die.Merge with god.Become a part of him. Is this what the vedas talked about? He was a rational person, but he couldn’t believe what was happening.</p>
+<h1 id="file-converter">File Converter</h1>
+<p>The File Converter is a C# project designed to convert files between several formats, including JSON, CSV, Markdown (MD), and HTML. This project was developed during my university studies and tested on Windows 10 using Visual Studio Code.</p>
 
-<p>All his senses now worked in unison and gave him the unified sense. The one only attainable by god. He grew in space, and time. He was turning into god. He could see the space, the earth, its people, the zillion other planets thriving with life, which appeared so close to earth. He could see the beginning, he could see the end. He could see the beings, calling out to him. He could see the infinite and the infinitesimal. All through his mind.
-<br />He turned into the Great Destroyer.</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="other" /><summary type="html"><![CDATA[He was staring into absolute darkness.Nothing else, just plain void. There was no sound, no smell, no sight, no sense of touch either. He felt weightless, spaceless. But behind him was something he didn’t want to see. He knew he had finally reached his ‘destiny’. And he was scared to see what the creator looked like.]]></summary></entry><entry><title type="html">Square Zero</title><link href="http://localhost:4000/other/1995/01/01/squarezero.html" rel="alternate" type="text/html" title="Square Zero" /><published>1995-01-01T10:22:23+00:00</published><updated>1995-01-01T10:22:23+00:00</updated><id>http://localhost:4000/other/1995/01/01/squarezero</id><content type="html" xml:base="http://localhost:4000/other/1995/01/01/squarezero.html"><![CDATA[<h1 id="looks-like-im-doing-this">Looks like I’m doing this.</h1>
-<p>Our mind is a constant source of new ideas and thoughts, which often end up garbled after we move on with time, and new
-ideas and thoughts supersede these pieces of brilliance we once had.
-Bookkeeping is essential to record one’s state of mind, and for retrospection. I remember the times when my mind was
-bustling with fantastic theories, that I couldn’t keep track of them after a while. Most of them have become obscure with time;
-I have forgotten all the specifics and the minute details. That is when I started blogging, to try and keep track of them
-as well as to share these with people who might be fascinated by the same things as I am, which has also introduced me to
-some amazing people.</p>
+<h2 id="features">Features</h2>
+<ul>
+  <li><strong>Format Conversion</strong>: Convert files between CSV, JSON, MD, and HTML formats.</li>
+  <li><strong>Console Application</strong>: Accepts input and output file paths through the command line, making it easy to automate conversions.</li>
+  <li><strong>Error Handling</strong>: Detects and handles incorrect file paths and formats.</li>
+  <li><strong>Helper Commands</strong>: Provides various commands such as <code class="language-plaintext highlighter-rouge">-verbose</code>, <code class="language-plaintext highlighter-rouge">-list-formats</code>, and <code class="language-plaintext highlighter-rouge">-help</code> for better user interaction.</li>
+  <li><strong>Cross-format Parsing</strong>: Parses and extracts data from supported file formats and outputs them in the desired format.</li>
+</ul>
 
-<h1 id="voice">Voice</h1>
-<p>Talking of the interest in sharing things, I have developed a new interest in developing a strong voice over a lot of topics,
-and sharing them. Voice is absolutely necessary for any person over anything. That’s how people develop perspective, and that’s
-how they build character. However, just developing a voice could be detrimental, if it’s not shared and debated and questioned.
-Sharing this voice out in the open with confidantes, or friends, or the public leads to debate and discussions and arguments, often fruitful.</p>
+<h2 id="supported-formats">Supported Formats</h2>
+<ul>
+  <li><strong>CSV</strong>: Converts to and from CSV files.</li>
+  <li><strong>JSON</strong>: Parses JSON files and outputs them into other formats or converts files into JSON.</li>
+  <li><strong>HTML</strong>: Supports HTML table parsing and conversion.</li>
+  <li><strong>Markdown (MD)</strong>: Handles Markdown file format for conversion to/from other types.</li>
+</ul>
 
-<h1 id="under-the-rug">Under the rug</h1>
-<p>Moreover, I badly need to take time off consuming content and put it to good use analyzing and creating. The past few months have
-been a true eye opener for me, and I was exposed to an array of critical topics like politics, human psychology, the big picture,
-superstitions, and decisive observations on a lot of things that happen behind the scenes. This will be a place where I can analyze
-what I’ve consumed, and develop a perspective. The interest has also extended to influence others.</p>
+<h2 id="command-line-options">Command-Line Options</h2>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">-v | -verbose</code>: Enables verbose mode, providing detailed output during file conversion.</li>
+  <li><code class="language-plaintext highlighter-rouge">-o &lt;file&gt; | -output=&lt;file&gt;</code>: Specifies the output file.</li>
+  <li><code class="language-plaintext highlighter-rouge">-l | -list-formats</code>: Lists all the available formats (CSV, JSON, HTML, MD).</li>
+  <li><code class="language-plaintext highlighter-rouge">-h | -help</code>: Displays the help menu with available options.</li>
+  <li><code class="language-plaintext highlighter-rouge">-i | -info</code>: Shows version information of the program.</li>
+</ul>
 
-<h1 id="this-is-good-right">This is good, right?</h1>
-<p>If everything else is a delusion, this is atleast a good way to spend time. This will also aid me in refining my vocab and communication style. I’ve always wanted to learn and master critical writing, and writing in general. And lastly, this will also make me tinker more with github and Jekyll and NodeJs and a plethora of the other options out there on the web.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+  <li>Visual Studio Code or any C# compatible IDE.</li>
+  <li>.NET runtime installed on your machine.</li>
+</ul>
 
-<h1 id="box-of-chocolates">Box of chocolates</h1>
-<p>This is going to be awesome! I’m gonna write fiction, non-fiction, some songs maybe, and what not. Just that I’ll take more time
-developing and refining the articles, to make it a notch better than <a href="http://tlojarus.blogspot.in/">TLOj</a>.<br />
-Here’s to a bright future filled with hope and better conscience!</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="other" /><category term="Discourse" /><category term="NonFiction" /><summary type="html"><![CDATA[Looks like I’m doing this. Our mind is a constant source of new ideas and thoughts, which often end up garbled after we move on with time, and new ideas and thoughts supersede these pieces of brilliance we once had. Bookkeeping is essential to record one’s state of mind, and for retrospection. I remember the times when my mind was bustling with fantastic theories, that I couldn’t keep track of them after a while. Most of them have become obscure with time; I have forgotten all the specifics and the minute details. That is when I started blogging, to try and keep track of them as well as to share these with people who might be fascinated by the same things as I am, which has also introduced me to some amazing people.]]></summary></entry></feed>
+<h2 id="how-to-use">How to Use</h2>
+<p>Run the application through the command line by specifying an input file, an output file, and optional flags:
+bash
+dotnet run input.csv output.json -v</p>
+
+<h1 id="contact">Contact</h1>
+<h2 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h2>
+
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">SVG Shape Generator</title><link href="http://localhost:4000/software/2023/03/23/svg-shape-generator.html" rel="alternate" type="text/html" title="SVG Shape Generator" /><published>2023-03-23T00:00:00+00:00</published><updated>2023-03-23T00:00:00+00:00</updated><id>http://localhost:4000/software/2023/03/23/svg-shape-generator</id><content type="html" xml:base="http://localhost:4000/software/2023/03/23/svg-shape-generator.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/SVG_Shape_Generator" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+</div>
+
+<h1 id="svg-shape-generator">SVG Shape Generator</h1>
+<p>The SVG Shape Generator is a C# project designed to create and manipulate SVG shapes such as circles, rectangles, ellipses, polygons, lines, and more. This tool allows users to generate random shapes, group them, modify their properties, and export them to an SVG canvas. Developed and tested on Windows 10 using Visual Studio Code.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li><strong>Shape Creation</strong>: Create a variety of SVG shapes such as circles, rectangles, polygons, and lines.</li>
+  <li><strong>Shape Management</strong>: Read, update, and delete shapes. Modify shape parameters like position, size, stroke, and fill.</li>
+  <li><strong>Group and Style</strong>: Group shapes and apply styles like colors, stroke-width, and transformations (rotate, scale, skew).</li>
+  <li><strong>Export to SVG</strong>: Export all shapes to an SVG file with customizable z-index for layering shapes.</li>
+  <li><strong>Random Shape Generation</strong>: Generate shapes with random parameters and colors.</li>
+  <li><strong>Text Addition</strong>: Add random or default text with various styles and fonts to the SVG canvas.</li>
+</ul>
+
+<h2 id="supported-shapes">Supported Shapes</h2>
+<ul>
+  <li><strong>Circle</strong>: Generates circles with customizable position, radius, stroke, and fill.</li>
+  <li><strong>Rectangle</strong>: Creates rectangles with customizable width, height, and colors.</li>
+  <li><strong>Ellipse</strong>: Allows for the creation of ellipses with adjustable radii.</li>
+  <li><strong>Line</strong>: Draws lines between two points with customizable stroke.</li>
+  <li><strong>Polyline</strong>: Generates complex shapes by connecting multiple points.</li>
+  <li><strong>Polygon</strong>: Creates polygons by connecting multiple points with edges.</li>
+  <li><strong>Path</strong>: Allows for drawing custom paths with complex commands.</li>
+</ul>
+
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+  <li>Visual Studio Code or any C# compatible IDE.</li>
+  <li>.NET runtime installed on your machine.</li>
+</ul>
+
+<h2 id="how-to-use">How to Use</h2>
+<p>Run the application through the command line. You will be prompted to choose an operation to perform:
+bash
+dotnet run</p>
+
+<ol>
+  <li>Create a Shape</li>
+  <li>Display a Shape</li>
+  <li>Update a Shape</li>
+  <li>Delete a Shape</li>
+  <li>Create a Default Shape</li>
+  <li>Group Shapes</li>
+  <li>Ungroup Shapes</li>
+  <li>Add Style to Group</li>
+  <li>Add Text</li>
+  <li>Export to SVG and finish</li>
+</ol>
+
+<h1 id="contact">Contact</h1>
+<h2 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h2>
+
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Java Wordle Game</title><link href="http://localhost:4000/games/2023/03/12/wordle-game.html" rel="alternate" type="text/html" title="Java Wordle Game" /><published>2023-03-12T00:00:00+00:00</published><updated>2023-03-12T00:00:00+00:00</updated><id>http://localhost:4000/games/2023/03/12/wordle-game</id><content type="html" xml:base="http://localhost:4000/games/2023/03/12/wordle-game.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/WordleGame" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+</div>
+
+<h1 id="java-wordle-game">Java Wordle Game</h1>
+<p>The Java Wordle Game is a terminal-based word-guessing game where players attempt to guess a randomly chosen word in six attempts. After each guess, players receive hints in the form of numbers indicating if a letter is correct and in the right position, or if it exists elsewhere in the word. This project was developed in Java during my university studies and is supported by a word list of over 20,000 words.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li><strong>Random Word Selection</strong>: The game randomly selects a word from a list of over 20,000 words.</li>
+  <li><strong>Hints System</strong>: After each guess, hints are displayed using numbers:
+    <ul>
+      <li><strong>0</strong>: The letter does not exist in the word.</li>
+      <li><strong>1</strong>: The letter exists but is in the wrong position.</li>
+      <li><strong>2</strong>: The letter is in the correct position.</li>
+    </ul>
+  </li>
+  <li><strong>Six Attempts</strong>: Players have six attempts to guess the word correctly.</li>
+  <li><strong>Helper Methods</strong>: The game includes helper methods that filter out possible words based on previously guessed letters.</li>
+</ul>
+
+<h2 id="how-to-play">How to Play</h2>
+<ol>
+  <li>The game starts by selecting a random word from the word list.</li>
+  <li>The player has to guess the word by typing in a five-letter word.</li>
+  <li>After each guess, the game provides feedback using a hint system:
+    <ul>
+      <li><strong>2</strong>: The letter is correct and in the right position.</li>
+      <li><strong>1</strong>: The letter exists but is in the wrong position.</li>
+      <li><strong>0</strong>: The letter does not exist in the word.</li>
+    </ul>
+  </li>
+  <li>Players have six attempts to guess the word correctly. If they fail, the correct word is revealed.</li>
+</ol>
+
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+  <li>Java Development Kit (JDK) installed on your machine.</li>
+  <li>A Java IDE such as Eclipse or IntelliJ IDEA for development.</li>
+</ul>
+
+<h2 id="how-to-run">How to Run</h2>
+<p>You can run the game from the command line:</p>
+<ul>
+  <li>bash</li>
+  <li>javac wordle_game.java</li>
+  <li>java wordle_game</li>
+</ul>
+
+<h1 id="contact">Contact</h1>
+<h2 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h2>
+
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry></feed>

@@ -1,0 +1,35 @@
+I"<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/ScreenTime_LockScreen" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+</div>
+
+<h1 id="screentime-lockscreen">ScreenTime LockScreen</h1>
+<p>ScreenTime LockScreen is an Android application that provides a custom lock screen experience and displays your total screen time on your applicatoins. This project uses Jetpack Compose for the UI and includes a full-screen activity that overlays the default lock screen.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>Displays one of three random background images when the screen turns on.</li>
+  <li>Custom text displayed over the background image.</li>
+  <li>Full-screen activity that mimics a lock screen.</li>
+  <li>Customizable UI with Jetpack Compose.</li>
+  <li>Handles screen-on events to show the custom lock screen.</li>
+</ul>
+
+<h3 id="prerequisites">Prerequisites</h3>
+<ul>
+  <li>Android Studio (latest version recommended)</li>
+  <li>Kotlin programming language knowledge</li>
+  <li>Basic understanding of Jetpack Compose</li>
+  <li>A device or emulator running Android 5.0 (Lollipop, API 21) or higher</li>
+</ul>
+
+<h1 id="contact">Contact</h1>
+<h5 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h5>
+
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>
+:ET

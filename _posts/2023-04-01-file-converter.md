@@ -42,7 +42,8 @@ The File Converter is a C# project designed to convert files between several for
 
 ## How to Use
 Run the application through the command line by specifying an input file, an output file, and optional flags:
-bash dotnet run input.csv output.json -v
+bash
+dotnet run input.csv output.json -v
 
 # Contact
 ## For any inquiries or feedback, feel free to reach out to:

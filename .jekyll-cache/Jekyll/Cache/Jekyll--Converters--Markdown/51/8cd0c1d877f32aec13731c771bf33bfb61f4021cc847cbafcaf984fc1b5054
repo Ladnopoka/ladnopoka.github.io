@@ -1,0 +1,68 @@
+I"Ë<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/FileConverter" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+</div>
+
+<h1 id="file-converter">File Converter</h1>
+<p>The File Converter is a C# project designed to convert files between several formats, including JSON, CSV, Markdown (MD), and HTML. This project was developed during my university studies and tested on Windows 10 using Visual Studio Code.</p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li><strong>Format Conversion</strong>: Convert files between CSV, JSON, MD, and HTML formats.</li>
+  <li><strong>Console Application</strong>: Accepts input and output file paths through the command line, making it easy to automate conversions.</li>
+  <li><strong>Error Handling</strong>: Detects and handles incorrect file paths and formats.</li>
+  <li><strong>Helper Commands</strong>: Provides various commands such as <code class="language-plaintext highlighter-rouge">-verbose</code>, <code class="language-plaintext highlighter-rouge">-list-formats</code>, and <code class="language-plaintext highlighter-rouge">-help</code> for better user interaction.</li>
+  <li><strong>Cross-format Parsing</strong>: Parses and extracts data from supported file formats and outputs them in the desired format.</li>
+</ul>
+
+<h2 id="supported-formats">Supported Formats</h2>
+<ul>
+  <li><strong>CSV</strong>: Converts to and from CSV files.</li>
+  <li><strong>JSON</strong>: Parses JSON files and outputs them into other formats or converts files into JSON.</li>
+  <li><strong>HTML</strong>: Supports HTML table parsing and conversion.</li>
+  <li><strong>Markdown (MD)</strong>: Handles Markdown file format for conversion to/from other types.</li>
+</ul>
+
+<h2 id="command-line-options">Command-Line Options</h2>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">-v | -verbose</code>: Enables verbose mode, providing detailed output during file conversion.</li>
+  <li><code class="language-plaintext highlighter-rouge">-o &lt;file&gt; | -output=&lt;file&gt;</code>: Specifies the output file.</li>
+  <li><code class="language-plaintext highlighter-rouge">-l | -list-formats</code>: Lists all the available formats (CSV, JSON, HTML, MD).</li>
+  <li><code class="language-plaintext highlighter-rouge">-h | -help</code>: Displays the help menu with available options.</li>
+  <li><code class="language-plaintext highlighter-rouge">-i | -info</code>: Shows version information of the program.</li>
+</ul>
+
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+  <li>Visual Studio Code or any C# compatible IDE.</li>
+  <li>.NET runtime installed on your machine.</li>
+</ul>
+
+<h2 id="how-to-use">How to Use</h2>
+<p>Run the application through the command line by specifying an input file, an output file, and optional flags:
+bash
+dotnet run input.csv output.json -v</p>
+
+<ol>
+  <li>Create a Shape</li>
+  <li>Display a Shape</li>
+  <li>Update a Shape</li>
+  <li>Delete a Shape</li>
+  <li>Create a Default Shape</li>
+  <li>Group Shapes</li>
+  <li>Ungroup Shapes</li>
+  <li>Add Style to Group</li>
+  <li>Add Text</li>
+  <li>Export to SVG and finish</li>
+</ol>
+
+<h1 id="contact">Contact</h1>
+<h2 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h2>
+
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>
+:ET

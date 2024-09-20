@@ -19,7 +19,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; style-src-elem 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://cdnb.artstation.com https://cdna.artstation.com;">
 -->
   <title>
-    File Converter - Ladno Developer Portfolio
+    SVG Shape Generator - Ladno Developer Portfolio
     
   </title>
 
@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/software/2023/04/01/file-converter.html">
+  <link rel="canonical" href="http://localhost:4000/software/2023/03/23/svg-shape-generator.html">
   <link rel="alternate" type="application/rss+xml" title="Ladno Developer Portfolio" href="/feed.xml">
 </head>
 
@@ -96,7 +96,7 @@
 -->
 
 
-<header title="Header images by artstation.com/dtmayer" class="masthead" style="background-image: url('http://localhost:4000/images/csv-to-json.jpg')">
+<header title="Header images by artstation.com/dtmayer" class="masthead" style="background-image: url('http://localhost:4000/images/svg-generator.png')">
 
   <div class="overlay"></div>
   <div class="container">
@@ -105,7 +105,7 @@
         <div class="page-heading">
           <!-- Set specific title and subheading for "Connect" section -->
           
-            <h1>File Converter</h1>
+            <h1>SVG Shape Generator</h1>
           
           
             <span class="subheading"></span>
@@ -128,36 +128,31 @@
     <div class="col-lg-10 col-md-10 mx-auto post-body">
 
       <div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
-  <a href="https://github.com/Ladnopoka/FileConverter" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+  <a href="https://github.com/Ladnopoka/SVG_Shape_Generator" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
-<h1 id="file-converter">File Converter</h1>
-<p>The File Converter is a C# project designed to convert files between several formats, including JSON, CSV, Markdown (MD), and HTML. This project was developed during my university studies and tested on Windows 10 using Visual Studio Code.</p>
+<h1 id="svg-shape-generator">SVG Shape Generator</h1>
+<p>The SVG Shape Generator is a C# project designed to create and manipulate SVG shapes such as circles, rectangles, ellipses, polygons, lines, and more. This tool allows users to generate random shapes, group them, modify their properties, and export them to an SVG canvas. Developed and tested on Windows 10 using Visual Studio Code.</p>
 
 <h2 id="features">Features</h2>
 <ul>
-  <li><strong>Format Conversion</strong>: Convert files between CSV, JSON, MD, and HTML formats.</li>
-  <li><strong>Console Application</strong>: Accepts input and output file paths through the command line, making it easy to automate conversions.</li>
-  <li><strong>Error Handling</strong>: Detects and handles incorrect file paths and formats.</li>
-  <li><strong>Helper Commands</strong>: Provides various commands such as <code class="language-plaintext highlighter-rouge">-verbose</code>, <code class="language-plaintext highlighter-rouge">-list-formats</code>, and <code class="language-plaintext highlighter-rouge">-help</code> for better user interaction.</li>
-  <li><strong>Cross-format Parsing</strong>: Parses and extracts data from supported file formats and outputs them in the desired format.</li>
+  <li><strong>Shape Creation</strong>: Create a variety of SVG shapes such as circles, rectangles, polygons, and lines.</li>
+  <li><strong>Shape Management</strong>: Read, update, and delete shapes. Modify shape parameters like position, size, stroke, and fill.</li>
+  <li><strong>Group and Style</strong>: Group shapes and apply styles like colors, stroke-width, and transformations (rotate, scale, skew).</li>
+  <li><strong>Export to SVG</strong>: Export all shapes to an SVG file with customizable z-index for layering shapes.</li>
+  <li><strong>Random Shape Generation</strong>: Generate shapes with random parameters and colors.</li>
+  <li><strong>Text Addition</strong>: Add random or default text with various styles and fonts to the SVG canvas.</li>
 </ul>
 
-<h2 id="supported-formats">Supported Formats</h2>
+<h2 id="supported-shapes">Supported Shapes</h2>
 <ul>
-  <li><strong>CSV</strong>: Converts to and from CSV files.</li>
-  <li><strong>JSON</strong>: Parses JSON files and outputs them into other formats or converts files into JSON.</li>
-  <li><strong>HTML</strong>: Supports HTML table parsing and conversion.</li>
-  <li><strong>Markdown (MD)</strong>: Handles Markdown file format for conversion to/from other types.</li>
-</ul>
-
-<h2 id="command-line-options">Command-Line Options</h2>
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">-v | -verbose</code>: Enables verbose mode, providing detailed output during file conversion.</li>
-  <li><code class="language-plaintext highlighter-rouge">-o &lt;file&gt; | -output=&lt;file&gt;</code>: Specifies the output file.</li>
-  <li><code class="language-plaintext highlighter-rouge">-l | -list-formats</code>: Lists all the available formats (CSV, JSON, HTML, MD).</li>
-  <li><code class="language-plaintext highlighter-rouge">-h | -help</code>: Displays the help menu with available options.</li>
-  <li><code class="language-plaintext highlighter-rouge">-i | -info</code>: Shows version information of the program.</li>
+  <li><strong>Circle</strong>: Generates circles with customizable position, radius, stroke, and fill.</li>
+  <li><strong>Rectangle</strong>: Creates rectangles with customizable width, height, and colors.</li>
+  <li><strong>Ellipse</strong>: Allows for the creation of ellipses with adjustable radii.</li>
+  <li><strong>Line</strong>: Draws lines between two points with customizable stroke.</li>
+  <li><strong>Polyline</strong>: Generates complex shapes by connecting multiple points.</li>
+  <li><strong>Polygon</strong>: Creates polygons by connecting multiple points with edges.</li>
+  <li><strong>Path</strong>: Allows for drawing custom paths with complex commands.</li>
 </ul>
 
 <h2 id="prerequisites">Prerequisites</h2>
@@ -167,9 +162,22 @@
 </ul>
 
 <h2 id="how-to-use">How to Use</h2>
-<p>Run the application through the command line by specifying an input file, an output file, and optional flags:
+<p>Run the application through the command line. You will be prompted to choose an operation to perform:
 bash
-dotnet run input.csv output.json -v</p>
+dotnet run</p>
+
+<ol>
+  <li>Create a Shape</li>
+  <li>Display a Shape</li>
+  <li>Update a Shape</li>
+  <li>Delete a Shape</li>
+  <li>Create a Default Shape</li>
+  <li>Group Shapes</li>
+  <li>Ungroup Shapes</li>
+  <li>Add Style to Group</li>
+  <li>Add Text</li>
+  <li>Export to SVG and finish</li>
+</ol>
 
 <h1 id="contact">Contact</h1>
 <h2 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h2>
@@ -198,10 +206,10 @@ dotnet run input.csv output.json -v</p>
       <div class="clearfix">
 
         
-        <a class="btn btn-primary float-left" href="//software/2023/03/23/svg-shape-generator.html" data-toggle="tooltip" data-placement="top" title="SVG Shape Generator">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
+        <a class="btn btn-primary float-left" href="//games/2023/03/12/wordle-game.html" data-toggle="tooltip" data-placement="top" title="Java Wordle Game">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
         
         
-        <a class="btn btn-primary float-right" href="//games/2023/05/11/space-shooter.html" data-toggle="tooltip" data-placement="top" title="Space Shooter Game">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+        <a class="btn btn-primary float-right" href="//software/2023/04/01/file-converter.html" data-toggle="tooltip" data-placement="top" title="File Converter">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
         
 
       </div>

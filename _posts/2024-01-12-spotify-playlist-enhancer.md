@@ -67,4 +67,4 @@ When the playlists are generated, they are added to your Spotify account, howeve
 **itch.io**: https://ladnogames.itch.io/ <br>
 **YouTube**: https://www.youtube.com/@LadnoDev <br>
 **X**: https://x.com/Ladnopokaa <br>
-**Discord**: Ladno#3352
+**Discord**: https://discord.gg/BPsncTZe

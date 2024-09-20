@@ -33,3 +33,14 @@ Soviet Joke Generator is a Java program that randomly generates "In Soviet Russi
 2. Open the project in your preferred Java IDE.
 3. Run the program, which generates jokes, writes them to a file, and compares their SHA-256 hash codes.
 4. Observe the output of the two jokes with the highest match score.
+
+# Contact
+##### For any inquiries or feedback, feel free to reach out to:
+
+**Jevgenij Ivanov** <br>
+**Email**: ladnopokaa@gmail.com <br><br>
+**GitHub**: https://github.com/Ladnopoka <br>
+**itch.io**: https://ladnogames.itch.io/ <br>
+**YouTube**: https://www.youtube.com/@LadnoDev <br>
+**X**: https://x.com/Ladnopokaa <br>
+**Discord**: https://discord.gg/BPsncTZe

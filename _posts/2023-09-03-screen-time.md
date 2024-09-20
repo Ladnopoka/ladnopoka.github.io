@@ -30,3 +30,14 @@ ScreenTime LockScreen is an Android application that provides a custom lock scre
 - Kotlin programming language knowledge
 - Basic understanding of Jetpack Compose
 - A device or emulator running Android 5.0 (Lollipop, API 21) or higher
+
+# Contact
+##### For any inquiries or feedback, feel free to reach out to:
+
+**Jevgenij Ivanov** <br>
+**Email**: ladnopokaa@gmail.com <br><br>
+**GitHub**: https://github.com/Ladnopoka <br>
+**itch.io**: https://ladnogames.itch.io/ <br>
+**YouTube**: https://www.youtube.com/@LadnoDev <br>
+**X**: https://x.com/Ladnopokaa <br>
+**Discord**: https://discord.gg/BPsncTZe

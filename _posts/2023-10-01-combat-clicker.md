@@ -72,4 +72,4 @@ Project presentation video where I showcase the game and my teammate covers the 
 **itch.io**: https://ladnogames.itch.io/ <br>
 **YouTube**: https://www.youtube.com/@LadnoDev <br>
 **X**: https://x.com/Ladnopokaa <br>
-**Discord**: Ladno#3352
+**Discord**: https://discord.gg/BPsncTZe

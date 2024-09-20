@@ -60,4 +60,4 @@ Dungeon Forge is a Godot 4 extension plugin that allows users to generate dungeo
 **itch.io**: https://ladnogames.itch.io/ <br>
 **YouTube**: https://www.youtube.com/@LadnoDev <br>
 **X**: https://x.com/Ladnopokaa <br>
-**Discord**: Ladno#3352
+**Discord**: https://discord.gg/BPsncTZe

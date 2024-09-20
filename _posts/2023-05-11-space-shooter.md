@@ -40,3 +40,14 @@ Space Shooter Game is a retro-style 2D shooter where the player controls a space
 <div style="text-align: center;">
   <img src="/images/space_shooter_1.png" alt="Space Shooter Screenshot" />
 </div>
+
+# Contact
+##### For any inquiries or feedback, feel free to reach out to:
+
+**Jevgenij Ivanov** <br>
+**Email**: ladnopokaa@gmail.com <br><br>
+**GitHub**: https://github.com/Ladnopoka <br>
+**itch.io**: https://ladnogames.itch.io/ <br>
+**YouTube**: https://www.youtube.com/@LadnoDev <br>
+**X**: https://x.com/Ladnopokaa <br>
+**Discord**: https://discord.gg/BPsncTZe

@@ -11,6 +11,7 @@
   background-color: transparent !important; /* Default background for inactive tabs */
   color: white !important; /* Text color for inactive tabs */
   border-color: #a92e2e !important; /* Border color */
+  margin-top: -30px;
 }
 
 .btn-group .btn.active,
@@ -308,4 +309,43 @@ footer {
 footer .container {
   max-width: 100%;
   text-align: center;
+}
+
+.content-section-titles {
+  font-family: 'CustomFont', sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  color: #af2828;
+  word-spacing: 0px;
+}
+
+h3, p {
+  text-align: left; /* or 'start' to handle languages differently */
+  word-spacing: normal; /* Ensures spacing is not exaggerated */
+  line-height: 1; /* Adjust line height for better readability */
+}
+
+.experience-header {
+  margin-bottom: 10px;
+  margin-top: -16px;
+}
+
+.experience-job {
+  font-size: 40px;
+  display: inline;
+}
+
+.experience-date {
+  font-size: 20px;
+  display: inline;
+  margin-left: 20px;
+}
+
+.experience-description {
+  font-size: 25px;
+}
+
+.skills-list {
+  font-size: calc(1em + 5px);
+  font-weight: bold;
 }

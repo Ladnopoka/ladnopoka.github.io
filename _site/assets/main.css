@@ -263,4 +263,6 @@ h3, p { text-align: left; /* or 'start' to handle languages differently */ word-
 
 .experience-date { font-size: 20px; display: inline; margin-left: 20px; }
 
+.experience-description { font-size: 25px; }
+
 /*# sourceMappingURL=main.css.map */

@@ -125,8 +125,8 @@
 <div class="btn-group d-flex justify-content-center mb-4" role="group" aria-label="About Categories">
   <button class="btn btn-primary active" onclick="filterContent(event, 'about_me')">About</button>
   <button class="btn btn-primary" onclick="filterContent(event, 'skills')">Skills</button>
-  <button class="btn btn-primary" onclick="filterContent(event, 'education')">Education</button>
   <button class="btn btn-primary" onclick="filterContent(event, 'experience')">Experience</button>
+  <button class="btn btn-primary" onclick="filterContent(event, 'education')">Education</button>
   <button class="btn btn-primary" onclick="filterContent(event, 'curriculum_vitae')">Curriculum Vitae</button>
 </div>
 
@@ -138,11 +138,11 @@
     
       <!-- Left Side: Text Content -->
       <div class="about-me-text" style="flex: 1; padding-right: 20px;">
-        <h1>My name is Jevgenij Ivanov</h1>
+        <h1 class="content-section-titles">Who am I?</h1>
         <h3>
-          I am a Computer Science graduate and aspiring Software Engineer with 
+          My name is Jevgenij Ivanov, and I am a Computer Science graduate and aspiring Software Engineer with 
           experience in Software Development, DevOps, AWS, Edge Technologies, 
-          Version Control Systems, and Agile Methodologies.<br> <br>
+          Version Control Systems, and Agile Methodologies.<br><br>
           
           During my 4-year university course, I developed skills in building Websites, Software Architecture/Design,
           RESTful applications, Computer Games and 3D Models/Animations, UI/UX, App Extensions, and much more.
@@ -163,7 +163,7 @@
 
       <!-- right Side: Text Content -->
       <div class="about-me-text" style="flex: 1; padding-left: 20px;">
-        <h1>Interests and Hobbies</h1>
+        <h1 class="content-section-titles" style="text-align: left">Interests and Hobbies</h1>
         <h3>
           I have a strong passion for the latest technology trends 
           and enjoy exploring new software development tools and engines. 
@@ -172,8 +172,9 @@
           <a href="/games/2023/10/02/slayer.html" target="_blank" class="glow-link" style="color: rgb(216, 47, 47); font-weight: bold; text-decoration: underline; font-size: 1.1em;">Slayer</a> 
           and 
           <a href="/software/2024/03/26/dungeon-forge.html" target="_blank" class="glow-link" style="color: rgb(216, 47, 47); font-weight: bold; text-decoration: underline; font-size: 1.1em;">Dungeon Forge</a> 
-          showcasing 
-          my game and engine development skills. Outside of technology, 
+          showcasing my game and engine development skills.<br><br>
+          
+          Outside of technology, 
           I enjoy staying active through hiking, martial arts, table tennis, 
           and badminton. Occasionally, you will catch me playing a game of Chess.
         </h3>
@@ -183,20 +184,26 @@
 
   <!-- Skills Section -->
   <div class="content-section" data-category="skills" style="display: none;">
-    <h1>Skills</h1>
+    <h1 class="content-section-titles">Skills</h1>
     <h3>Proficient in Python, C#, JavaScript, Java, SQL, and more. Experienced with web development frameworks such as React and Django.</h3>
-  </div>
-
-  <!-- Education Section -->
-  <div class="content-section" data-category="education" style="display: none;">
-    <h1>Education</h1>
-    <h3>Bachelor's Degree in Computer Science from Maynooth University, Ireland. Specialized in Software Engineering, Software Design, UI/UX, Web Development, Databases and Data Strucures, AI, Computer Graphics and more.</h3>
   </div>
 
   <!-- Experience Section -->
   <div class="content-section" data-category="experience" style="display: none;">
-    <h1>Experience</h1>
-    <h3>Worked on various projects involving software development, game development, and data analysis. Actively seeking new opportunities.</h3>
+    <h1 class="content-section-titles">Software Engineering Intern</h1>
+    <h2>Zendesk</h2>
+    <h3>As a Localization Quality Assurance Specialist at Keywords Studios, 
+    I was responsible for ensuring the quality and accuracy of localized 
+    text in various video games. My role involved testing in-game text to 
+    verify that it was correctly translated and matched context, as well 
+    as ensuring that there were no text overlaps, concatenations or any 
+    other forms of text bugs on screen.  
+  </div>
+
+  <!-- Education Section -->
+  <div class="content-section" data-category="education" style="display: none;">
+    <h1 class="content-section-titles">Education</h1>
+    <h3>Bachelor's Degree in Computer Science from Maynooth University, Ireland. Specialized in Software Engineering, Software Design, UI/UX, Web Development, Databases and Data Strucures, AI, Computer Graphics and more.</h3>
   </div>
 
   <!-- CV Section -->

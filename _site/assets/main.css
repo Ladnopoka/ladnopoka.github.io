@@ -257,4 +257,10 @@ footer .container { max-width: 100%; text-align: center; }
 
 h3, p { text-align: left; /* or 'start' to handle languages differently */ word-spacing: normal; /* Ensures spacing is not exaggerated */ line-height: 1; /* Adjust line height for better readability */ }
 
+.experience-header { margin-bottom: 10px; margin-top: -16px; }
+
+.experience-job { font-size: 40px; display: inline; }
+
+.experience-date { font-size: 20px; display: inline; margin-left: 20px; }
+
 /*# sourceMappingURL=main.css.map */

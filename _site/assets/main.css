@@ -265,4 +265,6 @@ h3, p { text-align: left; /* or 'start' to handle languages differently */ word-
 
 .experience-description { font-size: 25px; }
 
+.skills-list { font-size: calc(1em + 5px); font-weight: bold; }
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,53 @@
+I"�<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/Godot-room-generator-plugin" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+</div>
+
+<div>
+  # Overview
+  Dungeon Forge is a Godot 4 extension plugin that allows users to generate dungeon-like layouts in their scenes with a click of a button. This plugin opens a new window in the Godot 4 editor in the bottom right corner where users can select from three different biomes: dungeons, wooden cabins, and frozen caves. Upon selecting the gridmap generator in the menu, a new pop-up menu on the right allows users to set parameters for the dungeon layouts and then generate the layouts and meshes. Additional features include a first-person controller that allows users to explore generated dungeons, saving generated layouts, and reusing dungeons.
+
+  The demonstration of the application can be viewed below:
+  <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
+      <iframe width="660" height="415" src="https://www.youtube.com/embed/dw3r8JJGyQ4?si=kLD1VK-v1A9r4Cv3" title="Dungeon Forge Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+      </iframe>
+  </div>
+</div>
+
+<h1 id="features">Features</h1>
+<ul>
+  <li><strong>Biome Selection</strong>: Choose from three biomes: dungeons, wooden cabins, and frozen caves.<br /></li>
+  <li><strong>Gridmap Generator</strong>: Customize parameters and generate dungeon layouts and meshes.<br /></li>
+  <li><strong>First Person Controller</strong>: Explore the generated dungeons in first-person view.<br /></li>
+  <li><strong>Save and Reuse</strong>: Save generated layouts and reuse them in your scenes.<br /></li>
+</ul>
+
+<h1 id="in-future-development">In Future Development</h1>
+<ul>
+  <li><strong>Multiple Floor Layouts</strong>: Create multiple floors connected by ladders or stairs.<br /></li>
+  <li><strong>Upload Your Mesh</strong>: Allow users to drag and drop their mesh to become the new theme they would use.<br /></li>
+  <li><strong>Fix Bugs</strong>: Fix bugs. One big one currently is save disappearing on client restart. <br /></li>
+</ul>
+
+<h1 id="installation">Installation</h1>
+<ol>
+  <li>Clone https://github.com/Ladnopoka/Godot-room-generator-plugin.git</li>
+  <li>Add the “addons/room-generator” folder to the “addons” folder in your Godot project</li>
+  <li>In Godot editor, select “Project” in the top left corner</li>
+  <li>Go to “Project Settings…”</li>
+  <li>Go to “Plugins” tab</li>
+  <li>Click “Enable” tick box for the “Dungeon Forge” plugin</li>
+  <li>You should now see a new UI window appearing in bottom right corner of the editor</li>
+  <li>To spawn a dungeon generator, select “Gridmap Generator” in either of the themes</li>
+</ol>
+
+<h1 id="contact">Contact</h1>
+<h5 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h5>
+
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>
+:ET

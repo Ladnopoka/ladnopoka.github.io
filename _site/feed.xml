@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-26T15:43:48+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ladno Developer Portfolio</title><subtitle>Software and Games</subtitle><author><name>Jevgenij Ivanov</name></author><entry><title type="html">Dungeon Forge</title><link href="http://localhost:4000/software/2024/03/26/dungeon-forge.html" rel="alternate" type="text/html" title="Dungeon Forge" /><published>2024-03-26T00:00:00+00:00</published><updated>2024-03-26T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/03/26/dungeon-forge</id><content type="html" xml:base="http://localhost:4000/software/2024/03/26/dungeon-forge.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-26T15:59:12+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ladno Developer Portfolio</title><subtitle>Software and Games</subtitle><author><name>Jevgenij Ivanov</name></author><entry><title type="html">Dungeon Forge</title><link href="http://localhost:4000/software/2024/03/26/dungeon-forge.html" rel="alternate" type="text/html" title="Dungeon Forge" /><published>2024-03-26T00:00:00+00:00</published><updated>2024-03-26T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/03/26/dungeon-forge</id><content type="html" xml:base="http://localhost:4000/software/2024/03/26/dungeon-forge.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/Godot-room-generator-plugin" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
-<div>
-  <p># Overview
-  Dungeon Forge is a Godot 4 extension plugin that allows users to generate dungeon-like layouts in their scenes with a click of a button. This plugin opens a new window in the Godot 4 editor in the bottom right corner where users can select from three different biomes: dungeons, wooden cabins, and frozen caves. Upon selecting the gridmap generator in the menu, a new pop-up menu on the right allows users to set parameters for the dungeon layouts and then generate the layouts and meshes. Additional features include a first-person controller that allows users to explore generated dungeons, saving generated layouts, and reusing dungeons.</p>
+<h1 id="overview">Overview</h1>
+<h3 style="font-size: 25px">
+  Dungeon Forge is a Godot 4 extension plugin that allows users to generate dungeon-like layouts in their scenes with a click of a button. This plugin opens a new window in the Godot 4 editor in the bottom right corner where users can select from three different biomes: dungeons, wooden cabins, and frozen caves. Upon selecting the gridmap generator in the menu, a new pop-up menu on the right allows users to set parameters for the dungeon layouts and then generate the layouts and meshes. Additional features include a first-person controller that allows users to explore generated dungeons, saving generated layouts, and reusing dungeons.
+<br /><br />
 
-  <p>The demonstration of the application can be viewed below:</p>
-  <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
-      <iframe width="660" height="415" src="https://www.youtube.com/embed/dw3r8JJGyQ4?si=kLD1VK-v1A9r4Cv3" title="Dungeon Forge Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
-      </iframe>
-  </div>
+The demonstration of the application can be viewed below:
+</h3>
+<div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
+    <iframe width="660" height="415" src="https://www.youtube.com/embed/dw3r8JJGyQ4?si=kLD1VK-v1A9r4Cv3" title="Dungeon Forge Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+    </iframe>
 </div>
 
 <h1 id="features">Features</h1>
@@ -54,12 +55,15 @@
 </div>
 
 <h1 id="overview">Overview</h1>
-<p>Google Chrome extension which allows you to connect to Spotify API fetch songs and playlist from your Spotify account.
+<h3 style="font-size: 25px">
+Google Chrome extension which allows you to connect to Spotify API fetch songs and playlist from your Spotify account.
 This extension also allows you to retrieve your top 5 played tracks, and give you 5 recommendations based on these tracks, all with a couple of clicks through the extension UI.
 Finally, you can generate a Spotify playlist with the songs that were recommended to you, and play these songs inside the extension right there and now.
-When the playlists are generated, they are added to your Spotify account, however, in the extension UI, you can select to not keep the playlist if you don’t like it after listening to the recommended songs.<br /><br /></p>
+When the playlists are generated, they are added to your Spotify account, however, in the extension UI, you can select to not keep the playlist if you don't like it after listening to the recommended songs.
+<br /><br />
 
-<p>The demonstration of the application can be viewed below:</p>
+The demonstration of the application can be viewed below:
+</h3>
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
     <iframe width="660" height="415" src="https://www.youtube.com/embed/NTn2MuQhe8Q?si=fydHOFu14HMk2qo1" title="Spotify Playlist Enhancer Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
     </iframe>
@@ -110,9 +114,12 @@ When the playlists are generated, they are added to your Spotify account, howeve
 </div>
 
 <h1 id="overview">Overview</h1>
-<p>Slayer is an exciting top-down isometric roguelike game that immerses players in a world of strategic combat and character progression. Choose from three distinct classes—Mage, Barbarian, and Rogue—and embark on thrilling adventures, battling fierce enemies and mastering powerful abilities.</p>
+<h3 style="font-size: 25px">
+  Slayer is an exciting top-down isometric roguelike game that immerses players in a world of strategic combat and character progression. Choose from three distinct classes—Mage, Barbarian, and Rogue—and embark on thrilling adventures, battling fierce enemies and mastering powerful abilities.
 
-<p>Quick Devlog video where I showcase the first development phase of the game:</p>
+<br /><br />
+  Quick Devlog video where I showcase the first development phase of the game:
+</h3>
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
     <iframe width="660" height="415" src="https://www.youtube.com/embed/NKe8HLG3dlM?si=mKYGMW_STigP3nRy" title="Slayer Game Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
     </iframe>
@@ -167,10 +174,14 @@ When the playlists are generated, they are added to your Spotify account, howeve
 </div>
 
 <h1 id="overview">Overview</h1>
-<p><strong>Combat Clicker</strong> is a browser-based, turn-based game where you face off against a cunning rat warrior. Your goal is simple: get lucky and guess the right option to defeat the rat! The game features a mix of attack and defense options, requiring players to choose where to strike and where to defend.</p>
-
-<h1 id="game-presentation">Game Presentation</h1>
-<p>Project presentation video where I showcase the game and my teammate covers the work on the game menus, click on the image to see:</p>
+<h3 style="font-size: 25px">
+  Combat Clicker is a browser-based, turn-based game where you face off against a cunning rat warrior. Your goal is simple: get lucky and guess the right option to defeat the rat! The game features a mix of attack and defense options, requiring players to choose where to strike and where to defend.
+</h3>
+<p><br />
+  # Game Presentation</p>
+<h3 style="font-size: 25px">
+  Project presentation video where I showcase the game and my teammate covers the work on the game menus, click on the image to see:
+</h3>
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
     <iframe width="660" height="415" src="https://www.youtube.com/embed/Mptg1MEHPik?si=Go7BpwS23VTs78SS" title="Combat Clicker" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
     </iframe>
@@ -230,7 +241,9 @@ When the playlists are generated, they are added to your Spotify account, howeve
 </div>
 
 <h1 id="screentime-lockscreen">ScreenTime LockScreen</h1>
-<p>ScreenTime LockScreen is an Android application that provides a custom lock screen experience and displays your total screen time on your applicatoins. This project uses Jetpack Compose for the UI and includes a full-screen activity that overlays the default lock screen.</p>
+<h3 style="font-size: 25px">
+ScreenTime LockScreen is an Android application that provides a custom lock screen experience and displays your total screen time on your applicatoins. This project uses Jetpack Compose for the UI and includes a full-screen activity that overlays the default lock screen.
+</h3>
 
 <h2 id="features">Features</h2>
 <ul>
@@ -263,7 +276,9 @@ When the playlists are generated, they are added to your Spotify account, howeve
 </div>
 
 <h1 id="soviet-joke-generator">Soviet Joke Generator</h1>
-<p>Soviet Joke Generator is a Java program that randomly generates “In Soviet Russia” jokes and compares the SHA-256 hash codes of two jokes to find the highest match. The jokes are constructed using random combinations of nouns and verbs, producing amusing sentences like “In Soviet Russia, Bitcoin mine you.”</p>
+<h3 style="font-size: 25px">
+Soviet Joke Generator is a Java program that randomly generates "In Soviet Russia" jokes and compares the SHA-256 hash codes of two jokes to find the highest match. The jokes are constructed using random combinations of nouns and verbs, producing amusing sentences like "In Soviet Russia, Bitcoin mine you."
+</h3>
 
 <h2 id="features">Features</h2>
 <ul>
@@ -303,7 +318,9 @@ When the playlists are generated, they are added to your Spotify account, howeve
 </div>
 
 <h1 id="space-shooter-game">Space Shooter Game</h1>
-<p>Space Shooter Game is a retro-style 2D shooter where the player controls a spaceship and shoots incoming meteors. This project was developed using Processing during the first year of my university studies.</p>
+<h3 style="font-size: 25px">
+Space Shooter Game is a retro-style 2D shooter where the player controls a spaceship and shoots incoming meteors. This project was developed using Processing during the first year of my university studies.
+</h3>
 
 <div style="text-align: center;">
   <img src="/images/space_shooter_2.png" alt="Space Shooter Screenshot" />
@@ -348,7 +365,9 @@ When the playlists are generated, they are added to your Spotify account, howeve
 </div>
 
 <h1 id="file-converter">File Converter</h1>
-<p>The File Converter is a C# project designed to convert files between several formats, including JSON, CSV, Markdown (MD), and HTML. This project was developed during my university studies and tested on Windows 10 using Visual Studio Code.</p>
+<h3 style="font-size: 25px">
+The File Converter is a C# project designed to convert files between several formats, including JSON, CSV, Markdown (MD), and HTML. This project was developed during my university studies and tested on Windows 10 using Visual Studio Code.
+</h3>
 
 <h2 id="features">Features</h2>
 <ul>
@@ -401,7 +420,9 @@ dotnet run input.csv output.json -v</p>
 </div>
 
 <h1 id="svg-shape-generator">SVG Shape Generator</h1>
-<p>The SVG Shape Generator is a C# project designed to create and manipulate SVG shapes such as circles, rectangles, ellipses, polygons, lines, and more. This tool allows users to generate random shapes, group them, modify their properties, and export them to an SVG canvas. Developed and tested on Windows 10 using Visual Studio Code.</p>
+<h3 style="font-size: 25px">
+The SVG Shape Generator is a C# project designed to create and manipulate SVG shapes such as circles, rectangles, ellipses, polygons, lines, and more. This tool allows users to generate random shapes, group them, modify their properties, and export them to an SVG canvas. Developed and tested on Windows 10 using Visual Studio Code.
+</h3>
 
 <h2 id="features">Features</h2>
 <ul>
@@ -457,12 +478,14 @@ dotnet run</p>
 <strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
 <strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
 <strong>X</strong>: https://x.com/Ladnopokaa <br />
-<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Java Wordle Game</title><link href="http://localhost:4000/games/2023/03/12/wordle-game.html" rel="alternate" type="text/html" title="Java Wordle Game" /><published>2023-03-12T00:00:00+00:00</published><updated>2023-03-12T00:00:00+00:00</updated><id>http://localhost:4000/games/2023/03/12/wordle-game</id><content type="html" xml:base="http://localhost:4000/games/2023/03/12/wordle-game.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Java Wordle Game</title><link href="http://localhost:4000/software/2023/03/12/wordle-game.html" rel="alternate" type="text/html" title="Java Wordle Game" /><published>2023-03-12T00:00:00+00:00</published><updated>2023-03-12T00:00:00+00:00</updated><id>http://localhost:4000/software/2023/03/12/wordle-game</id><content type="html" xml:base="http://localhost:4000/software/2023/03/12/wordle-game.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/WordleGame" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
 <h1 id="java-wordle-game">Java Wordle Game</h1>
-<p>The Java Wordle Game is a terminal-based word-guessing game where players attempt to guess a randomly chosen word in six attempts. After each guess, players receive hints in the form of numbers indicating if a letter is correct and in the right position, or if it exists elsewhere in the word. This project was developed in Java during my university studies and is supported by a word list of over 20,000 words.</p>
+<h3 style="font-size: 25px">
+The Java Wordle Game is a terminal-based word-guessing game where players attempt to guess a randomly chosen word in six attempts. After each guess, players receive hints in the form of numbers indicating if a letter is correct and in the right position, or if it exists elsewhere in the word. This project was developed in Java during my university studies and is supported by a word list of over 20,000 words.
+</h3>
 
 <h2 id="features">Features</h2>
 <ul>
@@ -515,4 +538,4 @@ dotnet run</p>
 <strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
 <strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
 <strong>X</strong>: https://x.com/Ladnopokaa <br />
-<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry></feed>
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry></feed>

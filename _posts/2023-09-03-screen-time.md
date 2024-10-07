@@ -16,7 +16,9 @@ languages:
 </div>
 
 # ScreenTime LockScreen
+<h3 style="font-size: 25px">
 ScreenTime LockScreen is an Android application that provides a custom lock screen experience and displays your total screen time on your applicatoins. This project uses Jetpack Compose for the UI and includes a full-screen activity that overlays the default lock screen.
+</h3>
 
 ## Features
 - Displays one of three random background images when the screen turns on.

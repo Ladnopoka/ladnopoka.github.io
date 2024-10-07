@@ -22,10 +22,14 @@ languages:
 </div>
 
 # Overview
-**Combat Clicker** is a browser-based, turn-based game where you face off against a cunning rat warrior. Your goal is simple: get lucky and guess the right option to defeat the rat! The game features a mix of attack and defense options, requiring players to choose where to strike and where to defend.
+<h3 style="font-size: 25px">
+  Combat Clicker is a browser-based, turn-based game where you face off against a cunning rat warrior. Your goal is simple: get lucky and guess the right option to defeat the rat! The game features a mix of attack and defense options, requiring players to choose where to strike and where to defend.
+</h3>
 
 # Game Presentation
-Project presentation video where I showcase the game and my teammate covers the work on the game menus, click on the image to see:
+<h3 style="font-size: 25px">
+  Project presentation video where I showcase the game and my teammate covers the work on the game menus, click on the image to see:
+</h3>
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
     <iframe width="660" height="415" src="https://www.youtube.com/embed/Mptg1MEHPik?si=Go7BpwS23VTs78SS" 
         title="Combat Clicker" 

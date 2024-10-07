@@ -14,7 +14,9 @@ languages:
 </div>
 
 # Soviet Joke Generator
+<h3 style="font-size: 25px">
 Soviet Joke Generator is a Java program that randomly generates "In Soviet Russia" jokes and compares the SHA-256 hash codes of two jokes to find the highest match. The jokes are constructed using random combinations of nouns and verbs, producing amusing sentences like "In Soviet Russia, Bitcoin mine you."
+</h3>
 
 ## Features
 - Generates random "In Soviet Russia" jokes by combining a fixed phrase with random nouns and verbs.

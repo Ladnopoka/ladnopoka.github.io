@@ -16,7 +16,9 @@ languages:
 </div>
 
 # Space Shooter Game
+<h3 style="font-size: 25px">
 Space Shooter Game is a retro-style 2D shooter where the player controls a spaceship and shoots incoming meteors. This project was developed using Processing during the first year of my university studies.
+</h3>
 
 <div style="text-align: center;">
   <img src="/images/space_shooter_2.png" alt="Space Shooter Screenshot" />

@@ -14,7 +14,9 @@ languages:
 </div>
 
 # File Converter
+<h3 style="font-size: 25px">
 The File Converter is a C# project designed to convert files between several formats, including JSON, CSV, Markdown (MD), and HTML. This project was developed during my university studies and tested on Windows 10 using Visual Studio Code.
+</h3>
 
 ## Features
 - **Format Conversion**: Convert files between CSV, JSON, MD, and HTML formats.

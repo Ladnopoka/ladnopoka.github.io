@@ -19,7 +19,7 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; style-src-elem 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://cdnb.artstation.com https://cdna.artstation.com;">
 -->
   <title>
-    Spotify Playlist Enhancer - Ladno Developer Portfolio
+    Java Wordle Game - Ladno Developer Portfolio
     
   </title>
 
@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/software/2024/01/12/spotify-playlist-enhancer.html">
+  <link rel="canonical" href="http://localhost:4000/software/2023/03/12/wordle-game.html">
   <link rel="alternate" type="application/rss+xml" title="Ladno Developer Portfolio" href="/feed.xml">
 </head>
 
@@ -96,7 +96,7 @@
 -->
 
 
-<header title="Header images by artstation.com/dtmayer" class="masthead" style="background-image: url('http://localhost:4000/images/spotify-logo.png')">
+<header title="Header images by artstation.com/dtmayer" class="masthead" style="background-image: url('http://localhost:4000/images/wordle_background.jpg')">
 
   <div class="overlay"></div>
   <div class="container">
@@ -105,7 +105,7 @@
         <div class="page-heading">
           <!-- Set specific title and subheading for "Connect" section -->
           
-            <h1>Spotify Playlist Enhancer</h1>
+            <h1>Java Wordle Game</h1>
           
           
             <span class="subheading"></span>
@@ -113,11 +113,7 @@
           
             <div class="languages-right">
               
-                <span class="language language-javascript">JavaScript</span>
-              
-                <span class="language language-html">HTML</span>
-              
-                <span class="language language-css">CSS</span>
+                <span class="language language-java">Java</span>
               
             </div>
           
@@ -132,57 +128,58 @@
     <div class="col-lg-10 col-md-10 mx-auto post-body">
 
       <div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
-  <a href="https://github.com/Ladnopoka/Spotify-Playlist-Enhancer" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+  <a href="https://github.com/Ladnopoka/WordleGame" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
-<h1 id="overview">Overview</h1>
+<h1 id="java-wordle-game">Java Wordle Game</h1>
 <h3 style="font-size: 25px">
-Google Chrome extension which allows you to connect to Spotify API fetch songs and playlist from your Spotify account.
-This extension also allows you to retrieve your top 5 played tracks, and give you 5 recommendations based on these tracks, all with a couple of clicks through the extension UI.
-Finally, you can generate a Spotify playlist with the songs that were recommended to you, and play these songs inside the extension right there and now.
-When the playlists are generated, they are added to your Spotify account, however, in the extension UI, you can select to not keep the playlist if you don't like it after listening to the recommended songs.
-<br /><br />
-
-The demonstration of the application can be viewed below:
+The Java Wordle Game is a terminal-based word-guessing game where players attempt to guess a randomly chosen word in six attempts. After each guess, players receive hints in the form of numbers indicating if a letter is correct and in the right position, or if it exists elsewhere in the word. This project was developed in Java during my university studies and is supported by a word list of over 20,000 words.
 </h3>
-<div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
-    <iframe width="660" height="415" src="https://www.youtube.com/embed/NTn2MuQhe8Q?si=fydHOFu14HMk2qo1" title="Spotify Playlist Enhancer Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
-    </iframe>
-</div>
 
-<h1 id="features">Features</h1>
+<h2 id="features">Features</h2>
 <ul>
-  <li><strong>Authenticate Spotify Account</strong>: Securely connect your Spotify account to the extension.<br /></li>
-  <li><strong>Top 5 Played Tracks</strong>: View your top 5 most played tracks on Spotify.<br /></li>
-  <li><strong>Top 5 Recommended Tracks</strong>: Get recommendations from Spotify based on your top played tracks.<br /></li>
-  <li><strong>Generate New Playlists</strong>: Create new playlists with new songs based on your top tracks and recommendations.<br /></li>
-  <li><strong>Play Songs in Browser</strong>: Listen to your playlists directly within Google Chrome.<br /></li>
+  <li><strong>Random Word Selection</strong>: The game randomly selects a word from a list of over 20,000 words.</li>
+  <li><strong>Hints System</strong>: After each guess, hints are displayed using numbers:
+    <ul>
+      <li><strong>0</strong>: The letter does not exist in the word.</li>
+      <li><strong>1</strong>: The letter exists but is in the wrong position.</li>
+      <li><strong>2</strong>: The letter is in the correct position.</li>
+    </ul>
+  </li>
+  <li><strong>Six Attempts</strong>: Players have six attempts to guess the word correctly.</li>
+  <li><strong>Helper Methods</strong>: The game includes helper methods that filter out possible words based on previously guessed letters.</li>
 </ul>
 
-<h1 id="in-development">In Development</h1>
-<ul>
-  <li><strong>Dynamic Playlist Manager</strong>: Drag and drop songs to create the perfect playlist.<br /></li>
-  <li><strong>Customized Profile</strong>: Personalize your extension profile.<br /></li>
-  <li><strong>Friend System</strong>: Connect with friends and share your music preferences.<br /></li>
-</ul>
-
-<h1 id="installation">Installation</h1>
+<h2 id="how-to-play">How to Play</h2>
 <ol>
-  <li>Clone https://github.com/Ladnopoka/Spotify-Playlist-Enhancer.git</li>
-  <li>Go to ./spotify-playlist-enhancer directory</li>
-  <li>Run command “npm install react-scripts”</li>
-  <li>Run command “npm install fireabase”</li>
-  <li>Run command “npm run build” in your terminal/console from spotify-playlist-enhancer directory</li>
-  <li>The spotify-playlist-enhancer directory now has a new folder “build”</li>
-  <li>Open your Google Chrome browser and go to your extensions</li>
-  <li>In the top right corner of the extensions page, toggle developer mode</li>
-  <li>A couple of new buttons appear, select “Load unpacked”</li>
-  <li>Select the build folder that you created in step 2</li>
-  <li>The extension now appears in your extensions, enable it and you will have the icon in extensions (top left corner)</li>
+  <li>The game starts by selecting a random word from the word list.</li>
+  <li>The player has to guess the word by typing in a five-letter word.</li>
+  <li>After each guess, the game provides feedback using a hint system:
+    <ul>
+      <li><strong>2</strong>: The letter is correct and in the right position.</li>
+      <li><strong>1</strong>: The letter exists but is in the wrong position.</li>
+      <li><strong>0</strong>: The letter does not exist in the word.</li>
+    </ul>
+  </li>
+  <li>Players have six attempts to guess the word correctly. If they fail, the correct word is revealed.</li>
 </ol>
 
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+  <li>Java Development Kit (JDK) installed on your machine.</li>
+  <li>A Java IDE such as Eclipse or IntelliJ IDEA for development.</li>
+</ul>
+
+<h2 id="how-to-run">How to Run</h2>
+<p>You can run the game from the command line:</p>
+<ul>
+  <li>bash</li>
+  <li>javac wordle_game.java</li>
+  <li>java wordle_game</li>
+</ul>
+
 <h1 id="contact">Contact</h1>
-<h5 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h5>
+<h2 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h2>
 
 <p><strong>Jevgenij Ivanov</strong> <br />
 <strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
@@ -208,10 +205,8 @@ The demonstration of the application can be viewed below:
       <div class="clearfix">
 
         
-        <a class="btn btn-primary float-left" href="//games/2023/10/02/slayer.html" data-toggle="tooltip" data-placement="top" title="Slayer">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
         
-        
-        <a class="btn btn-primary float-right" href="//software/2024/03/26/dungeon-forge.html" data-toggle="tooltip" data-placement="top" title="Dungeon Forge">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+        <a class="btn btn-primary float-right" href="//software/2023/03/23/svg-shape-generator.html" data-toggle="tooltip" data-placement="top" title="SVG Shape Generator">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
         
 
       </div>

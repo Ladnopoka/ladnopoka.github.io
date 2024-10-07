@@ -14,7 +14,9 @@ languages:
 </div>
 
 # SVG Shape Generator
+<h3 style="font-size: 25px">
 The SVG Shape Generator is a C# project designed to create and manipulate SVG shapes such as circles, rectangles, ellipses, polygons, lines, and more. This tool allows users to generate random shapes, group them, modify their properties, and export them to an SVG canvas. Developed and tested on Windows 10 using Visual Studio Code.
+</h3>
 
 ## Features
 - **Shape Creation**: Create a variety of SVG shapes such as circles, rectangles, polygons, and lines.

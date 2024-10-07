@@ -3,7 +3,7 @@ title: Java Wordle Game
 layout: post  
 background: images/wordle_background.jpg  
 subtitle: A Wordle-inspired game implemented in Java where players guess a word in six attempts.  
-category: games  
+category: software 
 languages:  
   - name: Java  
     slug: java  
@@ -14,7 +14,9 @@ languages:
 </div>
 
 # Java Wordle Game
+<h3 style="font-size: 25px">
 The Java Wordle Game is a terminal-based word-guessing game where players attempt to guess a randomly chosen word in six attempts. After each guess, players receive hints in the form of numbers indicating if a letter is correct and in the right position, or if it exists elsewhere in the word. This project was developed in Java during my university studies and is supported by a word list of over 20,000 words.
+</h3>
 
 ## Features
 - **Random Word Selection**: The game randomly selects a word from a list of over 20,000 words.

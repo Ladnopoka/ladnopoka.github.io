@@ -1,16 +1,16 @@
 ---
 title: About Me
 layout: post
-description: Skills, Education, Experience!
+description: Experience, Education, Skills!
 background: "img/bg-contact.jpg"
 ---
 
 <!-- Tab Navigation -->
 <div class="btn-group d-flex justify-content-center mb-4" role="group" aria-label="About Categories">
   <button class="btn btn-primary active" onclick="filterContent(event, 'about_me')">About</button>
-  <button class="btn btn-primary" onclick="filterContent(event, 'skills')">Skills</button>
   <button class="btn btn-primary" onclick="filterContent(event, 'experience')">Experience</button>
   <button class="btn btn-primary" onclick="filterContent(event, 'education')">Education</button>
+  <button class="btn btn-primary" onclick="filterContent(event, 'skills')">Skills</button>
   <button class="btn btn-primary" onclick="filterContent(event, 'curriculum_vitae')">Curriculum Vitae</button>
 </div>
 
@@ -77,28 +77,28 @@ background: "img/bg-contact.jpg"
         <li>HTML</li>
         <li>JavaScript</li>
         <li>CSS</li>
-        <li>C#</li>
+        <!--<li>C#</li>
         <li>C++</li>
         <li>Java</li>
         <li>Ruby</li>
             
-        <br>
+        <br>-->
         
-        <li>Kotlin</li>
+        <!--<li>Kotlin</li>
         <li>Android Development</li>
-        <li>Android Studio</li>
+        <li>Android Studio</li>-->
       </ul>
     
       <!-- Right Column -->
       <ul class="skills-list" style="flex: 1;">
-        <li>Software Development</li>
+        <!--<li>Software Development</li>
         <li>Software Documentation</li>
         <li>Software Maintenance</li>
         <li>Software Design</li>
         <li>Software Infrastructure</li>
         <li>Software Testing</li>
     
-        <br>
+        <br>-->
 
         <li>Domain Name System (DNS)</li>
         <li>Edge Computing</li>
@@ -113,19 +113,19 @@ background: "img/bg-contact.jpg"
     <div class="skills-container" style="display: flex; justify-content: space-between; flex-wrap: wrap;">
       <ul class="skills-list" style="flex: 1;">
         <li>Godot Engine</li>
-        <li>Unity Engine</li>
+        <!--<li>Unity Engine</li>-->
         <li>Blender 3D</li>
-        <li>3D Modelling</li>
+      <!--<li>3D Modelling</li>
         <li>3D Animations</li>
         <li>Texture Creation</li>
-        <li>Movie Scene Creation</li>
+        <li>Movie Scene Creation</li>-->
       </ul>
 
       <ul class="skills-list" style="flex: 1;">
-        <li>Game Development</li>
+        <!--<li>Game Development</li>
         <li>Game Testing</li>
         <li>Game Programming</li>
-        <li>Game Design</li>
+        <li>Game Design</li>-->
       </ul>
     </div>
 
@@ -141,9 +141,9 @@ background: "img/bg-contact.jpg"
 
         <br>
 
-        <li>Quality Assurance</li>
+        <!--<li>Quality Assurance</li>
         <li>Quality Control</li>
-        <li>Quality Management</li>
+        <li>Quality Management</li>-->
       </ul>
 
       <ul class="skills-list" style="flex: 1;">
@@ -247,13 +247,19 @@ background: "img/bg-contact.jpg"
   <!-- Education Section -->
   <div class="content-section" data-category="education" style="display: none;">
     
-    
     <h1 class="content-section-titles">Computer Science & Software Engineering</h1>
     <div class="experience-header">
       <h2 class="experience-job">Maynooth University</h2>
       <h2 class="experience-date" style="font-size: 25px;">Kildare, Ireland</h2>
       <h2 class="experience-date">Sep 2020 - June 2024</h2>
     </div>
+
+    <div class="graduation_image" style="text-align: center;">
+      <img src="{{ '/images/graduated.jpg' | relative_url }}" alt="Jevgenij Ivanov" style="width: 398px; height: 735px; border-radius: 8px;">
+    </div>
+
+    <br>
+
     <h3 class="experience-description">I completed a 4-year course in Computer Science and Software Engineering, 
     successfully passing approximately 40 exams. My studies encompassed a broad range of topics, from the 
     foundations of computing history, including Turing, to the modern AI models and latest tools/frameworks.
@@ -267,38 +273,60 @@ background: "img/bg-contact.jpg"
       
     <br><br>
 
-    I also honed my ability to collaborate in teams, create detailed project documentation, and present
+    I honed my ability to collaborate in teams, create detailed project documentation, and present
     my work in front of a class or online. For the final project, I wrote a 25-page thesis which can be 
     found <a href="{{ 'https://github.com/Ladnopoka/Godot-room-generator-plugin/blob/main/20748055.pdf' | relative_url }}" target="_blank" class="glow-link" style="color: rgb(216, 47, 47); font-weight: bold; text-decoration: underline;">here</a>,
     delivered presentations and demonstrations, and created video showcase.
     </h3>
 
-  </div>
-
-
-  <!-- Modern CV Section -->
-  <div class="content-section" data-category="curriculum_vitae" style="display: none;">
     <div class="container text-center my-4">
-      <a href="{{ '/documents/Jevgenij_Ivanov_Modern_CV.pdf' | relative_url }}" class="btn btn-primary" download="Jevgenij_Ivanov_CV.pdf">
-        Download Modern Curriculum Vitae
+      <a href="{{ '/documents/Jevgenij_Ivanov_Diploma.pdf' | relative_url }}" class="btn btn-primary" download="Jevgenij_Ivanov_Diploma.pdf">
+        Download Computer Science Diploma
       </a>
     </div>
 
     <div class="container text-center my-4">
-      <embed src="{{ '/documents/Jevgenij_Ivanov_Modern_CV.pdf' | relative_url }}" type="application/pdf" width="100%" height="867px" />
+      <embed src="{{ '/documents/Jevgenij_Ivanov_Diploma.pdf' | relative_url }}" type="application/pdf" width="100%" height="867px" />
     </div>
+
   </div>
 
-  <!-- Classic CV Section -->
+
+  <!-- 2025 CV Section -->
   <div class="content-section" data-category="curriculum_vitae" style="display: none;">
     <div class="container text-center my-4">
-      <a href="{{ '/documents/Jevgenij_Ivanov_CV.pdf' | relative_url }}" class="btn btn-primary" download="Jevgenij_Ivanov_CV.pdf">
-        Download Classic Curriculum Vitae
+      <a href="{{ '/documents/Jevgenij_Ivanov_CV_2025.pdf' | relative_url }}" class="btn btn-primary" download="Jevgenij_Ivanov_CV.pdf">
+        Download 2025 Curriculum Vitae
       </a>
     </div>
 
     <div class="container text-center my-4">
-      <embed src="{{ '/documents/Jevgenij_Ivanov_CV.pdf' | relative_url }}" type="application/pdf" width="100%" height="867px" />
+      <embed src="{{ '/documents/Jevgenij_Ivanov_CV_2025.pdf' | relative_url }}" type="application/pdf" width="100%" height="867px" />
+    </div>
+  </div>
+  <!-- 2024 CV Section -->
+  <div class="content-section" data-category="curriculum_vitae" style="display: none;">
+    <div class="container text-center my-4">
+      <a href="{{ '/documents/Jevgenij_Ivanov_CV_2024.pdf' | relative_url }}" class="btn btn-primary" download="Jevgenij_Ivanov_CV.pdf">
+        Download 2024 Curriculum Vitae
+      </a>
+    </div>
+
+    <div class="container text-center my-4">
+      <embed src="{{ '/documents/Jevgenij_Ivanov_CV_2024.pdf' | relative_url }}" type="application/pdf" width="100%" height="867px" />
+    </div>
+  </div>
+
+  <!-- 2023 CV Section -->
+  <div class="content-section" data-category="curriculum_vitae" style="display: none;">
+    <div class="container text-center my-4">
+      <a href="{{ '/documents/Jevgenij_Ivanov_CV_2023.pdf' | relative_url }}" class="btn btn-primary" download="Jevgenij_Ivanov_CV.pdf">
+        Download 2023 Curriculum Vitae
+      </a>
+    </div>
+
+    <div class="container text-center my-4">
+      <embed src="{{ '/documents/Jevgenij_Ivanov_CV_2023.pdf' | relative_url }}" type="application/pdf" width="100%" height="867px" />
     </div>
   </div>
 </div>

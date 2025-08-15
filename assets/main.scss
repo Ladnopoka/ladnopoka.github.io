@@ -20,6 +20,7 @@
   background-color: #a92e2e !important; /* Active tab background */
   color: black !important; /* Text color for active tab */
   border-color: #a92e2e !important; /* Match border to background */
+  z-index: 1;
 }
 
 .btn-group .btn:hover,

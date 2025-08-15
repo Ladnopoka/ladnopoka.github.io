@@ -353,7 +353,19 @@ h3, p {
   font-weight: bold;
 }
 
+/* keep the bar glued to the very top when it becomes fixed/visible */
+#mainNav.is-fixed,
 #mainNav.is-fixed.is-visible {
   top: 0 !important;
-  transform: none !important; /* in case it's sliding down */
+  transform: translateY(0) !important;   /* cancels any slide-down offset */
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  border-bottom: 0 !important;           /* removes the thin white line */
+  box-shadow: none !important;           /* some themes fake the line with a shadow */
 }
+
+/* just in case default margins are sneaking in */
+html, body { margin: 0; padding: 0; }
+
+#mainNav::before,
+#mainNav::after { display: none !important; }

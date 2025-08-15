@@ -354,8 +354,7 @@ h3, p {
 }
 
 /* keep the bar glued to the very top when it becomes fixed/visible */
-.navbar .is-fixed,
-.navbar .is-fixed.is-visible {
+.navbar {
   top: 0 !important;
   transform: translateY(0) !important;   /* cancels any slide-down offset */
   margin-top: 0 !important;

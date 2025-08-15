@@ -6,6 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Abel|Dosis|Source+Code+Pro|Roboto+Slab:100|Source+Code+Pro|Source+Sans+Pro:200|Unica+One|Josefin+Sans:300|Nothing+You+Could+Do');
 
+
 /* Add custom styles for tab buttons with higher specificity */
 .btn-group .btn {
   background-color: transparent !important; /* Default background for inactive tabs */
@@ -350,4 +351,9 @@ h3, p {
 .skills-list {
   font-size: calc(1em + 5px);
   font-weight: bold;
+}
+
+#mainNav.is-fixed.is-visible {
+  top: 0 !important;
+  transform: none !important; /* in case it's sliding down */
 }

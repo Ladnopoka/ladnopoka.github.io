@@ -20,14 +20,15 @@
   background-color: #a92e2e !important; /* Active tab background */
   color: black !important; /* Text color for active tab */
   border-color: #a92e2e !important; /* Match border to background */
-  z-index: 1;
+  position: relative; /* needed for z-index to work */
+  z-index: 2; /* higher than hovered neighbor */
 }
 
 .btn-group .btn:not(.active):hover,
 .btn-group .btn:not(.active):focus {
   background-color: #a92e2e !important;
   color: black !important;
-  /*border-color: #a92e2e !important;*/
+  border-color: #a92e2e !important;
 }
 
 /* Custom Navbar Font Size */

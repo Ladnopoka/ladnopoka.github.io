@@ -110,6 +110,7 @@
   color: #ffffff; /* Ensure the text color is white */
   margin-bottom: 13px; /* Add some spacing below the subheading */
   display: block; /* Ensure it takes up full width */
+  white-space: nowrap;
 }
 
 .page-heading .meta {

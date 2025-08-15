@@ -353,18 +353,17 @@ h3, p {
   font-weight: bold;
 }
 
-/* keep the bar glued to the very top when it becomes fixed/visible */
-.navbar {
+#mainNav.is-fixed,
+#mainNav.is-fixed.is-visible {
   top: 0 !important;
-  transform: translateY(0) !important;   /* cancels any slide-down offset */
+  transform: none !important;
   margin-top: 0 !important;
   padding-top: 0 !important;
-  border-bottom: 0 !important;           /* removes the thin white line */
-  box-shadow: none !important;           /* some themes fake the line with a shadow */
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 
-/* just in case default margins are sneaking in */
-html, body { margin: 0; padding: 0; }
-
-.navbar::before,
-.navbar::after { display: none !important; }
+#mainNav.is-fixed.is-visible::before,
+#mainNav.is-fixed.is-visible::after {
+  display: none !important;
+}

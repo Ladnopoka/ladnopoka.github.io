@@ -354,8 +354,8 @@ h3, p {
 }
 
 /* keep the bar glued to the very top when it becomes fixed/visible */
-#mainNav.is-fixed,
-#mainNav.is-fixed.is-visible {
+.navbar .is-fixed,
+.navbar .is-fixed.is-visible {
   top: 0 !important;
   transform: translateY(0) !important;   /* cancels any slide-down offset */
   margin-top: 0 !important;
@@ -367,5 +367,5 @@ h3, p {
 /* just in case default margins are sneaking in */
 html, body { margin: 0; padding: 0; }
 
-#mainNav::before,
-#mainNav::after { display: none !important; }
+.navbar::before,
+.navbar::after { display: none !important; }

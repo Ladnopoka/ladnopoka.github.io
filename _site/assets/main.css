@@ -253,6 +253,14 @@ footer .copyright { font-size: 14px; margin-bottom: 0; text-align: center; }
 
 .language-tailwindcss { background-color: #06B6D4; border: 1px solid #06B6D4; color: black; }
 
+/* Newest post sparkling frame effect */
+.post-img-container.newest-post { position: relative; border: 3px solid #FFD700; box-shadow: 0 0 20px rgba(255, 215, 0, 0.8), 0 0 40px rgba(255, 215, 0, 0.6), 0 0 60px rgba(255, 215, 0, 0.4); animation: sparkle 2s ease-in-out infinite; }
+
+@keyframes sparkle { 0%, 100% { box-shadow: 0 0 20px rgba(255, 215, 0, 0.8), 0 0 40px rgba(255, 215, 0, 0.6), 0 0 60px rgba(255, 215, 0, 0.4);
+    border-color: #FFD700; }
+  50% { box-shadow: 0 0 30px gold, 0 0 60px rgba(255, 215, 0, 0.8), 0 0 90px rgba(255, 215, 0, 0.6);
+    border-color: #FFF4A3; } }
+
 footer { width: 100%; text-align: center; padding: 20px 0; background-color: transparent; /* Example background color */ }
 
 .footer-wrapper { display: flex; justify-content: center; align-items: center; width: 100%; }

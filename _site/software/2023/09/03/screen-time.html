@@ -19,11 +19,11 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; style-src-elem 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://cdnb.artstation.com https://cdna.artstation.com;">
 -->
   <title>
-    Combat Clicker - Ladno Developer Portfolio
+    ScreenTime LockScreen - Ladno Developer Portfolio
     
   </title>
 
-  <meta name="description" content="Play Combat Clicker">
+  <meta name="description" content="GitHub Repository">
 
   <!-- Stylesheets -->
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/games/2023/10/01/combat-clicker.html">
+  <link rel="canonical" href="http://localhost:4000/software/2023/09/03/screen-time.html">
   <link rel="alternate" type="application/rss+xml" title="Ladno Developer Portfolio" href="/feed.xml">
 </head>
 
@@ -96,7 +96,7 @@
 -->
 
 
-<header title="Header images by artstation.com/dtmayer" class="masthead" style="background-image: url('http://localhost:4000/games/combat_clicker/public/Other_Images/battle.jpg')">
+<header title="Header images by artstation.com/dtmayer" class="masthead" style="background-image: url('http://localhost:4000/images/background2_shortened.jpg')">
 
   <div class="overlay"></div>
   <div class="container">
@@ -105,7 +105,7 @@
         <div class="page-heading">
           <!-- Set specific title and subheading for "Connect" section -->
           
-            <h1>Combat Clicker</h1>
+            <h1>ScreenTime LockScreen</h1>
           
           
             <span class="subheading"></span>
@@ -113,11 +113,9 @@
           
             <div class="languages-right">
               
-                <span class="language language-javascript">JavaScript</span>
+                <span class="language language-kotlin">Kotlin</span>
               
-                <span class="language language-html">HTML</span>
-              
-                <span class="language language-css">CSS</span>
+                <span class="language language-android">Android</span>
               
             </div>
           
@@ -131,66 +129,30 @@
   <div class="row">
     <div class="col-lg-10 col-md-10 mx-auto post-body">
 
-      <div style="text-align: center; margin-top: -20px; margin-bottom: 25px; scale: 1.4">
-  <a href="/games/combat_clicker/views/index.html" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">Play Combat Clicker</a>
+      <div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+  <a href="https://github.com/Ladnopoka/ScreenTime_LockScreen" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
-<div style="text-align: center; margin-top: 0px; margin-bottom: 25px; scale: 1">
-  <a href="https://github.com/Ladnopoka/combat_clicker_game" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
-</div>
-
-<h1 id="overview">Overview</h1>
+<h1 id="screentime-lockscreen">ScreenTime LockScreen</h1>
 <h3 style="font-size: 25px">
-  Combat Clicker is a browser-based, turn-based game where you face off against a cunning rat warrior. Your goal is simple: get lucky and guess the right option to defeat the rat! The game features a mix of attack and defense options, requiring players to choose where to strike and where to defend.
+ScreenTime LockScreen is an Android application that provides a custom lock screen experience and displays your total screen time on your applicatoins. This project uses Jetpack Compose for the UI and includes a full-screen activity that overlays the default lock screen.
 </h3>
 
-<h1 id="game-presentation">Game Presentation</h1>
-<h3 style="font-size: 25px">
-  Project presentation video where I showcase the game and my teammate covers the work on the game menus, click on the image to see:
-</h3>
-<div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
-    <iframe width="660" height="415" src="https://www.youtube.com/embed/Mptg1MEHPik?si=Go7BpwS23VTs78SS" title="Combat Clicker" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
-    </iframe>
-</div>
-
-<h1 id="how-to-play">How to Play</h1>
-<ol>
-  <li>Select the positions where to attack the Rat Warrior.</li>
-  <li>Defend two positions from attacks of the Rat Warrior.</li>
-  <li>Observe the Combat Log and try to win!</li>
-</ol>
-
-<h3 id="choose-your-attack">Choose Your Attack:</h3>
+<h2 id="features">Features</h2>
 <ul>
-  <li>Pick <strong>2 out of 5 possible attack positions</strong>:
-    <ul>
-      <li>Head</li>
-      <li>Body</li>
-      <li>Legs</li>
-      <li>Arms</li>
-      <li>Waist</li>
-    </ul>
-  </li>
+  <li>Displays one of three random background images when the screen turns on.</li>
+  <li>Custom text displayed over the background image.</li>
+  <li>Full-screen activity that mimics a lock screen.</li>
+  <li>Customizable UI with Jetpack Compose.</li>
+  <li>Handles screen-on events to show the custom lock screen.</li>
 </ul>
 
-<h3 id="defend-against-the-rat-warrior">Defend Against the Rat Warrior:</h3>
+<h3 id="prerequisites">Prerequisites</h3>
 <ul>
-  <li>The rat will retaliate! You must guess where it will strike and choose <strong>2 out of 5 positions</strong> to defend:
-    <ul>
-      <li>Head</li>
-      <li>Body</li>
-      <li>Legs</li>
-      <li>Arms</li>
-      <li>Waist</li>
-    </ul>
-  </li>
-  <li>If you guess correctly, you block the damage; if not, you’ll take a hit.</li>
-</ul>
-
-<h3 id="combat-log">Combat Log:</h3>
-<ul>
-  <li>The game features a <strong>combat log</strong> that keeps track of all the damage dealt and received during the fight.</li>
-  <li>It’s a great way to see how well you’re doing.</li>
+  <li>Android Studio (latest version recommended)</li>
+  <li>Kotlin programming language knowledge</li>
+  <li>Basic understanding of Jetpack Compose</li>
+  <li>A device or emulator running Android 5.0 (Lollipop, API 21) or higher</li>
 </ul>
 
 <h1 id="contact">Contact</h1>
@@ -220,10 +182,10 @@
       <div class="clearfix">
 
         
-        <a class="btn btn-primary float-left" href="//software/2023/09/03/screen-time.html" data-toggle="tooltip" data-placement="top" title="ScreenTime LockScreen">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
+        <a class="btn btn-primary float-left" href="//software/2023/09/01/soviet-joke-generator.html" data-toggle="tooltip" data-placement="top" title="Soviet Russia Joke Generator">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
         
         
-        <a class="btn btn-primary float-right" href="//games/2023/10/02/slayer.html" data-toggle="tooltip" data-placement="top" title="Slayer">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+        <a class="btn btn-primary float-right" href="//games/2023/10/01/combat-clicker.html" data-toggle="tooltip" data-placement="top" title="Combat Clicker">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
         
 
       </div>

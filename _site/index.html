@@ -99,20 +99,51 @@
         
         
         
+
         
-      
-        
-      
-        <button class="btn btn-primary active" onclick="filterProjects(event, 'all')">All (10)</button>
-        <button class="btn btn-primary" onclick="filterProjects(event, 'software')">Software (6)</button>
+
+        <button class="btn btn-primary active" onclick="filterProjects(event, 'all')">All (11)</button>
+        <button class="btn btn-primary" onclick="filterProjects(event, 'software')">Software (7)</button>
+        <button class="btn btn-primary" onclick="filterProjects(event, 'websites')">Websites (1)</button>
         <button class="btn btn-primary" onclick="filterProjects(event, 'games')">Games (3)</button>
-        <button class="btn btn-primary" onclick="filterProjects(event, 'android')">Android (1)</button>
-        <button class="btn btn-primary" onclick="filterProjects(event, 'other')">Other (0)</button>
       </div>
 </div>
 
 <!-- Home Post List -->
 <div id="projects-list">
+  
+  <article class="post-preview" data-category="websites">
+    <a href="/websites/2025/10/04/ripclips.html">
+      <div class="post-container">
+        <div class="post-img-container" title="Image by ">
+          <img class="post-img" src="/images/ripclips_header_logo.avif">
+        </div>
+        <div class="post-text">
+          <div class="post-text-header">
+            <h2 class="post-title">
+              RIPClips.org
+            </h2>
+            <!-- Removed post date, and added languages -->
+            
+            <div class="languages-right">
+              
+              <span class="language language-nextjs">Next.js</span>
+              
+              <span class="language language-typescript">TypeScript</span>
+              
+              <span class="language language-tailwindcss">Tailwind CSS</span>
+              
+            </div>
+            
+          </div>
+          
+          <h3 class="post-subtitle">The ultimate destination for epic gaming RIP moments! Watch and share the most epic hardcore character RIPs, boss wipes, and fails from your favorite ARPG games.</h3>
+          
+        </div>
+      </div>
+    </a>
+  </article>
+  <hr>
   
   <article class="post-preview" data-category="software">
     <a href="/software/2024/03/26/dungeon-forge.html">
@@ -246,8 +277,8 @@
   </article>
   <hr>
   
-  <article class="post-preview" data-category="android">
-    <a href="/android/2023/09/03/screen-time.html">
+  <article class="post-preview" data-category="software">
+    <a href="/software/2023/09/03/screen-time.html">
       <div class="post-container">
         <div class="post-img-container" title="Image by ">
           <img class="post-img" src="images/background2_shortened.jpg">
@@ -395,35 +426,6 @@
   </article>
   <hr>
   
-  <article class="post-preview" data-category="software">
-    <a href="/software/2023/03/12/wordle-game.html">
-      <div class="post-container">
-        <div class="post-img-container" title="Image by ">
-          <img class="post-img" src="images/wordle_background.jpg">
-        </div>
-        <div class="post-text">
-          <div class="post-text-header">
-            <h2 class="post-title">
-              Java Wordle Game
-            </h2>
-            <!-- Removed post date, and added languages -->
-            
-            <div class="languages-right">
-              
-              <span class="language language-java">Java</span>
-              
-            </div>
-            
-          </div>
-          
-          <h3 class="post-subtitle">A Wordle-inspired game implemented in Java where players guess a word in six attempts.</h3>
-          
-        </div>
-      </div>
-    </a>
-  </article>
-  <hr>
-  
 </div>
 
 <script>
@@ -445,7 +447,18 @@
 
     // Show/Hide posts based on category
     posts.forEach(function(post, index) {
-      if (category === 'all' || post.getAttribute('data-category') === category) {
+      var postCategory = post.getAttribute('data-category');
+      var shouldShow = false;
+
+      if (category === 'all') {
+        shouldShow = true;
+      } else if (category === 'software' && (postCategory === 'software' || postCategory === 'android')) {
+        shouldShow = true;
+      } else if (postCategory === category) {
+        shouldShow = true;
+      }
+
+      if (shouldShow) {
         post.style.display = 'block';
         visiblePosts.push(index); // Keep track of visible posts' index
       } else {

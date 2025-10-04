@@ -1,4 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-24T14:37:27+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ladno Developer Portfolio</title><subtitle>Software and Games</subtitle><author><name>Jevgenij Ivanov</name></author><entry><title type="html">Dungeon Forge</title><link href="http://localhost:4000/software/2024/03/26/dungeon-forge.html" rel="alternate" type="text/html" title="Dungeon Forge" /><published>2024-03-26T00:00:00+00:00</published><updated>2024-03-26T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/03/26/dungeon-forge</id><content type="html" xml:base="http://localhost:4000/software/2024/03/26/dungeon-forge.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-04T13:44:56+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ladno Developer Portfolio</title><subtitle>Software and Games</subtitle><author><name>Jevgenij Ivanov</name></author><entry><title type="html">RIPClips.org</title><link href="http://localhost:4000/websites/2025/10/04/ripclips.html" rel="alternate" type="text/html" title="RIPClips.org" /><published>2025-10-04T00:00:00+01:00</published><updated>2025-10-04T00:00:00+01:00</updated><id>http://localhost:4000/websites/2025/10/04/ripclips</id><content type="html" xml:base="http://localhost:4000/websites/2025/10/04/ripclips.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+  <a href="https://ripclips.org" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">Visit RIPClips.org</a>
+  <a href="https://github.com/Ladnopoka/ripclips.org" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
+    <img src="/images/background_3.avif" alt="RIPClips Platform" style="max-width: 100%; border-radius: 8px;" />
+</div>
+
+<h1 id="what-is-ripclips">What is RIPClips?</h1>
+
+<h3 style="font-size: 25px">
+RIPClips is a community-driven platform where gamers can watch the most epic Hardcore RIP moments from streamers, content creators and players. Whether you just lost your level 95 Path of Exile character to a random one-shot mechanic or watched your Diablo hardcore character get destroyed by Duriel, this is where those moments become legendary.
+</h3>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li><strong>Watch</strong> the most epic Hardcore RIP moments from streamers and content creators</li>
+  <li><strong>Share</strong> your own painful and hilarious character RIPs</li>
+  <li><strong>Discover</strong> clips from popular ARPG games like Path of Exile, Last Epoch, and Diablo</li>
+  <li><strong>Comment</strong> and react to the community’s most memorable fails</li>
+</ul>
+
+<h2 id="sharing-your-rip-clips">Sharing Your RIP Clips</h2>
+
+<p>Got an epic RIP moment you want to share with the world? Here’s how:</p>
+
+<ol>
+  <li>Go to <strong>“Submit”</strong> in the website header (top right)</li>
+  <li><strong>Paste your Twitch or YouTube clip URL</strong> - that’s it!</li>
+  <li>The site will automatically fill in the streamer name, game, and clip title</li>
+  <li>Add a description if you want to tell the story behind the RIP</li>
+  <li>Hit <strong>“Submit”</strong> and your clip goes to the submission box</li>
+  <li>One of our admins will review the clip and approve it to the reel board</li>
+</ol>
+
+<h2 id="featured-games">Featured Games</h2>
+
+<p>RIPClips specializes in ARPG (Action Role-Playing Game) content, especially:</p>
+
+<ul>
+  <li><strong>Path of Exile</strong> - Those brutal one-shots and lag RIPs</li>
+  <li><strong>Last Epoch</strong> - Beta crashes and unexpected boss mechanics</li>
+  <li><strong>Diablo IV</strong> - Hardcore character losses and world boss fails</li>
+  <li><strong>Other ARPGs</strong> - Any game where character RIP hurts!</li>
+</ul>
+
+<h2 id="community-guidelines">Community Guidelines</h2>
+
+<p>Keep RIPClips fun and welcoming for everyone:</p>
+
+<ul>
+  <li><strong>Be respectful</strong> - We’re all here to enjoy epic gaming fails</li>
+  <li><strong>No spoilers</strong> - Let people discover the RIP moments naturally</li>
+  <li><strong>Give credit</strong> - Make sure to properly attribute clips to their creators</li>
+  <li><strong>Stay on topic</strong> - Focus on ARPG and gaming content</li>
+  <li><strong>Have fun!</strong> - Remember, we’re all here because we love these games</li>
+</ul>
+
+<h2 id="feedback-and-business-inquiries">Feedback and Business Inquiries</h2>
+
+<p><strong>Any Feedback is Welcome</strong></p>
+<ul>
+  <li>Send us an email with any feedback, questions, or requests</li>
+  <li>We want to keep improving the website and add new features</li>
+  <li>We listen closely to the community and work fast to solve problems</li>
+  <li>We appreciate any bug reports or complaints</li>
+</ul>
+
+<p><strong>Business Inquiries - Contact us through email</strong></p>
+<ul>
+  <li>We are open to partnership and advertisements</li>
+  <li>Are you a streamer that wants to get your channel or clips featured? Don’t hesitate and send us a mail</li>
+  <li>Any other business inquiries are welcome</li>
+</ul>
+
+<h1 id="contact">Contact</h1>
+<h5 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h5>
+
+<p><strong>Jevgenij Ivanov</strong> <br />
+<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
+<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
+<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
+<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
+<strong>X</strong>: https://x.com/Ladnopokaa <br />
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>
+
+<hr />
+
+<p><em>Remember: Every RIP is just practice for the next character. Keep grinding, keep sharing, and keep the community laughing at our collective pain!</em> 💀⚡</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="websites" /><summary type="html"><![CDATA[Visit RIPClips.org GitHub Repository]]></summary></entry><entry><title type="html">Dungeon Forge</title><link href="http://localhost:4000/software/2024/03/26/dungeon-forge.html" rel="alternate" type="text/html" title="Dungeon Forge" /><published>2024-03-26T00:00:00+00:00</published><updated>2024-03-26T00:00:00+00:00</updated><id>http://localhost:4000/software/2024/03/26/dungeon-forge</id><content type="html" xml:base="http://localhost:4000/software/2024/03/26/dungeon-forge.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/Godot-room-generator-plugin" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
@@ -236,7 +326,7 @@ The demonstration of the application can be viewed below:
 <strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
 <strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
 <strong>X</strong>: https://x.com/Ladnopokaa <br />
-<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[Play Combat Clicker]]></summary></entry><entry><title type="html">ScreenTime LockScreen</title><link href="http://localhost:4000/android/2023/09/03/screen-time.html" rel="alternate" type="text/html" title="ScreenTime LockScreen" /><published>2023-09-03T00:00:00+01:00</published><updated>2023-09-03T00:00:00+01:00</updated><id>http://localhost:4000/android/2023/09/03/screen-time</id><content type="html" xml:base="http://localhost:4000/android/2023/09/03/screen-time.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="games" /><summary type="html"><![CDATA[Play Combat Clicker]]></summary></entry><entry><title type="html">ScreenTime LockScreen</title><link href="http://localhost:4000/software/2023/09/03/screen-time.html" rel="alternate" type="text/html" title="ScreenTime LockScreen" /><published>2023-09-03T00:00:00+01:00</published><updated>2023-09-03T00:00:00+01:00</updated><id>http://localhost:4000/software/2023/09/03/screen-time</id><content type="html" xml:base="http://localhost:4000/software/2023/09/03/screen-time.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/ScreenTime_LockScreen" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
@@ -271,7 +361,7 @@ ScreenTime LockScreen is an Android application that provides a custom lock scre
 <strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
 <strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
 <strong>X</strong>: https://x.com/Ladnopokaa <br />
-<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="android" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Soviet Russia Joke Generator</title><link href="http://localhost:4000/software/2023/09/01/soviet-joke-generator.html" rel="alternate" type="text/html" title="Soviet Russia Joke Generator" /><published>2023-09-01T00:00:00+01:00</published><updated>2023-09-01T00:00:00+01:00</updated><id>http://localhost:4000/software/2023/09/01/soviet-joke-generator</id><content type="html" xml:base="http://localhost:4000/software/2023/09/01/soviet-joke-generator.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
+<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Soviet Russia Joke Generator</title><link href="http://localhost:4000/software/2023/09/01/soviet-joke-generator.html" rel="alternate" type="text/html" title="Soviet Russia Joke Generator" /><published>2023-09-01T00:00:00+01:00</published><updated>2023-09-01T00:00:00+01:00</updated><id>http://localhost:4000/software/2023/09/01/soviet-joke-generator</id><content type="html" xml:base="http://localhost:4000/software/2023/09/01/soviet-joke-generator.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
   <a href="https://github.com/Ladnopoka/Java_Joke_Generator" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
 </div>
 
@@ -468,66 +558,6 @@ dotnet run</p>
   <li>Add Text</li>
   <li>Export to SVG and finish</li>
 </ol>
-
-<h1 id="contact">Contact</h1>
-<h2 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h2>
-
-<p><strong>Jevgenij Ivanov</strong> <br />
-<strong>Email</strong>: ladnopokaa@gmail.com <br /><br />
-<strong>GitHub</strong>: https://github.com/Ladnopoka <br />
-<strong>itch.io</strong>: https://ladnogames.itch.io/ <br />
-<strong>YouTube</strong>: https://www.youtube.com/@LadnoDev <br />
-<strong>X</strong>: https://x.com/Ladnopokaa <br />
-<strong>Discord</strong>: https://discord.gg/BPsncTZe</p>]]></content><author><name>Jevgenij Ivanov</name></author><category term="software" /><summary type="html"><![CDATA[GitHub Repository]]></summary></entry><entry><title type="html">Java Wordle Game</title><link href="http://localhost:4000/software/2023/03/12/wordle-game.html" rel="alternate" type="text/html" title="Java Wordle Game" /><published>2023-03-12T00:00:00+00:00</published><updated>2023-03-12T00:00:00+00:00</updated><id>http://localhost:4000/software/2023/03/12/wordle-game</id><content type="html" xml:base="http://localhost:4000/software/2023/03/12/wordle-game.html"><![CDATA[<div style="text-align: center; margin-top: -30px; margin-bottom: 25px; scale: 1">
-  <a href="https://github.com/Ladnopoka/WordleGame" target="_blank" class="btn btn-primary" style="padding: 10px 20px; font-size: 1.2em;">GitHub Repository</a>
-</div>
-
-<h1 id="java-wordle-game">Java Wordle Game</h1>
-<h3 style="font-size: 25px">
-The Java Wordle Game is a terminal-based word-guessing game where players attempt to guess a randomly chosen word in six attempts. After each guess, players receive hints in the form of numbers indicating if a letter is correct and in the right position, or if it exists elsewhere in the word. This project was developed in Java during my university studies and is supported by a word list of over 20,000 words.
-</h3>
-
-<h2 id="features">Features</h2>
-<ul>
-  <li><strong>Random Word Selection</strong>: The game randomly selects a word from a list of over 20,000 words.</li>
-  <li><strong>Hints System</strong>: After each guess, hints are displayed using numbers:
-    <ul>
-      <li><strong>0</strong>: The letter does not exist in the word.</li>
-      <li><strong>1</strong>: The letter exists but is in the wrong position.</li>
-      <li><strong>2</strong>: The letter is in the correct position.</li>
-    </ul>
-  </li>
-  <li><strong>Six Attempts</strong>: Players have six attempts to guess the word correctly.</li>
-  <li><strong>Helper Methods</strong>: The game includes helper methods that filter out possible words based on previously guessed letters.</li>
-</ul>
-
-<h2 id="how-to-play">How to Play</h2>
-<ol>
-  <li>The game starts by selecting a random word from the word list.</li>
-  <li>The player has to guess the word by typing in a five-letter word.</li>
-  <li>After each guess, the game provides feedback using a hint system:
-    <ul>
-      <li><strong>2</strong>: The letter is correct and in the right position.</li>
-      <li><strong>1</strong>: The letter exists but is in the wrong position.</li>
-      <li><strong>0</strong>: The letter does not exist in the word.</li>
-    </ul>
-  </li>
-  <li>Players have six attempts to guess the word correctly. If they fail, the correct word is revealed.</li>
-</ol>
-
-<h2 id="prerequisites">Prerequisites</h2>
-<ul>
-  <li>Java Development Kit (JDK) installed on your machine.</li>
-  <li>A Java IDE such as Eclipse or IntelliJ IDEA for development.</li>
-</ul>
-
-<h2 id="how-to-run">How to Run</h2>
-<p>You can run the game from the command line:</p>
-<ul>
-  <li>bash</li>
-  <li>javac wordle_game.java</li>
-  <li>java wordle_game</li>
-</ul>
 
 <h1 id="contact">Contact</h1>
 <h2 id="for-any-inquiries-or-feedback-feel-free-to-reach-out-to">For any inquiries or feedback, feel free to reach out to:</h2>

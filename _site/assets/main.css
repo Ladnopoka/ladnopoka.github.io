@@ -254,12 +254,24 @@ footer .copyright { font-size: 14px; margin-bottom: 0; text-align: center; }
 .language-tailwindcss { background-color: #06B6D4; border: 1px solid #06B6D4; color: black; }
 
 /* Newest post sparkling frame effect */
-.post-img-container.newest-post { position: relative; border: 3px solid #FFD700; box-shadow: 0 0 20px rgba(255, 215, 0, 0.8), 0 0 40px rgba(255, 215, 0, 0.6), 0 0 60px rgba(255, 215, 0, 0.4); animation: sparkle 2s ease-in-out infinite; }
+.post-img-container.newest-post { position: relative; border: 3px solid #a92e2e; box-shadow: 0 0 20px rgba(169, 46, 46, 0.8), 0 0 40px rgba(169, 46, 46, 0.6), 0 0 60px rgba(169, 46, 46, 0.4); animation: sparkle 2s ease-in-out infinite; overflow: visible; }
 
-@keyframes sparkle { 0%, 100% { box-shadow: 0 0 20px rgba(255, 215, 0, 0.8), 0 0 40px rgba(255, 215, 0, 0.6), 0 0 60px rgba(255, 215, 0, 0.4);
-    border-color: #FFD700; }
-  50% { box-shadow: 0 0 30px gold, 0 0 60px rgba(255, 215, 0, 0.8), 0 0 90px rgba(255, 215, 0, 0.6);
-    border-color: #FFF4A3; } }
+.post-img-container.newest-post::before { content: ''; position: absolute; top: -3px; left: -3px; right: -3px; bottom: -3px; background: linear-gradient(45deg, #4a0f0f, #6b1515, #8b1f1f, #6b1515, #4a0f0f); background-size: 400% 400%; border-radius: inherit; z-index: -1; animation: gradientShift 3s ease infinite; filter: blur(8px); }
+
+.post-img-container.newest-post::after { content: ''; position: absolute; top: -10px; left: -10px; right: -10px; bottom: -10px; background-image: radial-gradient(circle, #ff6b6b 3px, transparent 3px), radial-gradient(circle, #d34848 4px, transparent 4px), radial-gradient(circle, #a92e2e 2px, transparent 2px); background-size: 60px 60px, 90px 90px, 120px 120px; background-position: 0 0, 30px 30px, 60px 60px; opacity: 0; animation: sparkleParticles 3s ease-in-out infinite; pointer-events: none; z-index: 2; }
+
+@keyframes sparkle { 0%, 100% { box-shadow: 0 0 20px rgba(169, 46, 46, 0.8), 0 0 40px rgba(169, 46, 46, 0.6), 0 0 60px rgba(169, 46, 46, 0.4);
+    border-color: #a92e2e; }
+  50% { box-shadow: 0 0 30px #d34848, 0 0 60px rgba(211, 72, 72, 0.8), 0 0 90px rgba(211, 72, 72, 0.6);
+    border-color: #ff6b6b; } }
+
+@keyframes gradientShift { 0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; } }
+
+@keyframes sparkleParticles { 0%, 100% { opacity: 0;
+    transform: scale(1); }
+  50% { opacity: 0.6;
+    transform: scale(1.1); } }
 
 footer { width: 100%; text-align: center; padding: 20px 0; background-color: transparent; /* Example background color */ }
 

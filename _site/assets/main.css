@@ -146,9 +146,9 @@ footer .copyright { font-size: 14px; margin-bottom: 0; text-align: center; }
 /* Add custom styles for tab buttons with higher specificity */
 .btn-group .btn { background-color: transparent !important; /* Default background for inactive tabs */ color: white !important; /* Text color for inactive tabs */ border-color: #a92e2e !important; /* Border color */ margin-top: -30px; }
 
-.btn-group .btn.active, .btn-group .btn:active { background-color: #a92e2e !important; /* Active tab background */ color: black !important; /* Text color for active tab */ border-color: #a92e2e !important; /* Match border to background */ }
+.btn-group .btn.active, .btn-group .btn:active { background-color: #a92e2e !important; /* Active tab background */ color: black !important; /* Text color for active tab */ border-color: #a92e2e !important; /* Match border to background */ position: relative; /* needed for z-index to work */ z-index: 2; /* higher than hovered neighbor */ }
 
-.btn-group .btn:hover, .btn-group .btn:focus { background-color: #a92e2e !important; /* Hover color for buttons */ color: black !important; /* Hover text color */ border-color: #a92e2e !important; /* Border color on hover */ }
+.btn-group .btn:not(.active):hover, .btn-group .btn:not(.active):focus { background-color: #a92e2e !important; color: black !important; border-color: #a92e2e !important; }
 
 /* Custom Navbar Font Size */
 .navbar-nav .nav-link { font-size: 20px !important; /* Adjust the size as needed */ font-weight: bold !important; /* Optional: Make the text bold */ }
@@ -177,9 +177,9 @@ footer .copyright { font-size: 14px; margin-bottom: 0; text-align: center; }
 
 .icon-discord:hover .fa-circle { opacity: 1; /* Darker color on hover */ }
 
-.page-heading h1 { font-weight: 600 !important; /* Make subheading semi-bold */ font-size: 3em !important; /* Increase font size */ text-shadow: 10px 10px 14px rgba(0, 0, 0, 0.7) !important; /* More visible shadow */ color: #ffffff; /* Ensure the text color is white */ margin-bottom: 20px; /* Add some spacing below the title */ }
+.page-heading h1 { font-weight: 600 !important; /* Make subheading semi-bold */ font-size: 3em !important; /* Increase font size */ text-shadow: 10px 10px 14px rgba(0, 0, 0, 0.7) !important; /* More visible shadow */ color: #ffffff; /* Ensure the text color is white */ margin-bottom: 20px; /* Add some spacing below the title */ white-space: nowrap; }
 
-.page-heading .subheading { font-weight: 600 !important; /* Make subheading semi-bold */ font-size: 1.2em !important; /* Increase subheading size */ text-shadow: 10px 10px 14px rgba(0, 0, 0, 0.6) !important; /* More visible shadow for subheading */ color: #ffffff; /* Ensure the text color is white */ margin-bottom: 13px; /* Add some spacing below the subheading */ display: block; /* Ensure it takes up full width */ }
+.page-heading .subheading { font-weight: 600 !important; /* Make subheading semi-bold */ font-size: 1.2em !important; /* Increase subheading size */ text-shadow: 10px 10px 14px rgba(0, 0, 0, 0.6) !important; /* More visible shadow for subheading */ color: #ffffff; /* Ensure the text color is white */ margin-bottom: 13px; /* Add some spacing below the subheading */ display: block; /* Ensure it takes up full width */ white-space: nowrap; }
 
 .page-heading .meta { font-weight: 400 !important; /* Keep meta text normal weight */ font-size: 1.2em !important; /* Slightly increase font size for meta */ text-shadow: 10px 10px 14px rgba(0, 0, 0, 0.5) !important; /* More visible shadow for meta */ color: #ffffff; /* Ensure the text color is white */ margin-top: 23px; /* Add spacing above the meta text */ display: block; /* Ensure it takes up full width */ }
 
@@ -247,6 +247,32 @@ footer .copyright { font-size: 14px; margin-bottom: 0; text-align: center; }
 
 .language-java { background-color: brown; border: 1px solid brown; }
 
+.language-nextjs { background-color: #00D884; border: 1px solid #00D884; color: black; }
+
+.language-typescript { background-color: #3178C6; border: 1px solid #3178C6; }
+
+.language-tailwindcss { background-color: #06B6D4; border: 1px solid #06B6D4; color: black; }
+
+/* Newest post sparkling frame effect */
+.post-img-container.newest-post { position: relative; border: 3px solid #a92e2e; box-shadow: 0 0 20px rgba(169, 46, 46, 0.8), 0 0 40px rgba(169, 46, 46, 0.6), 0 0 60px rgba(169, 46, 46, 0.4); animation: sparkle 2s ease-in-out infinite; overflow: visible; }
+
+.post-img-container.newest-post::before { content: ''; position: absolute; top: -3px; left: -3px; right: -3px; bottom: -3px; background: linear-gradient(45deg, #4a0f0f, #6b1515, #8b1f1f, #6b1515, #4a0f0f); background-size: 400% 400%; border-radius: inherit; z-index: -1; animation: gradientShift 3s ease infinite; filter: blur(8px); }
+
+.post-img-container.newest-post::after { content: ''; position: absolute; top: -10px; left: -10px; right: -10px; bottom: -10px; background-image: radial-gradient(circle, #ff6b6b 3px, transparent 3px), radial-gradient(circle, #d34848 4px, transparent 4px), radial-gradient(circle, #a92e2e 2px, transparent 2px); background-size: 60px 60px, 90px 90px, 120px 120px; background-position: 0 0, 30px 30px, 60px 60px; opacity: 0; animation: sparkleParticles 3s ease-in-out infinite; pointer-events: none; z-index: 2; }
+
+@keyframes sparkle { 0%, 100% { box-shadow: 0 0 20px rgba(169, 46, 46, 0.8), 0 0 40px rgba(169, 46, 46, 0.6), 0 0 60px rgba(169, 46, 46, 0.4);
+    border-color: #a92e2e; }
+  50% { box-shadow: 0 0 30px #d34848, 0 0 60px rgba(211, 72, 72, 0.8), 0 0 90px rgba(211, 72, 72, 0.6);
+    border-color: #ff6b6b; } }
+
+@keyframes gradientShift { 0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; } }
+
+@keyframes sparkleParticles { 0%, 100% { opacity: 0;
+    transform: scale(1); }
+  50% { opacity: 0.6;
+    transform: scale(1.1); } }
+
 footer { width: 100%; text-align: center; padding: 20px 0; background-color: transparent; /* Example background color */ }
 
 .footer-wrapper { display: flex; justify-content: center; align-items: center; width: 100%; }
@@ -266,5 +292,9 @@ h3, p { text-align: left; /* or 'start' to handle languages differently */ word-
 .experience-description { font-size: 25px; }
 
 .skills-list { font-size: calc(1em + 5px); font-weight: bold; }
+
+#mainNav.is-fixed, #mainNav.is-fixed.is-visible { top: 0 !important; transform: none !important; margin-top: 0 !important; padding-top: 0 !important; border-bottom: none !important; box-shadow: none !important; }
+
+#mainNav.is-fixed.is-visible::before, #mainNav.is-fixed.is-visible::after { display: none !important; }
 
 /*# sourceMappingURL=main.css.map */

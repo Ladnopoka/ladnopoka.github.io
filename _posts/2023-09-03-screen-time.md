@@ -3,7 +3,7 @@ title: ScreenTime LockScreen
 layout: post
 background: images/background2_shortened.jpg
 subtitle: ScreenTime LockScreen is an Android application that provides a custom lock screen experience and displays your total screen time on your applicatoins.
-category: android
+category: software
 languages: 
   - name: Kotlin
     slug: kotlin

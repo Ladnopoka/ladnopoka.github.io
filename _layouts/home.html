@@ -30,26 +30,22 @@ layout: default
       <div class="btn-group d-flex justify-content-center mb-4" role="group" aria-label="Project Categories">
         {% assign games_count = 0 %}
         {% assign software_count = 0 %}
-        {% assign android_count = 0 %}
-        {% assign other_count = 0 %}
-      
+        {% assign websites_count = 0 %}
+
         {% for post in site.posts %}
             {% if post.category == "games" %}
                 {% assign games_count = games_count | plus: 1 %}
-            {% elsif post.category == "software" %}
+            {% elsif post.category == "software" or post.category == "android" %}
                 {% assign software_count = software_count | plus: 1 %}
-            {% elsif post.category == "android" %}
-                {% assign android_count = android_count | plus: 1 %}
-            {% else %}
-                {% assign other_count = other_count | plus: 1 %}
+            {% elsif post.category == "websites" %}
+                {% assign websites_count = websites_count | plus: 1 %}
             {% endif %}
         {% endfor %}
-      
+
         <button class="btn btn-primary active" onclick="filterProjects(event, 'all')">All ({{ site.posts.size }})</button>
         <button class="btn btn-primary" onclick="filterProjects(event, 'software')">Software ({{ software_count }})</button>
+        <button class="btn btn-primary" onclick="filterProjects(event, 'websites')">Websites ({{ websites_count }})</button>
         <button class="btn btn-primary" onclick="filterProjects(event, 'games')">Games ({{ games_count }})</button>
-        <button class="btn btn-primary" onclick="filterProjects(event, 'android')">Android ({{ android_count }})</button>
-        <button class="btn btn-primary" onclick="filterProjects(event, 'other')">Other ({{ other_count }})</button>
       </div>
 </div>
 
@@ -59,8 +55,8 @@ layout: default
   <article class="post-preview" data-category="{{ post.category }}">
     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
       <div class="post-container">
-        <div class="post-img-container" title="Image by {{post.artist}}">
-          <img class="post-img" src="{{ post.background }}">
+        <div class="post-img-container {% if forloop.first %}newest-post{% endif %}" title="Image by {{post.artist}}">
+          <img class="post-img" src="{% if post.thumbnail %}{{ post.thumbnail }}{% else %}{{ post.background }}{% endif %}">
         </div>
         <div class="post-text">
           <div class="post-text-header">
@@ -108,7 +104,18 @@ layout: default
 
     // Show/Hide posts based on category
     posts.forEach(function(post, index) {
-      if (category === 'all' || post.getAttribute('data-category') === category) {
+      var postCategory = post.getAttribute('data-category');
+      var shouldShow = false;
+
+      if (category === 'all') {
+        shouldShow = true;
+      } else if (category === 'software' && (postCategory === 'software' || postCategory === 'android')) {
+        shouldShow = true;
+      } else if (postCategory === category) {
+        shouldShow = true;
+      }
+
+      if (shouldShow) {
         post.style.display = 'block';
         visiblePosts.push(index); // Keep track of visible posts' index
       } else {
